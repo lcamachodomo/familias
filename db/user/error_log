@@ -1,0 +1,11 @@
+[08-Aug-2018 16:37:26 America/Denver] PHP Notice:  Undefined index: id in /home1/eldomoin/public_html/familias/db/user/insert_user.php on line 8
+[08-Aug-2018 16:37:26 America/Denver] PHP Notice:  Trying to get property of non-object in /home1/eldomoin/public_html/familias/db/user/insert_user.php on line 18
+[08-Aug-2018 16:39:21 America/Denver] PHP Notice:  Undefined index: id in /home1/eldomoin/public_html/familias/db/user/insert_user.php on line 8
+[09-Aug-2018 08:38:54 America/Denver] PHP Notice:  Undefined index: id in /home1/eldomoin/public_html/familias/db/user/insert_user.php on line 8
+[09-Aug-2018 08:38:54 America/Denver] PHP Notice:  Trying to get property of non-object in /home1/eldomoin/public_html/familias/db/user/insert_user.php on line 18
+[09-Aug-2018 08:44:11 America/Denver] PHP Notice:  Undefined index: id in /home1/eldomoin/public_html/familias/db/user/insert_user.php on line 8
+[09-Aug-2018 08:48:02 America/Denver] PHP Notice:  Undefined index: id in /home1/eldomoin/public_html/familias/db/user/insert_user.php on line 8
+[09-Aug-2018 08:50:16 America/Denver] PHP Notice:  Undefined index: id in /home1/eldomoin/public_html/familias/db/user/insert_user.php on line 8
+[09-Aug-2018 08:50:19 America/Denver] PHP Notice:  Undefined index: id in /home1/eldomoin/public_html/familias/db/user/insert_user.php on line 8
+[09-Aug-2018 08:51:58 America/Denver] PHP Notice:  Undefined index: id in /home1/eldomoin/public_html/familias/db/user/insert_user.php on line 8
+[09-Aug-2018 09:03:32 America/Denver] PHP Notice:  Undefined index: usser in /home1/eldomoin/public_html/familias/db/user/login_user.php on line 17
