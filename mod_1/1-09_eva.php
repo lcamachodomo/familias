@@ -75,7 +75,7 @@
                         </div>
 
                     </div>
-                    <div class="answers row multi" data-page="4">
+                    <div class="answers row" data-page="5">
                         <div class="col-4 answer" data-value="1">
                             <p>Comprar cosas que se necesitan</p>
                         </div>
@@ -88,11 +88,14 @@
                         <div class="col-4 answer" data-value="4">
                             <p>Trabajar desde la casa</p>
                         </div>
-                        <div class="col-4 answer" data-value="4">
+                        <div class="col-4 answer" data-value="5">
                             <p>Jugar video juegos</p>
                         </div>
-                        <div class="col-4 answer" data-value="4">
+                        <div class="col-4 answer" data-value="6">
                             <p>Leer libros y revistas</p>
+                        </div>
+                        <div class="col-4 answer" data-value="7">
+                            <p>Todas las anteriores</p>
                         </div>
 
                     </div>
@@ -195,7 +198,7 @@
                         </div>
 
                     </div>
-                    <div class="answers row" data-page="10">
+                    <div class="answers row " data-page="10">
                         <div class="col-4 answer" data-value="1">
                             <img src="../img/mod1/1-07_act_img5.png" alt=""/>
                         </div>
@@ -259,16 +262,47 @@
                         </div>
                     </div>
                 </div>
+                <div id="eva_09p12" class="mod d-none">
+                    <div class="result row ">
+                        <div class="col-6 text-center">
+                            <h3 class="">No ha logrado superar con éxito esta evaluación. Inténtelo de nuevo<br>Así podrá avanzar al Módulo 02, en el cual aprenderá sobre el tema de la prevención.</h3>
+                        </div>
+                        <div class="col-6 text-center">
+                            <a href="../0-03_menu.php">Repasar contenidos</a>
+                        </div>
+                        <div class="col-6 text-center">
+                            <a href="1-09_eva.php.php">Intentar Otra vez</a>
+                        </div>
+                    </div>
+                </div>
+                <div id="eva_09p13" class="mod d-none">
+                    <div class="result row ">
+                        <div class="col-6 text-center">
+                            <h3 class="">¡Muy bien! Usted ha logrado superar con éxito esta evaluación. Puede pasar al Módulo 02, en el cual aprenderá sobre el tema de la prevención. ¡Siga adelante!</h3>
+                        </div>
+                        <div class="col-12 text-center">
+                            <a href="../0-03_menu.php">Continuar</a>
+                        </div>
+                    </div>
+                </div>
             </div>
+            <form action="../db/evaluation/update_evaluation.php" method="POST" id="form_eva">
+                <input name="score" id="score">
+                <input name="module" value="1">
+                <input name="is_approved" id="is_approved">
+            </form>
         </section>
+        <?php require '../footer.php'; ?>
 
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
         <script src="../js/bootstrap.bundle.js" type="text/javascript"></script>
         <script src="../js/bootstrap.js" type="text/javascript"></script>
         <script src="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.min.js"></script>
         <script>
-            var answers = [];
+            var user_answers = [];
+            var answers = [3, 2, 7, 2, 2, 2, 1, 2, 3, 4];
             var multi = [];
+            var score = 0;
             $(".gotoModulePage").click(function () {
                 $(".mod").addClass("d-none");
                 $("#eva_09p" + $(this).data("page")).removeClass("d-none");
@@ -277,7 +311,7 @@
                     multi.push($(this).data("value"));
                 });
                 if (multi.length > 0) {
-                    answers.push(multi);
+                    user_answers.push(multi);
                 }
             });
 
@@ -288,10 +322,28 @@
                 if (!$(this).closest(".answers").hasClass("multi")) {
                     $(".mod").addClass("d-none");
                     $("#eva_09p" + $(this).closest(".answers").data("page")).removeClass("d-none");
-                    answers.push($(this).data("value"));
-                    console.log(answers);
+                    user_answers.push($(this).data("value"));
+                    console.log(user_answers);
                 }
 
+                if ($(this).closest(".answers").hasClass("final")) {
+                    for (i = 0; i < answers.length; i++) {
+                        if (answers[i] === user_answers[i]) {
+                            score++;
+                        }
+                    }
+                    $("#score").val(score);
+                    $(".mod").addClass("d-none");
+
+                    if (score >= 7) {
+                        $("#eva_09p13").removeClass("d-none");
+                        $("#is_approved").val(1);
+                    } else {
+                        $("#eva_09p12").removeClass("d-none");
+                        $("#is_approved").val(0);
+                    }
+                    $("#form_eva").submit();
+                }
             });
 
             $(".answers.multi .answer").click(function () {

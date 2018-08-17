@@ -8,15 +8,9 @@ and open the template in the editor.
     Author     : Luis
 */
 
-.main{
-    position: absolute;
-    top: 56px;
-    bottom: 0px;
-    max-width: 100%;
-    left: 0px;
+#content{
     width: 100%;
 }
-
 #map_container{
     height: 100%;
     width: 100%; 
