@@ -40,7 +40,75 @@ and open the template in the editor.
     box-shadow: none;
     border: none;
 }
+/*nav*/
+#sidebar ul li a {
+    padding: 10px;
+    font-size: 1.1em;
+    display: block;
+    color: #fff;
+    text-align: center;
+}
+#sidebar ul li a:hover {
+    color: #fff;
+    background: #912133;
+    text-decoration: none;
+}
+.nav-sobre,.nav-recursos,.nav-iniciar{
+    height:150px;
+font-family: 'open-sans', sans-serif;
+font-weight: 100;
+font-size:28px;
+}
+a.nav-sobre:before{
+    content: '';
+    background-image: url(../img/menu-item1.png);
+    display: block;
+    width: 63px;
+    height: 63px;
+    background-repeat: no-repeat;
+    margin: auto;
+}
+a.nav-recursos:before{
+    content: '';
+    background-image: url(../img/menu-item2.png);
+    display: block;
+    width: 63px;
+    height: 63px;
+    background-repeat: no-repeat;
+    margin: auto;
+}
+a.nav-iniciar:before{
+    content: '';
+    background-image: url(../img/menu-item3.png);
+    display: block;
+    width: 63px;
+    height: 63px;
+    background-repeat: no-repeat;
+    margin: auto;
+}
 
+.nav-sobre{
+background: #EF404D;
+
+}
+.nav-recursos{
+background: #DD3B44;
+
+}
+.nav-iniciar{
+    background: #D52130;
+
+}
+#sidebar .sidebar-header h3{
+    font-family: 'Nunito', sans-serif;
+font-weight: lighter;
+
+text-align:center;
+text-transform: UPPERCASE;
+font-size:2em;
+border-bottom: 1px #FFF solid;
+
+}
 
 img[usemap]{
     width: 100%;

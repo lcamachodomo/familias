@@ -25,23 +25,27 @@
                 </div>
             </nav>
         </header>
-        <section class="container main">
-            <h1 class="text-center  ">Imagen</h1>
-            <div class="row">
-                <div class="col-12">
-                    <p class="text-center">¿Forma parte del programa Hogares Conectados?</p>
+        <div class="bck-intro">
+            <section class="container">
+                <div class="col-sm-offset-2 col-md-10 ">
+                <h1 class="text-center  "><img src="img/icon-conectados.png"></h1>
+                <div class="row">
+                    <div class="col-12">
+                        <p class="text-center">¿Forma parte del programa Hogares Conectados?</p>
+                    </div>
                 </div>
-            </div>
-            <div class="row">
-                <div class="col-sm-6">
-                    <a class="btn btn-danger float-right" href="0-02_login.php?t=1">Sí</a>
+                <div class="row">
+                    <div class="col-sm-6">
+                        <a class="btn btn-danger float-right" href="0-02_login.php?t=1">Sí</a>
+                    </div>
+                    <div class="col-sm-6">
+                        <a class="btn btn-danger btn-sm" href="0-02_login.php?t=2">No, pero quiero aprender...</a>
+                    </div>
                 </div>
-                <div class="col-sm-6">
-                    <a class="btn btn-danger btn-sm" href="0-02_login.php?t=2">No, pero quiero aprender...</a>
                 </div>
-            </div>
-        </section>
+            </section>
 
+         </div>
 
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
         <script src="js/bootstrap.bundle.js" type="text/javascript"></script>
