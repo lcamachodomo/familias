@@ -115,7 +115,7 @@ a[data-toggle="collapse"] {
     position: relative;
 }
 
-.bck-intro .main-block.back-girl:before{
+.bck-intro .main-block.back-girl:after{
     background: url(../img/chica-pantallas.png) no-repeat;
     position: absolute;
     content: "";
