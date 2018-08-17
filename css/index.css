@@ -94,15 +94,109 @@ a[data-toggle="collapse"] {
 }
 
 .container-full {
-  width: 100%;
-  padding-right: 0;
-  padding-left: 0;
-  margin-right: auto;
-  margin-left: auto;
+    width: 100%;
+    padding-right: 0;
+    padding-left: 0;
+    margin-right: auto;
+    margin-left: auto;
 }
 
-/* ENTRAR BUTTON */
 
+
+/* ENTRAR BUTTON */
+.bck-intro{
+    background: url('../img/circulos-fondo.png') #3FA891 no-repeat center; 
+    margin-bottom: 200px;
+}
+
+.bck-intro .main-block{
+    background: #fff;
+    padding: 45px 25%;
+    position: relative;
+}
+
+.bck-intro .main-block.back-girl:before{
+    background: url(../img/chica-pantallas.png) no-repeat;
+    position: absolute;
+    content: "";
+    height: 238px;
+    width: 160px;
+    left: -160px;
+    bottom: 45px;
+    background-size: 100%;
+}
+
+.bck-intro .main-block:before{
+    background: url(../img/bottom-color-line.png) no-repeat;
+    position: absolute;
+    content: "";
+    height: 20px;
+    width: 310px;
+    left: 0px;
+    bottom: 10px;
+    right: 0px;
+    background-size: 100%;
+    margin: auto;
+}
+
+.bck-intro .main-block p.label{
+    font-family: 'Nunito', sans-serif;
+    font-weight: 700;
+    color:#4E5980;
+    text-align:center;
+    font-size: 1.5em;
+    line-height: 1.3em;
+}
+
+.bck-intro .main-block p.label-small{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+    color:#33AF99;
+    font-size: 1em;
+    margin-bottom: 0px;
+}
+
+.bck-intro .main-block .btn-blue{
+    background: url(../img/botones/boton-YES.png) no-repeat;
+}
+
+.bck-intro .main-block .btn-green{
+    background: url(../img/botones/boton-NO.png) no-repeat;
+}
+
+.bck-intro .main-block .btn-blue, .bck-intro .main-block .btn-green{
+    background-position: 0px 0px;
+    background-size: 250px;
+    width: 126px;
+    height: 74px;
+    color: #fff;
+    font-family: 'Nunito', sans-serif;
+    font-weight: 700;
+    font-size: 1.4em;
+    text-align: center;
+    padding-top: 18px;
+}
+
+.bck-intro .main-block .btn-blue:hover, .bck-intro .main-block .btn-green:hover{
+    background-position: -125px 0px !important;
+}
+
+.bck-intro .main-block .btn-continue{
+    background: url(../img/botones/boton-continuar.png) no-repeat;
+    background-position: 0px 0px;
+    background-size: 270px;
+    width: 136px;
+    height: 50px;
+    border: none;
+    color: #fff;
+    font-family: 'Nunito', sans-serif;
+    font-weight: 700;
+    font-size: 1.4em;
+    text-align: center;
+    padding-top: 6px;
+    margin-bottom: 20px !important;
+}
+.bck-intro .main-block .btn-continue:hover{background-position: -136px 0px;}
 .btn-entrar{
     background-image: url('../img/botones/boton-entrar.png');
     background-size: 300px;

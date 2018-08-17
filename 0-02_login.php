@@ -4,55 +4,105 @@
 
         <link  type="text/css"  href="css/bootstrap.css" rel="stylesheet">
         <link  type="text/css"  href="css/bootstrap-grid.css" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Nunito:300,400,700, 800" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/malihu-custom-scrollbar-plugin/3.1.5/jquery.mCustomScrollbar.min.css">
+        <link href="css/style.css" rel="stylesheet" type="text/css" />
+        <link href="css/index.css" rel="stylesheet" type="text/css" />
     </head>
+
     <body>
+        <div class="wrapper">
+            <div id="content">
+                <section class="container-full index-main">
 
-        <header>
-            <nav class="navbar navbar-expand-lg navbar-light bg-light">
-                <a class="navbar-brand" href="#">Registro</a>
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
+                    <nav class="navbar navbar-expand-lg navbar-light bg-light d-block">
+                        <div class="container-fluid">
 
-                <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                    <ul class="navbar-nav mr-auto">
-                        <li class="nav-item active">
-                            <a class="nav-link" href="0-03_menu.php">Menú de modulos <span class="sr-only">(current)</span></a>
-                        </li>
-                    </ul>
+                            <div class="nav justify-content-start">
 
+                            </div>
+
+                            <div class="nav justify-content-center">
+                                <a class="mx-auto" href="#"><img src="img/logo-ementores.png" alt="E-mentores"></a>
+                            </div>
+
+                            <div class="nav justify-content-end">
+                                <button type="button" id="sidebarCollapse" class="btn" >
+                                    <span class="navbar-toggler-icon"></span>
+                                </button>
+                            </div>
+                        </div>
+                    </nav>
+
+                    <div class="bck-intro padding-top-bottom">
+                        <section class="container">
+                            <div class="row justify-content-md-center">
+                                <div class="col-sm-10 main-block">
+                                    <div class="radio">
+                                        <label>
+                                            <input type="radio" name="userStatus" id="userStatus1" value="1" checked>
+                                            Soy nuevo
+                                        </label>
+                                    </div>
+                                    <div class="radio">
+                                        <label>
+                                            <input type="radio" name="userStatus" id="userStatus2" value="2">
+                                            Ya tengo una cuenta
+                                        </label>
+                                    </div>
+                                    <div class="email-input">
+                                        <h1 class="text-center"><img src="img/icon-form.png" alt=""/></h1>
+                                        
+                                    </div> 
+                                    <div class="id-input">
+                                        <h1 class="text-center"><img src="img/icon-login.png" alt=""/></h1>
+                                    </div> 
+                                    <p class="text-center label">!Perfecto! empecemos.</p>
+
+                                    <form action="db/user/insert_user.php" method="POST" >
+                                        <div class="form-group email-input">
+                                            <p class="text-center label-small">¿Cual es su correo electrónico?</p>
+
+                                            <input type="email" name="email" class="form-control mr-auto" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="ejemplo@correo.com" required>
+                                            <small id="emailHelp" class="form-text text-muted">Puede usar esta misma dirección de correo para volver a entrar más adelante.</small>
+                                        </div> 
+                                        <div class="form-group id-input">
+                                            <p class="text-center label-small">Escriba su número de cédula</p>
+                                            <input type="text" name="id" class="form-control text-number mr-auto" id="exampleInputId" aria-describedby="idHelp" minlength="9" maxlength="9" placeholder="X0XXX0XXX" required>
+                                            <small id="emailHelp" class="form-text text-muted">Escriba solamente números, sin espacios. Por ejemplo: 101110111</small>
+                                        </div> 
+                                        <input type="hidden" name="type" value="1">
+                                        <input type="hidden" name="step" value="1">
+                                        <button type="submit" class="d-block m-auto btn-continue">Siguiente</button>
+                                    </form>
+                                </div>
+                            </div>
+
+                        </section>
+
+                    </div>
+                </section>
+                <?php require './footer.php'; ?>
+            </div>
+            <nav id="sidebar" class="active">
+                <div class="sidebar-header">
+                    <h3>Menu</h3>
                 </div>
+
+                <ul class="list-unstyled components">
+                    <li>
+                        <a href="#" class="nav-sobre">Sobre el proyecto</a>
+                    </li>
+                    <li>
+                        <a href="#" class="nav-recursos">Recursos relacionados</a>
+                    </li>
+                    <li>
+                        <a href="#" class="nav-iniciar">Iniciar sesión</a>
+                    </li>
+                </ul>
+
             </nav>
-        </header>
-        <section class="container">
-            <div class="radio">
-                <label>
-                    <input type="radio" name="userStatus" id="userStatus1" value="1" checked>
-                    Soy nuevo
-                </label>
-            </div>
-            <div class="radio">
-                <label>
-                    <input type="radio" name="userStatus" id="userStatus2" value="2">
-                    Ya tengo una cuenta
-                </label>
-            </div>
-            <form action="db/user/insert_user.php" method="POST">
-                <div class="form-group" id="email-input">
-                    <label for="exampleInputEmail1" class="text-center d-block">¿Cual es su correo electrónico?</label>
-                    <small id="emailHelp" class="form-text text-muted">Puede usar esta misma dirección de correo <br>para volver a entrar más adelante.</small>
-                    <input type="email" name="email" class="form-control mr-auto" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="ejemplo@correo.com" required>
-                </div> 
-                <div class="form-group" id="id-input">
-                    <label for="exampleInputId" class="text-center d-block">Escriba su número de cédula</label>
-                    <small id="emailHelp" class="form-text text-muted">Escriba solamente números, sin espacios.<br>Por ejemplo: 101110111</small>
-                    <input type="text" name="id" class="form-control text-number mr-auto" id="exampleInputId" aria-describedby="idHelp" minlength="9" maxlength="9" placeholder="X0XXX0XXX" required>
-                </div> 
-                <input type="hidden" name="type" value="1">
-                <input type="hidden" name="step" value="1">
-                <button type="submit" class="btn btn-primary">Siguiente</button>
-            </form>
-        </section>
+        </div>
 
 
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
@@ -61,10 +111,10 @@
         <script>
             var urlParams = new URLSearchParams(window.location.search);
             $("input[name=type]").val(urlParams.get("t"));
-            if (urlParams.get("t") === 1) {
-                $("#email-input").remove();
+            if (urlParams.get("t") === "1") {
+                $(".email-input").remove();
             } else {
-                $("#id-input").remove();
+                $(".id-input").remove();
             }
 
             $(".text-number").keypress(function (evt) {
@@ -74,12 +124,12 @@
                 }
                 return true;
             });
-            
-            $("input[name=userStatus]").change(function (){
+
+            $("input[name=userStatus]").change(function () {
                 console.log($(this).val());
-                if($(this).val() === 1){
+                if ($(this).val() === 1) {
                     $("form").attr("action", "db/user/insert_user.php");
-                }else{
+                } else {
                     $("form").attr("action", "db/user/login_user.php");
                 }
             });

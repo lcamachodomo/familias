@@ -3,68 +3,17 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
         <link  type="text/css"  href="css/bootstrap.css" rel="stylesheet">
-        <link type="text/css" href="css/bootstrap-grid.css" rel="stylesheet">
-        <link href="https://fonts.googleapis.com/css?family=Nunito|Open+Sans" rel="stylesheet">
+        <link  type="text/css"  href="css/bootstrap-grid.css" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Nunito:300,400,700, 800" rel="stylesheet">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/malihu-custom-scrollbar-plugin/3.1.5/jquery.mCustomScrollbar.min.css">
-<link href="css/style.css" rel="stylesheet" type="text/css" />
+        <link href="css/style.css" rel="stylesheet" type="text/css" />
         <link href="css/index.css" rel="stylesheet" type="text/css" />
     </head>
+
     <body>
-
         <div class="wrapper">
-
-            <nav id="sidebar" class="active">
-                <div class="sidebar-header">
-                    <h3>Bootstrap Sidebar</h3>
-                </div>
-
-                <ul class="list-unstyled components">
-                    <p>Dummy Heading</p>
-                    <li class="active">
-                        <a href="#homeSubmenu" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle">Home</a>
-                        <ul class="collapse list-unstyled" id="homeSubmenu">
-                            <li>
-                                <a href="#">Home 1</a>
-                            </li>
-                            <li>
-                                <a href="#">Home 2</a>
-                            </li>
-                            <li>
-                                <a href="#">Home 3</a>
-                            </li>
-                        </ul>
-                    </li>
-                    <li>
-                        <a href="#">About</a>
-                    </li>
-                    <li>
-                        <a href="#pageSubmenu" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle">Pages</a>
-                        <ul class="collapse list-unstyled" id="pageSubmenu">
-                            <li>
-                                <a href="#">Page 1</a>
-                            </li>
-                            <li>
-                                <a href="#">Page 2</a>
-                            </li>
-                            <li>
-                                <a href="#">Page 3</a>
-                            </li>
-                        </ul>
-                    </li>
-                    <li>
-                        <a href="#">Portfolio</a>
-                    </li>
-                    <li>
-                        <a href="#">Contact</a>
-                    </li>
-                </ul>
-
-            </nav>
-            <!-- Page Content -->
-
             <div id="content">
                 <section class="container-full index-main">
-
 
                     <nav class="navbar navbar-expand-lg navbar-light bg-light d-block">
                         <div class="container-fluid">
@@ -84,20 +33,46 @@
                             </div>
                         </div>
                     </nav>
-                    <section class="container-full index-video padding-top-bottom">
-                        <div class="container">
 
-                            <div class="row">
-                                <div class="col-12">
-                                    <p class="text-center">¡Hola! Tenemos unas cuantas preguntas antes de iniciar.</p>
-                                    <a href="0-05_registro_02.php">Continuar</a>
+                    <div class="bck-intro padding-top-bottom">
+                        <section class="container">
+                            <div class="row justify-content-md-center">
+                                <div class="col-sm-10 main-block">
+                                    <h1 class="text-center"><img src="img/icon-question.png"></h1>
+                                    <div class="row">
+                                        <div class="col-12">
+                                            <p class="text-center label">Tenemos unas cuantas preguntas antes de iniciar.</p>
+                                            <p class="text-center label-small">¡No se preocupe, son poquitas!</p>
+                                        </div>
+                                    </div>
+                                    <a class="d-block m-auto btn-continue" href="0-05_registro_02.php">Continuar</a>
                                 </div>
                             </div>
-                        </div>
-                    </section>
+
+                        </section>
+
+                    </div>
                 </section>
                 <?php require './footer.php'; ?>
             </div>
+            <nav id="sidebar" class="active">
+                <div class="sidebar-header">
+                    <h3>Menu</h3>
+                </div>
+
+                <ul class="list-unstyled components">
+                    <li>
+                        <a href="#" class="nav-sobre">Sobre el proyecto</a>
+                    </li>
+                    <li>
+                        <a href="#" class="nav-recursos">Recursos relacionados</a>
+                    </li>
+                    <li>
+                        <a href="#" class="nav-iniciar">Iniciar sesión</a>
+                    </li>
+                </ul>
+
+            </nav>
         </div>
 
 
