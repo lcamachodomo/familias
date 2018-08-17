@@ -1,0 +1,52 @@
+a#home-tab {
+    background-color: #EA7A30;
+    color: #fff;
+    border: none;
+    padding: 10px 30px;
+    font-size: 2em;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+div#desafios,#desafios .bx-wrapper {
+	background-color: #EA7A30;
+	color: #fff;
+}
+.nav-tabs {
+    border-bottom: none;
+        padding-left: 25%;
+}
+.nav-tabs .nav-item {
+    margin-bottom: -1px;
+    margin-left: 15px;
+}
+.tab-content > .tab-pane {
+    padding: 10% 5%;
+    border-radius: 15px;
+}
+a#contact-tab{
+	background-color: #0851A1;
+	color: #fff;
+	border:none;
+	padding: 10px 30px;
+    font-size: 2em;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+div#oportunidades,#oportunidades .bx-wrapper {
+	background-color: #0851A1;
+	color: #fff;
+}
+.bx-wrapper {
+    margin-bottom: 0px;
+    height: 25%;
+    box-shadow: none;
+    border: none;
+}
+img.ico-personaje {
+    position: absolute;
+    top: -8%;
+    left: 16px;
+}
+section.container {
+    margin-top: 5%;
+}

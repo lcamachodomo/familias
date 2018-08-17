@@ -6,6 +6,7 @@
         <link  type="text/css"  href="../../css/bootstrap-grid.css" rel="stylesheet">
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.css">
         <link href="../../css/style.css" rel="stylesheet" type="text/css"/>
+        <link href="../../css/mod1.css" rel="stylesheet" type="text/css"/>
 
     </head>
     <body>
@@ -16,7 +17,7 @@
                 <div id="act_01" class="mod">
                     <ul class="nav nav-tabs " id="myTab" role="tablist">
                         <li class="nav-item">
-                            <a class="nav-link active" id="home-tab" data-toggle="tab" href="#desafios" role="tab" aria-controls="home" aria-selected="true">Desafios</a>
+                            <a class="nav-link active" id="home-tab" data-toggle="tab" href="#desafios" role="tab" aria-controls="home" aria-selected="true">Desafíos</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" id="contact-tab" data-toggle="tab" href="#oportunidades" role="tab" aria-controls="contact" aria-selected="false">Oportunidades</a>
@@ -24,6 +25,7 @@
                     </ul>
                     <div class="tab-content" id="myTabContent">
                         <div class="tab-pane fade show active" id="desafios" role="tabpanel" aria-labelledby="home-tab">
+                            <img src="../../img/mod1/1-03_act_personaje3rec.png" class="ico-personaje">
                             <div class="row">
                                 <div class="col-6">
                                     <div class="slider">
@@ -38,6 +40,7 @@
                             </div>
                         </div>
                         <div class="tab-pane fade" id="oportunidades" role="tabpanel" aria-labelledby="profile-tab">
+                            <img src="../../img/mod1/1-03_act_personaje3rec.png" class="ico-personaje">
                             <div class="row">
                                 <div class="col-6">
                                     <div class="slider2">
