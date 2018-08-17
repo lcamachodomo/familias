@@ -141,7 +141,7 @@ a[data-toggle="collapse"] {
     background-size: 900px;
     display: block;
     width: 450px;
-    height: 120px;
+    height: 80px;
     background-position: -450 0;
     background-repeat: no-repeat;
     font-family: 'Nunito', sans-serif;
@@ -165,11 +165,11 @@ a[data-toggle="collapse"] {
 
 .btn-apps{
     background-image: url('../img/botones/boton-apps.png');
-   background-size: 700px;
+    background-size: 700px;
     display: block;
     width: 350px;
-    height: 112px;
-    background-position: -350 0;
+    height: 85px;
+    background-position: -350px 0px;
     background-repeat: no-repeat;
     font-family: 'Nunito', sans-serif;
     font-weight: 700;
@@ -218,6 +218,18 @@ a[data-toggle="collapse"] {
     border-style: solid;
     border-width: 10px;
     border-color: #F0F0F0;
+    position: relative;
+    z-index: 15;
+}
+.main-div-intro-text{
+    background: url(../img/index-globo-texto.png) no-repeat;
+    height: 140px;
+    width: 230px;
+    background-size: 100%;
+    padding: 30px;
+    color: #fff;
+    margin-top: -55px;
+    margin-left: -40px;
 }
 
 #prefooter{
@@ -236,7 +248,7 @@ a[data-toggle="collapse"] {
 #prefooter-phone:before{
     content: "";
     display: block;
-     background: url("../img/footer/footer-phone-icon.png") no-repeat;
+    background: url("../img/footer/footer-phone-icon.png") no-repeat;
     width: 32px;
     height: 33px;
     float: left;
@@ -245,7 +257,7 @@ a[data-toggle="collapse"] {
 #prefooter-mail:before{
     content: "";
     display: block;
-     background: url("../img/footer/footer-mail-icon.png") no-repeat;
+    background: url("../img/footer/footer-mail-icon.png") no-repeat;
     width: 32px;
     height: 33px;
     float: left;

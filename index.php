@@ -14,7 +14,7 @@
 <body>
     <div class="wrapper">
 
-        <nav id="sidebar">
+        <nav id="sidebar" class="active">
             <div class="sidebar-header">
                 <h3>Bootstrap Sidebar</h3>
             </div>
@@ -95,7 +95,7 @@
                                 </div>
                             </div>
                             <div class="col-12 col-sm-12 col-md-4 col-lg-4 col-xl-4">
-                                <p>Aprendé sobre el uso seguro de internet para familias.</p>
+                                <p class="main-div-intro-text">Aprendé sobre el uso seguro de internet para familias.</p>
                                 <a class="btn-entrar" href="0-04_intro.php">Entrar</a>
                             </div>
                         </div>
