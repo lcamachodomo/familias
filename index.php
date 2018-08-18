@@ -87,7 +87,7 @@
                 </div>
             </section>
 
-            <?php require './footer.php'; ?>
+            <?php require 'footer.php'; ?>
         </div>
         <nav id="sidebar" class="active">
             <div class="sidebar-header">
@@ -130,22 +130,22 @@
     <script src="js/bootstrap.js" type="text/javascript"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/malihu-custom-scrollbar-plugin/3.1.5/jquery.mCustomScrollbar.concat.min.js"></script>
     <script>
-        $(".module.disabled a").each(function() {
-            $(this).attr("href", "");
-            $(this).attr("disabled", true);
-        });
+        // $(".module.disabled a").each(function() {
+        //     $(this).attr("href", "");
+        //     $(this).attr("disabled", true);
+        // });
 
-        $(".module.disabled a").click(function(e) {
-            e.preventDefault();
-        });
+        // $(".module.disabled a").click(function(e) {
+        //     e.preventDefault();
+        // });
 
-        $(document).ready(function() {
+        // $(document).ready(function() {
 
-            $('#sidebarCollapse').on('click', function() {
-                $('#sidebar').toggleClass('active');
-            });
+        //     $('#sidebarCollapse').on('click', function() {
+        //         $('#sidebar').toggleClass('active');
+        //     });
 
-        });
+        // });
 
     </script>
 </body>

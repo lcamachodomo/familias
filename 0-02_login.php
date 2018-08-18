@@ -133,6 +133,7 @@
                     $("form").attr("action", "db/user/login_user.php");
                 }
             });
+            
         </script>
     </body>
 </html>

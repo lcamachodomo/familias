@@ -1,52 +1,165 @@
 a#home-tab {
-    background-color: #EA7A30;
-    color: #fff;
-    border: none;
-    padding: 10px 30px;
-    font-size: 2em;
-    border-top-left-radius: 15px;
-    border-top-right-radius: 15px;
+	background-color: #EA7A30;
+	color: #fff;
+	border: none;
+	padding: 10px 30px;
+	font-size: 2em;
+	border-top-left-radius: 15px;
+	border-top-right-radius: 15px;
 }
 div#desafios,#desafios .bx-wrapper {
 	background-color: #EA7A30;
 	color: #fff;
 }
 .nav-tabs {
-    border-bottom: none;
-        padding-left: 25%;
+	border-bottom: none;
+	padding-left: 25%;
 }
 .nav-tabs .nav-item {
-    margin-bottom: -1px;
-    margin-left: 15px;
+	margin-bottom: -1px;
+	margin-left: 15px;
 }
 .tab-content > .tab-pane {
-    padding: 10% 5%;
-    border-radius: 15px;
+	padding: 10% 5%;
+	border-radius: 15px;
 }
 a#contact-tab{
 	background-color: #0851A1;
 	color: #fff;
 	border:none;
 	padding: 10px 30px;
-    font-size: 2em;
-    border-top-left-radius: 15px;
-    border-top-right-radius: 15px;
+	font-size: 2em;
+	border-top-left-radius: 15px;
+	border-top-right-radius: 15px;
 }
 div#oportunidades,#oportunidades .bx-wrapper {
 	background-color: #0851A1;
 	color: #fff;
 }
 .bx-wrapper {
-    margin-bottom: 0px;
-    height: 25%;
-    box-shadow: none;
-    border: none;
+	margin-bottom: 0px;
+	height: 25%;
+	box-shadow: none;
+	border: none;
 }
 img.ico-personaje {
-    position: absolute;
-    top: -8%;
-    left: 16px;
+	position: absolute;
+	top: -8%;
+	left: 16px;
 }
 section.container {
-    margin-top: 5%;
+	margin-top: 5%;
+}
+.item-module {
+	min-height: 60px;
+	text-align: center;
+	padding: 25px 0px;
+	box-shadow: 5px 5px 9px 0px #dee2e6;
+	background-color: #fff;
+	margin-bottom: 30px;
+}
+.item-module.active{
+	border: 3px solid red;
+	background-color: rgba(0, 204, 102, 0.12941176470588237);
+	border-radius: 5px;
+	background-image: url(../img/mod1/Red-Ribbon.png);
+	background-position: 100% 0;
+	background-repeat: no-repeat;
+}
+.bck-mods{
+	background-color: #f8f9fa;
+}
+p.dots-mod {
+	margin: 0;
+	font-size: 4em;
+	padding: 0;
+	height: 25px;
+	line-height: 0%;
+	color: #c3c3c3;
+	overflow: hidden;
+	word-spacing: -14px;
+}
+.active p.dots-mod{
+	color: red;
+}
+a[class^="v-act-"]:before,a[class^="v2-act-"]:before,a[class^="v3-act-"]:before {
+	content: '';
+	width: 120px;
+	height: 120px;
+	display: block;
+	margin: auto;
+}
+.disabled a[class^="v-act-"]:before,.disabled a[class^="v2-act-"]:before,.disabled a[class^="v3-act-"]:before {
+	background-position-x:100%;
+}
+a.v-act-1:before{
+	background-image: url(../img/mod1/modulo1-act1.png);
+}
+a.v-act-2:before{
+	background-image: url(../img/mod1/modulo1-act2.png);
+}
+a.v-act-3:before{
+	background-image: url(../img/mod1/modulo1-act3.png);
+}
+a.v-act-4:before{
+	background-image: url(../img/mod1/modulo1-act4.png);
+}
+a.v-act-5:before{
+	background-image: url(../img/mod1/modulo1-act5.png);
+}
+a.v-act-6:before{
+	background-image: url(../img/mod1/modulo1-act6.png);
+}
+a.v-act-7:before{
+	background-image: url(../img/mod1/modulo1-act7.png);
+}
+/*2*/
+a.v2-act-1:before{
+	background-image: url(../img/mod1/modulo2-act1.png);
+}
+a.v2-act-2:before{
+	background-image: url(../img/mod1/modulo2-act2.png);
+}
+a.v2-act-3:before{
+	background-image: url(../img/mod1/modulo2-act3.png);
+}
+a.v2-act-4:before{
+	background-image: url(../img/mod1/modulo2-act4.png);
+}
+a.v2-act-5:before{
+	background-image: url(../img/mod1/modulo2-act5.png);
+}
+a.v2-act-6:before{
+	background-image: url(../img/mod1/modulo2-act6.png);
+}
+a.v2-act-7:before{
+	background-image: url(../img/mod1/modulo2-act7.png);
+}
+a.v2-act-8:before{
+	background-image: url(../img/mod1/modulo2-act8.png);
+}
+a.v2-act-9:before{
+	background-image: url(../img/mod1/modulo2-act9.png);
+}
+/*3*/
+a.v3-act-1:before{
+	background-image: url(../img/mod1/modulo3-act1.png);
+}
+a.v3-act-2:before{
+	background-image: url(../img/mod1/modulo3-act2.png);
+}
+a.v3-act-3:before{
+	background-image: url(../img/mod1/modulo3-act3.png);
+}
+a.v3-act-4:before{
+	background-image: url(../img/mod1/modulo3-act4.png);
+}
+a.v3-act-5:before{
+	background-image: url(../img/mod1/modulo3-act5.png);
+}
+a.v3-act-6:before{
+	background-image: url(../img/mod1/modulo3-act6.png);
+}
+a.v3-act-7:before{
+	background-image: url(../img/mod1/modulo1-act7.png);
 }

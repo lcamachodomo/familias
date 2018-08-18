@@ -3941,4 +3941,20 @@
   Object.defineProperty(exports, '__esModule', { value: true });
 
 })));
+$(".module.disabled a").each(function() {
+            $(this).attr("href", "");
+            $(this).attr("disabled", true);
+        });
+
+        $(".module.disabled a").click(function(e) {
+            e.preventDefault();
+        });
+
+        $(document).ready(function() {
+
+            $('#sidebarCollapse').on('click', function() {
+                $('#sidebar').toggleClass('active');
+            });
+
+        });
 //# sourceMappingURL=bootstrap.js.map

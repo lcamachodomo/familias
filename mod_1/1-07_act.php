@@ -6,10 +6,16 @@
         <link  type="text/css"  href="../css/bootstrap-grid.css" rel="stylesheet">
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.css">
         <link href="../css/style.css" rel="stylesheet" type="text/css"/>
+        <link href="../css/index.css" rel="stylesheet" type="text/css"/>
 
     </head>
     <body>
+    <div class="wrapper">
 
+        
+        <!-- Page Content -->
+
+        <div id="content">
         <?php require '../header.php'; ?>
         <section class="container">
             <div class="main">
@@ -45,6 +51,42 @@
                 </div>
             </div>
         </section>
+        <?php require '../footer.php'; ?>
+        </div>
+        <nav id="sidebar" class="active">
+            <div class="sidebar-header">
+                <h3>Menu</h3>
+            </div>
+
+            <ul class="list-unstyled components">
+                <!-- <p>Dummy Heading</p> -->
+                <!-- <li class="active">
+                    <a href="#homeSubmenu" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle">Home</a>
+                    <ul class="collapse list-unstyled" id="homeSubmenu">
+                        <li>
+                            <a href="#">Home 1</a>
+                        </li>
+                        <li>
+                            <a href="#">Home 2</a>
+                        </li>
+                        <li>
+                            <a href="#">Home 3</a>
+                        </li>
+                    </ul>
+                </li> -->
+                <li>
+                    <a href="#" class="nav-sobre">Sobre el proyecto</a>
+                </li>
+                <li>
+                    <a href="#" class="nav-recursos">Recursos relacionados</a>
+                </li>
+                <li>
+                    <a href="#" class="nav-iniciar">Iniciar sesión</a>
+                </li>
+            </ul>
+
+        </nav>
+    </div>
         <div class="modal" id="modal_1-07_act" tabindex="-1" role="dialog">
             <div class="modal-dialog" role="document">
                 <div class="modal-content">
