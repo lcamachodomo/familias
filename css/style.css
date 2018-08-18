@@ -28,12 +28,12 @@ and open the template in the editor.
 }
 
 
-.bx-wrapper {
+/*.bx-wrapper {
     margin-bottom: 0px;
     height: 100%;
     box-shadow: none;
     border: none;
-}
+}*/
 /*nav*/
 #sidebar ul li a {
     padding: 10px;
@@ -147,9 +147,9 @@ img[usemap]{
     border-radius: 5px;
 }
 
-.tab-content > .tab-pane {
+/*.tab-content > .tab-pane {
     padding: 20px;
-}
+}*/
 .tab-content > .tab-pane img{
     max-width: 200px;
     display: block;
