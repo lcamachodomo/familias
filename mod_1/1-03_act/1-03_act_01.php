@@ -1,15 +1,12 @@
 <html>
     <head>
         <meta name="viewport" content="width=device-width, initial-scale=1">
-
         <link  type="text/css"  href="../../css/bootstrap.css" rel="stylesheet">
         <link  type="text/css"  href="../../css/bootstrap-grid.css" rel="stylesheet">
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.css">
         <link href="../../css/style.css" rel="stylesheet" type="text/css"/>
-
     </head>
     <body>
-
         <?php require '../../header.php'; ?>
         <section class="container">
             <div class="main">

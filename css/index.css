@@ -148,6 +148,12 @@ a[data-toggle="collapse"] {
     line-height: 1.3em;
 }
 
+.bck-intro .main-block .form-control.year{
+    width: 90px;
+    margin: auto;
+    display: block;
+}
+
 .bck-intro .main-block p.label-small{
     font-family: 'Open Sans', sans-serif;
     font-weight: 700;
@@ -181,8 +187,9 @@ a[data-toggle="collapse"] {
     background-position: -125px 0px !important;
 }
 
-.bck-intro .main-block .btn-continue{
-    background: url(../img/botones/boton-continuar.png) no-repeat;
+.bck-intro .main-block .btn-continue{ background: url(../img/botones/boton-continuar.png) no-repeat; }
+.bck-intro .main-block .btn-finish{ background: url(../img/botones/boton-finalizar.png) no-repeat; }
+.bck-intro .main-block .btn-continue, .bck-intro .main-block .btn-finish{
     background-position: 0px 0px;
     background-size: 270px;
     width: 136px;
@@ -191,12 +198,14 @@ a[data-toggle="collapse"] {
     color: #fff;
     font-family: 'Nunito', sans-serif;
     font-weight: 700;
-    font-size: 1.4em;
+    font-size: 1.3em;
     text-align: center;
-    padding-top: 6px;
+    padding-top: 5px;
     margin-bottom: 20px !important;
 }
-.bck-intro .main-block .btn-continue:hover{background-position: -136px 0px;}
+
+.bck-intro .main-block .btn-continue:hover, .bck-intro .main-block .btn-finish:hover{background-position: -136px 0px;}
+
 .btn-entrar{
     background-image: url('../img/botones/boton-entrar.png');
     background-size: 300px;

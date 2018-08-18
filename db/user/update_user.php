@@ -20,7 +20,7 @@ switch ($step) {
         break;
     case 4:
         $field = "age";
-        $url = "0-02_login.php";
+        $url = "0-05_registro_05.php";
         break;
     default:
         break;
