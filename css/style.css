@@ -222,6 +222,25 @@ img[usemap]{
     background-color: #ffffff !important;
 }
 
+span.init-act {
+    background-color: green;
+    padding: 5px;
+    border-radius: 10px;
+    text-shadow: none;
+    color: #fff;
+    /* text-align: center; */
+    margin: auto;
+    display: block;
+}
+.init-03{
+    color: #fff;
+    text-align: center;
+    text-shadow: none;
+}
+#modal_1-03init .modal-content{
+    background-color: rgba(23, 162, 184, 0.9019607843137255);
+}
+
 @media (min-width: 576px) { 
 }
 
