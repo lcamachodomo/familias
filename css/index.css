@@ -59,6 +59,25 @@ ul ul a {
     }
 }*/
 
+.back_to_menu{
+    background-image: url(../img/botones/btn_menu.png);
+    background-size: 350px;
+    display: block;
+    width: 175px;
+    height: 36px;
+    background-position: 0 0;
+    background-repeat: no-repeat;
+    font-family: 'Nunito', sans-serif;
+    font-weight: 700;
+    color: #FFFFFF;
+    font-size: 1em;
+    text-align: center;
+    line-height: 33px;
+    margin: auto;
+    padding-right: 10px;
+    margin-top: 10px;
+}
+
 a[data-toggle="collapse"] {
     position: relative;
 }
@@ -267,7 +286,7 @@ a[data-toggle="collapse"] {
     margin-top: 10px;
     padding-bottom: 5px;
     border-bottom: 1px solid #000;
-    
+
 }
 
 /* GESTORES BUTTON */
@@ -412,9 +431,9 @@ a[data-toggle="collapse"] {
 .footer-bg-3{
     background-color: #283564;
 }
-    #sidebar.active {
+#sidebar.active {
     margin-right: -350px;
-    }
+}
 button#sidebarCollapse{
     position: absolute;
     top: 5px;
@@ -432,11 +451,8 @@ button#sidebarCollapse{
     background-size: cover;
     display: block;
     width: 100%;
-    /* height: 80px; */
     background-position: -344px 0;
-    /* background-repeat: no-repeat; */
     font-family: 'Nunito', sans-serif;
-    /* font-weight: 700; */
     color: #FFFFFF;
     font-size: 1em;
     text-transform: uppercase;
@@ -452,47 +468,47 @@ button#sidebarCollapse{
 
 @media (min-width: 768px) { 
     #prefooter-place:before {
-    
-    height: 32px;
-    
+
+        height: 32px;
+
     }
     .btn-gestores{
-    background-image: url('../img/botones/boton-gestores.png');
-    background-size: 900px;
-    display: block;
-    width: 450px;
-    height: 80px;
-    background-position: -450 0;
-    background-repeat: no-repeat;
-    font-family: 'Nunito', sans-serif;
-    font-weight: 700;
-    color:#FFFFFF;
-    font-size: 1.3em;
-    text-transform: uppercase;
-    text-align: left;
-    line-height: 80px;
-    padding-left: 5%;
+        background-image: url('../img/botones/boton-gestores.png');
+        background-size: 900px;
+        display: block;
+        width: 450px;
+        height: 80px;
+        background-position: -450 0;
+        background-repeat: no-repeat;
+        font-family: 'Nunito', sans-serif;
+        font-weight: 700;
+        color:#FFFFFF;
+        font-size: 1.3em;
+        text-transform: uppercase;
+        text-align: left;
+        line-height: 80px;
+        padding-left: 5%;
     }
 
     .main-div-intro-text{
 
-    margin-top: -55px;
-    margin-left: -40px;
+        margin-top: -55px;
+        margin-left: -40px;
     }
 } /*fin 768*/
 
 
 @media (min-width: 992px) {  
     button#sidebarCollapse{
-    position: relative;
-    top: 5px;
-    right: 0;
+        position: relative;
+        top: 5px;
+        right: 0;
     }
     #sidebar.active {
-    margin-right: -250px;
+        margin-right: -250px;
     }
 } /*fin 992*/
 
 
 @media (min-width: 1200px) {  
-    } /*fin 1200*/
+} /*fin 1200*/

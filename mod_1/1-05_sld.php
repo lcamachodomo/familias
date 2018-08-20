@@ -10,106 +10,124 @@
 
     </head>
     <body>
-<div class="wrapper">
+        <div class="wrapper">
 
-        
-        <!-- Page Content -->
 
-        <div id="content">
-        <?php require '../header.php'; ?>
-        <section class="container">
-            <div class="main">
-                <div id="act_01" class="mod">
-                    <p class="text-center">Internet permite una comunicación instantánea con muchísimas personas, desde cualquier lugar y acceso a un sinfín de páginas con contenidos de todo tipo.  Por esa capacidad de transmisión tan rápida, es una herramienta que trae muchos beneficios, pero también puede presentar muchos sus riesgos. Vamos a conocerlos…</p>
-                    <div class="cont row">
-                        <div class="col-3">
-                            <div class="item" data-slider="1" data-title="La violencia sexual en línea">
-                                <img src="../img/mod1/1-05_act_expediente1.png" alt="" class="img-fluid"/>
-                                <p class="text-center">Villano</p>
-                            </div>
+            <!-- Page Content -->
+
+            <div id="content">
+                <nav class="navbar navbar-expand-lg navbar-light bg-light d-block">
+                    <div class="container-fluid">
+
+                        <div class="nav justify-content-start">
+
                         </div>
-                        <div class="col-3">
-                            <div class="item" data-slider="2" data-title="La violencia sexual en línea">
-                                <img src="../img/mod1/1-05_act_expediente2.png" alt="" class="img-fluid"/>
-                                <p class="text-center">Villano</p>
-                            </div>
+
+                        <div class="nav justify-content-center">
+                            <a class="mx-auto" href="#"><img src="../img/logo-ementores.png" alt="E-mentores"></a>
                         </div>
-                        <div class="col-3">
-                            <div class="item" data-slider="3" data-title="Exposición a contenidos inapropiados">
-                                <img src="../img/mod1/1-05_act_expediente3.png" alt="" class="img-fluid"/>
-                                <p class="text-center">Villano</p>
-                            </div>
-                        </div>
-                        <div class="col-3">
-                            <div class="item" data-slider="4" data-title="Sexting">
-                                <img src="../img/mod1/1-05_act_expediente4.png" alt="" class="img-fluid"/>
-                                <p class="text-center">Villano</p>
-                            </div>
-                        </div>
-                        <div class="col-3">
-                            <div class="item" data-slider="5" data-title="Sextorsión">
-                                <img src="../img/mod1/1-05_act_expediente5.png" alt="" class="img-fluid"/>
-                                <p class="text-center">Villano</p>
-                            </div>
-                        </div>
-                        <div class="col-3">
-                            <div class="item" data-slider="6" data-title="Grooming">
-                                <img src="../img/mod1/1-05_act_expediente6.png" alt="" class="img-fluid"/>
-                                <p class="text-center">Villano</p>
-                            </div>
-                        </div>
-                        <div class="col-3">
-                            <div class="item" data-slider="7" data-title="Ciberbullying">
-                                <img src="../img/mod1/1-05_act_expediente7.png" alt="" class="img-fluid"/>
-                                <p class="text-center">Villano</p>
-                            </div>
-                        </div>
-                        <div class="col-3">
-                            <div class="item" data-slider="8" data-title="Phishing">
-                                <img src="../img/mod1/1-05_act_expediente8.png" alt="" class="img-fluid"/>
-                                <p class="text-center">Villano</p>
-                            </div>
+
+                        <div class="nav justify-content-end">
+                            <button type="button" id="sidebarCollapse" class="btn" >
+                                <span class="navbar-toggler-icon"></span>
+                            </button>
                         </div>
                     </div>
+                </nav>
+                <section class="container">
+                    <div class="main">
+                        <div id="act_01">
+                            <p class="text-center">Internet permite una comunicación instantánea con muchísimas personas, desde cualquier lugar y acceso a un sinfín de páginas con contenidos de todo tipo.  Por esa capacidad de transmisión tan rápida, es una herramienta que trae muchos beneficios, pero también puede presentar muchos sus riesgos. Vamos a conocerlos…</p>
+                            <div class="cont row">
+                                <div class="col-3">
+                                    <div class="item" data-slider="1" data-title="La violencia sexual en línea">
+                                        <img src="../img/mod1/1-05_act_expediente1.png" alt="" class="img-fluid"/>
+                                        <p class="text-center">Villano</p>
+                                    </div>
+                                </div>
+                                <div class="col-3">
+                                    <div class="item" data-slider="2" data-title="La violencia sexual en línea">
+                                        <img src="../img/mod1/1-05_act_expediente2.png" alt="" class="img-fluid"/>
+                                        <p class="text-center">Villano</p>
+                                    </div>
+                                </div>
+                                <div class="col-3">
+                                    <div class="item" data-slider="3" data-title="Exposición a contenidos inapropiados">
+                                        <img src="../img/mod1/1-05_act_expediente3.png" alt="" class="img-fluid"/>
+                                        <p class="text-center">Villano</p>
+                                    </div>
+                                </div>
+                                <div class="col-3">
+                                    <div class="item" data-slider="4" data-title="Sexting">
+                                        <img src="../img/mod1/1-05_act_expediente4.png" alt="" class="img-fluid"/>
+                                        <p class="text-center">Villano</p>
+                                    </div>
+                                </div>
+                                <div class="col-3">
+                                    <div class="item" data-slider="5" data-title="Sextorsión">
+                                        <img src="../img/mod1/1-05_act_expediente5.png" alt="" class="img-fluid"/>
+                                        <p class="text-center">Villano</p>
+                                    </div>
+                                </div>
+                                <div class="col-3">
+                                    <div class="item" data-slider="6" data-title="Grooming">
+                                        <img src="../img/mod1/1-05_act_expediente6.png" alt="" class="img-fluid"/>
+                                        <p class="text-center">Villano</p>
+                                    </div>
+                                </div>
+                                <div class="col-3">
+                                    <div class="item" data-slider="7" data-title="Ciberbullying">
+                                        <img src="../img/mod1/1-05_act_expediente7.png" alt="" class="img-fluid"/>
+                                        <p class="text-center">Villano</p>
+                                    </div>
+                                </div>
+                                <div class="col-3">
+                                    <div class="item" data-slider="8" data-title="Phishing">
+                                        <img src="../img/mod1/1-05_act_expediente8.png" alt="" class="img-fluid"/>
+                                        <p class="text-center">Villano</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <a href="../0-03_menu.php" class="back_to_menu">Volver al menú</a>
+                        </div>
+                    </div>
+                </section>
+                <?php require '../footer.php'; ?>
+            </div>
+            <nav id="sidebar" class="active">
+                <div class="sidebar-header">
+                    <h3>Menu</h3>
                 </div>
-            </div>
-        </section>
-        <?php require '../footer.php'; ?>
+
+                <ul class="list-unstyled components">
+                    <!-- <p>Dummy Heading</p> -->
+                    <!-- <li class="active">
+                        <a href="#homeSubmenu" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle">Home</a>
+                        <ul class="collapse list-unstyled" id="homeSubmenu">
+                            <li>
+                                <a href="#">Home 1</a>
+                            </li>
+                            <li>
+                                <a href="#">Home 2</a>
+                            </li>
+                            <li>
+                                <a href="#">Home 3</a>
+                            </li>
+                        </ul>
+                    </li> -->
+                    <li>
+                        <a href="#" class="nav-sobre">Sobre el proyecto</a>
+                    </li>
+                    <li>
+                        <a href="#" class="nav-recursos">Recursos relacionados</a>
+                    </li>
+                    <li>
+                        <a href="#" class="nav-iniciar">Iniciar sesión</a>
+                    </li>
+                </ul>
+
+            </nav>
         </div>
-        <nav id="sidebar" class="active">
-            <div class="sidebar-header">
-                <h3>Menu</h3>
-            </div>
-
-            <ul class="list-unstyled components">
-                <!-- <p>Dummy Heading</p> -->
-                <!-- <li class="active">
-                    <a href="#homeSubmenu" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle">Home</a>
-                    <ul class="collapse list-unstyled" id="homeSubmenu">
-                        <li>
-                            <a href="#">Home 1</a>
-                        </li>
-                        <li>
-                            <a href="#">Home 2</a>
-                        </li>
-                        <li>
-                            <a href="#">Home 3</a>
-                        </li>
-                    </ul>
-                </li> -->
-                <li>
-                    <a href="#" class="nav-sobre">Sobre el proyecto</a>
-                </li>
-                <li>
-                    <a href="#" class="nav-recursos">Recursos relacionados</a>
-                </li>
-                <li>
-                    <a href="#" class="nav-iniciar">Iniciar sesión</a>
-                </li>
-            </ul>
-
-        </nav>
-    </div>
         <div class="modal" id="modal_1-07_act" tabindex="-1" role="dialog">
             <div class="modal-dialog" role="document">
                 <div class="modal-content">
@@ -117,7 +135,7 @@
                     <div class="modal-header">
                         <span></span>
                         <button type="button" class="close" data-dismiss="modal" aria-label="Close">x</button>
-                        
+
                     </div>
                     <div class="modal-body">
                         <div class="act05-1 act5-mdl d-none">
@@ -291,11 +309,11 @@
             $('#modal_1-07_act').on('hidden.bs.modal', function (e) {
                 var flag = 0;
                 for (i = 0; i < array.length; i++) {
-                    flag = flag + array[i]; 
+                    flag = flag + array[i];
                 }
-                
+
                 if (flag === 8) {
-                    console.log(flag); 
+                    console.log(flag);
                     $("#modal_1-07_act .act5-mdl").addClass("d-none");
                     $("#modal_1-07_act .act05-9").removeClass("d-none");
                     $("#modal_1-07_act .modal-header span").text("En conclusión...");

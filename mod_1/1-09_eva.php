@@ -10,7 +10,24 @@
     </head>
     <body>
 
-        <?php require '../header.php'; ?>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light d-block">
+            <div class="container-fluid">
+
+                <div class="nav justify-content-start">
+
+                </div>
+
+                <div class="nav justify-content-center">
+                    <a class="mx-auto" href="#"><img src="../img/logo-ementores.png" alt="E-mentores"></a>
+                </div>
+
+                <div class="nav justify-content-end">
+                    <button type="button" id="sidebarCollapse" class="btn" >
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                </div>
+            </div>
+        </nav>
         <section class="container">
             <div class="main">
                 <div id="eva_09p1" class="mod">

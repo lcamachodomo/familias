@@ -10,83 +10,101 @@
 
     </head>
     <body>
-    <div class="wrapper">
+        <div class="wrapper">
 
-        
-        <!-- Page Content -->
 
-        <div id="content">
-        <?php require '../header.php'; ?>
-        <section class="container">
-            <div class="main">
-                <div id="act_01p1" class="mod intro">
-                    <p class="text-center">Señales del abuso sexual en personas menores de edad</p>
-                    <button class="gotoModulePage btn btn-dark" data-page="2">Continuar</button>
-                </div>
-                <div id="act_01p2" class="d-none mod intro">
-                    <p class="text-center">El abuso sexual y la explotación sexual, tanto física como en línea, tienen serias consecuencias en la vida de niñas, niños y adolescentes.</p>
-                    <p class="text-center">¡No porque los abusos se cometen por medio de las TIC, las consecuencias son menores! Las áreas en las que una persona menor de edad puede verse afectada son de índole física, emocional (psicológica), académica y social.</p>
-                    <button class="gotoModulePage btn btn-dark" data-page="3">Continuar</button>
-                </div>
-                <div id="act_01p3" class="d-none mod intro">
-                    <p class="text-center">Identifique en esta imagen las diferentes consecuencias que puede experimentar una persona menor de edad está siendo víctima de abuso sexual.</p>
-                    <button class="gotoModulePage btn btn-dark" data-page="4">Iniciar</button>
-                </div>
-                <div id="act_01p4" class="d-none mod">
-                    <div class="cont row">
-                        <div id="map_container">
-                            <img usemap="#1-07-act" src="../img/mod1/1-07_act_general.png" alt="" class="" style="height: 100%; margin: auto; display: block; width: auto" />
-                            <map name='1-07-act'>
-                                <area data-nbr="1" shape='circle' coords='809, 214, 53' href='#' />
-                                <area data-nbr="4" shape='circle' coords='678, 517, 135' href='#' />
-                                <area data-nbr="2" shape='circle' coords='167, 194, 37' href='#' />
-                                <area data-nbr="8" shape='circle' coords='401, 477, 109' href='#' />
-                                <area data-nbr="3" shape='circle' coords='908, 447, 99' href='#' />
-                                <area data-nbr="7" shape='circle' coords='697, 299, 78' href='#' />
-                                <area data-nbr="5" shape='circle' coords='440, 307, 68' href='#' />
-                                <area data-nbr="6" shape='circle' coords='175, 367, 111' href='#' />
-                            </map>
+            <!-- Page Content -->
+
+            <div id="content">
+                <nav class="navbar navbar-expand-lg navbar-light bg-light d-block">
+                    <div class="container-fluid">
+
+                        <div class="nav justify-content-start">
+
+                        </div>
+
+                        <div class="nav justify-content-center">
+                            <a class="mx-auto" href="#"><img src="../img/logo-ementores.png" alt="E-mentores"></a>
+                        </div>
+
+                        <div class="nav justify-content-end">
+                            <button type="button" id="sidebarCollapse" class="btn" >
+                                <span class="navbar-toggler-icon"></span>
+                            </button>
                         </div>
                     </div>
+                </nav>
+                <section class="container">
+                    <div class="main">
+                        <div id="act_01p1" class="mod intro">
+                            <p class="text-center">Señales del abuso sexual en personas menores de edad</p>
+                            <button class="gotoModulePage btn btn-dark" data-page="2">Continuar</button>
+                        </div>
+                        <div id="act_01p2" class="d-none mod intro">
+                            <p class="text-center">El abuso sexual y la explotación sexual, tanto física como en línea, tienen serias consecuencias en la vida de niñas, niños y adolescentes.</p>
+                            <p class="text-center">¡No porque los abusos se cometen por medio de las TIC, las consecuencias son menores! Las áreas en las que una persona menor de edad puede verse afectada son de índole física, emocional (psicológica), académica y social.</p>
+                            <button class="gotoModulePage btn btn-dark" data-page="3">Continuar</button>
+                        </div>
+                        <div id="act_01p3" class="d-none mod intro">
+                            <p class="text-center">Identifique en esta imagen las diferentes consecuencias que puede experimentar una persona menor de edad está siendo víctima de abuso sexual.</p>
+                            <button class="gotoModulePage btn btn-dark" data-page="4">Iniciar</button>
+                        </div>
+                        <div id="act_01p4" class="d-none mod">
+                            <div class="cont row">
+                                <div id="map_container">
+                                    <img usemap="#1-07-act" src="../img/mod1/1-07_act_general.png" alt="" class="" style="height: 100%; margin: auto; display: block; width: auto" />
+                                    <map name='1-07-act'>
+                                        <area data-nbr="1" shape='circle' coords='809, 214, 53' href='#' />
+                                        <area data-nbr="4" shape='circle' coords='678, 517, 135' href='#' />
+                                        <area data-nbr="2" shape='circle' coords='167, 194, 37' href='#' />
+                                        <area data-nbr="8" shape='circle' coords='401, 477, 109' href='#' />
+                                        <area data-nbr="3" shape='circle' coords='908, 447, 99' href='#' />
+                                        <area data-nbr="7" shape='circle' coords='697, 299, 78' href='#' />
+                                        <area data-nbr="5" shape='circle' coords='440, 307, 68' href='#' />
+                                        <area data-nbr="6" shape='circle' coords='175, 367, 111' href='#' />
+                                    </map>
+                                </div>
+                            </div>
+                            <a href="../0-03_menu.php" class="back_to_menu">Volver al menú</a>
+                        </div>
+                    </div>
+                </section>
+                <?php require '../footer.php'; ?>
+            </div>
+            <nav id="sidebar" class="active">
+                <div class="sidebar-header">
+                    <h3>Menu</h3>
                 </div>
-            </div>
-        </section>
-        <?php require '../footer.php'; ?>
+
+                <ul class="list-unstyled components">
+                    <!-- <p>Dummy Heading</p> -->
+                    <!-- <li class="active">
+                        <a href="#homeSubmenu" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle">Home</a>
+                        <ul class="collapse list-unstyled" id="homeSubmenu">
+                            <li>
+                                <a href="#">Home 1</a>
+                            </li>
+                            <li>
+                                <a href="#">Home 2</a>
+                            </li>
+                            <li>
+                                <a href="#">Home 3</a>
+                            </li>
+                        </ul>
+                    </li> -->
+                    <li>
+                        <a href="#" class="nav-sobre">Sobre el proyecto</a>
+                    </li>
+                    <li>
+                        <a href="#" class="nav-recursos">Recursos relacionados</a>
+                    </li>
+                    <li>
+                        <a href="#" class="nav-iniciar">Iniciar sesión</a>
+                    </li>
+                </ul>
+
+            </nav>
         </div>
-        <nav id="sidebar" class="active">
-            <div class="sidebar-header">
-                <h3>Menu</h3>
-            </div>
-
-            <ul class="list-unstyled components">
-                <!-- <p>Dummy Heading</p> -->
-                <!-- <li class="active">
-                    <a href="#homeSubmenu" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle">Home</a>
-                    <ul class="collapse list-unstyled" id="homeSubmenu">
-                        <li>
-                            <a href="#">Home 1</a>
-                        </li>
-                        <li>
-                            <a href="#">Home 2</a>
-                        </li>
-                        <li>
-                            <a href="#">Home 3</a>
-                        </li>
-                    </ul>
-                </li> -->
-                <li>
-                    <a href="#" class="nav-sobre">Sobre el proyecto</a>
-                </li>
-                <li>
-                    <a href="#" class="nav-recursos">Recursos relacionados</a>
-                </li>
-                <li>
-                    <a href="#" class="nav-iniciar">Iniciar sesión</a>
-                </li>
-            </ul>
-
-        </nav>
-    </div>
         <div class="modal" id="modal_1-07_act" tabindex="-1" role="dialog">
             <div class="modal-dialog" role="document">
                 <div class="modal-content">
@@ -185,12 +203,12 @@
             $(".gotoModulePage").click(function () {
                 $(".mod").addClass("d-none");
                 $("#act_01p" + $(this).data("page")).removeClass("d-none");
-                
-                if($(this).data("page") === 4){
+
+                if ($(this).data("page") === 4) {
                     init();
                 }
             });
-            
+
             $("area").click(function (e) {
                 e.preventDefault();
                 console.log($(this).data("nbr"));

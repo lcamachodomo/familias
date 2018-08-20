@@ -40,9 +40,10 @@
                         <div id="act_01" class="mod">
                             <div class="cont row">
                                 <div class="col-12">
-                                    <video width="100%" height="100%" controls>
+                                    <video width="100%" height="auto" controls>
                                         <source src="../videos/1-01_vid.mp4" type="video/mp4">
                                     </video>
+                                    <a href="../0-03_menu.php" class="back_to_menu">Volver al menú</a>
                                 </div>
                             </div>
                         </div>
@@ -56,21 +57,6 @@
                 </div>
 
                 <ul class="list-unstyled components">
-                    <!-- <p>Dummy Heading</p> -->
-                    <!-- <li class="active">
-                        <a href="#homeSubmenu" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle">Home</a>
-                        <ul class="collapse list-unstyled" id="homeSubmenu">
-                            <li>
-                                <a href="#">Home 1</a>
-                            </li>
-                            <li>
-                                <a href="#">Home 2</a>
-                            </li>
-                            <li>
-                                <a href="#">Home 3</a>
-                            </li>
-                        </ul>
-                    </li> -->
                     <li>
                         <a href="#" class="nav-sobre">Sobre el proyecto</a>
                     </li>
