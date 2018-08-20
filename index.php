@@ -43,13 +43,17 @@
                 <section class="container-full index-video padding-top-bottom">
                     <div class="container">
                         <div class="row">
+                            <div class="col-12 col-sm-12 col-md-4 col-lg-4 col-xl-4 d-block d-sm-none">
+                                <p class="main-div-intro-text">Aprendé sobre el uso seguro de internet para familias.</p>
+                                
+                            </div>
                             <div class="col-12 col-sm-12 col-md-8 col-lg-8 col-xl-8">
                                 <div class="embed-responsive embed-responsive-16by9 main-div-iframe">
                                     <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/1rmAi9XmlIo?showinfo=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
                                 </div>
                             </div>
-                            <div class="col-12 col-sm-12 col-md-4 col-lg-4 col-xl-4">
-                                <p class="main-div-intro-text">Aprendé sobre el uso seguro de internet para familias.</p>
+                            <div class="col-12 col-sm-12 col-md-4 col-lg-4 col-xl-4 ">
+                                <p class="main-div-intro-text d-none d-sm-block d-md-block d-lg-block">Aprendé sobre el uso seguro de internet para familias.</p>
                                 <a class="btn-entrar" href="0-04_intro.php">Entrar</a>
                             </div>
                         </div>
@@ -72,7 +76,7 @@
                 </section>
             </section>
             <section id="prefooter" class="container-full padding-top-bottom">
-                <div class="container-fluid">
+                <div class="container-fluid d-none d-sm-block d-md-block d-lg-block">
                     <div class="row">
                         <div class="col-8 col-sm-8 col-md-7 col-lg-7 col-xl-7 mx-auto">
                             <img src="img/footer/footer-logo-paniamor.png" alt="Paniamor" class="img-fluid prefooter-logos">
@@ -85,12 +89,33 @@
                         </div>
                     </div>
                 </div>
+                <!-- small -->
+                <div class="container-fluid d-block d-sm-none d-md-none d-lg-none">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col"><img src="img/footer/footer-logo-paniamor.png" alt="Paniamor" class="img-fluid prefooter-logos"></div>
+                            <div class="col"><img src="img/footer/footer-logo-endViolence.jpg" alt="End Violence Against Children" class="img-fluid prefooter-logos"></div>
+                            
+                            
+                        </div>
+                        <div class="container text-opensans">
+                            <p id="prefooter-place">Barrio La California, de la Universidad UAM 75 M. Este. Ave. Central, Calles 29 y 33, San José, Costa Rica</p>
+                            <p id="prefooter-phone">(506) 2234-2993</p>
+                            <p id="prefooter-mail">info@paniamor.org</p>
+                        </div>
+                    </div>
+                </div>
             </section>
 
             <?php require 'footer.php'; ?>
         </div>
         <nav id="sidebar" class="active">
+
+
             <div class="sidebar-header">
+
+
+
                 <h3>Menu</h3>
             </div>
 
