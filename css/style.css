@@ -240,7 +240,9 @@ span.init-act {
 #modal_1-03init .modal-content{
     background-color: rgba(23, 162, 184, 0.9019607843137255);
 }
-
+#modal_1-03init .close{
+    opacity: 1;
+}
 @media (min-width: 576px) { 
 }
 
