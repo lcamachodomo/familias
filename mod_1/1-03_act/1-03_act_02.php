@@ -7,10 +7,16 @@
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.css">
         <link href="../../css/style.css" rel="stylesheet" type="text/css"/>
         <link href="../../css/mod1.css" rel="stylesheet" type="text/css"/>
+        <link href="../../css/index.css" rel="stylesheet" type="text/css" />
 
     </head>
     <body>
+ <div class="wrapper">
 
+
+            <!-- Page Content -->
+
+            <div id="content"> 
         <?php require '../../header.php'; ?>
         <section class="container">
             <div class="main">
@@ -27,12 +33,12 @@
                         <div class="tab-pane fade show active" id="desafios" role="tabpanel" aria-labelledby="home-tab">
                             <img src="../../img/mod1/1-03_act_personaje2rec.png" class="ico-personaje">
                             <div class="row">
-                                <div class="col-6">
+                                <div class="col-sm-6">
                                     <div class="slider">
                                         <div>A veces me doy cuenta que la información que encuentro no siempre es cierta o muchas veces tengo que abrir muchas páginas que no me sirven para encontrar lo que ando buscando. ¡Es muy frustrante!</div>
                                     </div>
                                 </div>
-                                <div class="col-6">
+                                <div class="col-sm-6">
                                     <img src="../../img/mod1/1-03_act_img2.png" alt="" class="img-fluid"/>
                                 </div>
                             </div>
@@ -40,14 +46,14 @@
                         <div class="tab-pane fade" id="oportunidades" role="tabpanel" aria-labelledby="profile-tab">
                             <img src="../../img/mod1/1-03_act_personaje2rec.png" class="ico-personaje">
                             <div class="row">
-                                <div class="col-6">
+                                <div class="col-sm-6">
                                     <div class="slider2">
                                         <div>Cuando yo no sé algo que me dicen mis amigas o cuando en el cole no entendí algo que explicaron, lo primero que hago al llegar a la casa es usar la Tablet para buscarlo.</div>
                                         <div>Me gusta poder encontrar respuestas a todos lo que quiero saber. ¡Internet lo sabe todo!</div>
                                         
                                     </div>
                                 </div>
-                                <div class="col-6">
+                                <div class="col-sm-6">
                                     <img src="../../img/mod1/1-03_act_img2.png" alt="" class="img-fluid"/>
                                 </div>
                             </div>
@@ -56,7 +62,47 @@
                 </div>
             </div>
         </section>
+        </div>
+        <nav id="sidebar" class="active">
 
+
+            <div class="sidebar-header">
+
+
+
+                <h3>Menu</h3>
+            </div>
+
+            <ul class="list-unstyled components">
+                <!-- <p>Dummy Heading</p> -->
+                <!-- <li class="active">
+                    <a href="#homeSubmenu" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle">Home</a>
+                    <ul class="collapse list-unstyled" id="homeSubmenu">
+                        <li>
+                            <a href="#">Home 1</a>
+                        </li>
+                        <li>
+                            <a href="#">Home 2</a>
+                        </li>
+                        <li>
+                            <a href="#">Home 3</a>
+                        </li>
+                    </ul>
+                </li> -->
+                <li>
+                    <a href="#" class="nav-sobre">Sobre el proyecto</a>
+                </li>
+                <li>
+                    <a href="#" class="nav-recursos">Recursos relacionados</a>
+                </li>
+                <li>
+                    <a href="#" class="nav-iniciar">Iniciar sesión</a>
+                </li>
+            </ul>
+
+        </nav>
+    </div>
+    
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
         <script src="../../js/bootstrap.bundle.js" type="text/javascript"></script>
         <script src="../../js/bootstrap.js" type="text/javascript"></script>

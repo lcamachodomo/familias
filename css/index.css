@@ -444,6 +444,10 @@ button#sidebarCollapse{
     line-height: 66px;
     padding-left: 5%;
 }
+.modal {
+
+    width: 60%;
+}
 @media (min-width: 576px) { 
 
 
@@ -483,6 +487,10 @@ button#sidebarCollapse{
 
 
 @media (min-width: 992px) {  
+    .modal {
+
+    width: 100%;
+    }
     button#sidebarCollapse{
     position: relative;
     top: 5px;
