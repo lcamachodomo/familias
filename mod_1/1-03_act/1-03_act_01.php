@@ -6,9 +6,16 @@
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.css">
         <link href="../../css/style.css" rel="stylesheet" type="text/css"/>
         <link href="../../css/mod1.css" rel="stylesheet" type="text/css"/>
+        <link href="../../css/index.css" rel="stylesheet" type="text/css" />
 
     </head>
     <body>
+         <div class="wrapper">
+
+
+            <!-- Page Content -->
+
+            <div id="content"> 
         <?php require '../../header.php'; ?>
         <section class="container">
             <div class="main">
@@ -27,14 +34,14 @@
                         <div class="tab-pane fade show active" id="desafios" role="tabpanel" aria-labelledby="home-tab">
                             <img src="../../img/mod1/1-03_act_personaje1rec.png" class="ico-personaje">
                             <div class="row">
-                                <div class="col-6">
+                                <div class="col-md-6">
                                     <div class="slider">
                                         <div>Yo veo como mi hermano mayor usa la computadora para estudiar. ¡No creo que podría hacer sus reportes si no la tuviera!</div>
                                         <div>Y bueno, cuando a mí me dejan usarla, me gusta buscar música que algunas veces cambio con un app de DJ.</div>
                                         <div>Pero cuando sea grande, voy a trabajar usando una computadora.</div>
                                     </div>
                                 </div>
-                                <div class="col-6">
+                                <div class="col-md-6">
                                     <img src="../../img/mod1/1-03_act_img1.png" alt="" class="img-fluid"/>
                                 </div>
                             </div>
@@ -42,14 +49,14 @@
                         <div class="tab-pane fade" id="oportunidades" role="tabpanel" aria-labelledby="profile-tab">
                             <img src="../../img/mod1/1-03_act_personaje1rec.png" class="ico-personaje">
                             <div class="row">
-                                <div class="col-6">
+                                <div class="col-sm-6">
                                     <div class="slider2">
                                         <div>Yo veo que mis papás no saben usar bien la compu y no tienen muchos apps en sus teléfonos.</div>
                                         <div>os usan más que nada para llamar, aunque yo les he dicho que con Internet se pueden hacer muchas cosas.</div>
                                         <div>Siento que están perdiendo muchas chances porque no se ponen las pilas.</div>
                                     </div>
                                 </div>
-                                <div class="col-6">
+                                <div class="col-sm-6">
                                     <img src="../../img/mod1/1-03_act_img1.png" alt="" class="img-fluid"/>
                                 </div>
                             </div>
@@ -58,7 +65,46 @@
                 </div>
             </div>
         </section>
+        </div>
+        <nav id="sidebar" class="active">
 
+
+            <div class="sidebar-header">
+
+
+
+                <h3>Menu</h3>
+            </div>
+
+            <ul class="list-unstyled components">
+                <!-- <p>Dummy Heading</p> -->
+                <!-- <li class="active">
+                    <a href="#homeSubmenu" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle">Home</a>
+                    <ul class="collapse list-unstyled" id="homeSubmenu">
+                        <li>
+                            <a href="#">Home 1</a>
+                        </li>
+                        <li>
+                            <a href="#">Home 2</a>
+                        </li>
+                        <li>
+                            <a href="#">Home 3</a>
+                        </li>
+                    </ul>
+                </li> -->
+                <li>
+                    <a href="#" class="nav-sobre">Sobre el proyecto</a>
+                </li>
+                <li>
+                    <a href="#" class="nav-recursos">Recursos relacionados</a>
+                </li>
+                <li>
+                    <a href="#" class="nav-iniciar">Iniciar sesión</a>
+                </li>
+            </ul>
+
+        </nav>
+    </div>
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
         <script src="../../js/bootstrap.bundle.js" type="text/javascript"></script>
         <script src="../../js/bootstrap.js" type="text/javascript"></script>

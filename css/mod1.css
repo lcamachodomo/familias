@@ -13,7 +13,7 @@ div#desafios,#desafios .bx-wrapper {
 }
 .nav-tabs {
     border-bottom: none;
-    padding-left: 25%;
+    padding-left: 0%;
 }
 .nav-tabs .nav-item {
     margin-bottom: -1px;
@@ -46,6 +46,7 @@ img.ico-personaje {
     position: absolute;
     top: -8%;
     left: 16px;
+    max-width: 100% !important;
 }
 section.container {
     margin-top: 5%;
@@ -83,15 +84,18 @@ p.dots-mod {
     color: red;
 }
 a[class^="v-act-"]:before,a[class^="v2-act-"]:before,a[class^="v3-act-"]:before {
+
     content: '';
     width: 120px;
     height: 120px;
     display: block;
     margin: auto;
+    max-width: 100%;
 }
 .disabled a[class^="v-act-"]:before,.disabled a[class^="v2-act-"]:before,.disabled a[class^="v3-act-"]:before {
     background-position-x:100%;
 }
+
 a.v-act-1:before{
     background-image: url(../img/mod1/modulo1-act1.png);
 }
@@ -163,3 +167,45 @@ a.v3-act-6:before{
 a.v3-act-7:before{
     background-image: url(../img/mod1/modulo1-act7.png);
 }
+
+
+@media (min-width: 576px) { 
+
+}/*fin*/
+
+@media (max-width: 576px) { 
+
+    .nav-tabs .nav-item {
+
+        margin-left: 0;
+        width: 50%;
+        float: left;
+    }
+    a#contact-tab,a#home-tab {
+
+        font-size: 1.2em;
+
+    }
+    .tab-content > .tab-pane{
+        border-top-left-radius: 0;
+        border-top-right-radius: 0;
+    }
+    img.ico-personaje {
+        position: relative;
+        margin-bottom: 2px !important;
+    }
+} /*fin*/
+
+
+@media (min-width: 768px) {  }/*fin*/
+
+
+@media (min-width: 992px) { 
+    .nav-tabs {
+        border-bottom: none;
+        padding-left: 25%;
+    }
+} /*fin*/
+
+
+@media (min-width: 1200px) {  }/*fin*/
