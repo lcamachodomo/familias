@@ -18,8 +18,7 @@ $result = $mysqli->query($query);
 $row_cnt = $result->num_rows;
 
 if ($row_cnt > 0) {
-    echo json_encode(array('duplicated' => true));
-    header("Location: /familias/0-02_login.php");
+    header("Location: /0-02_login.php");
     die();
 }else{
 	

@@ -30,6 +30,6 @@ $query = "UPDATE user set $field = $data where id = $last_id";
 
 $mysqli->query($query);
 
-header("Location: /familias/$url");
+header("Location: /$url");
 die();
 ?>
