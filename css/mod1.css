@@ -52,12 +52,13 @@ section.container {
     margin-top: 5%;
 }
 .item-module {
-    min-height: 60px;
+    min-height: 220px;
     text-align: center;
     padding: 25px 0px;
     box-shadow: 5px 5px 9px 0px #dee2e6;
     background-color: #fff;
     margin-bottom: 30px;
+    border-radius: 5px;
 }
 .item-module.active{
     border: 3px solid red;

@@ -57,11 +57,11 @@
                                     <div class="id-input">
                                         <h1 class="text-center"><img src="img/icon-login.png" alt=""/></h1>
                                     </div> 
-                                    <p class="text-center label">!Perfecto! empecemos.</p>
+                                    <p class="text-center label">¡Perfecto! empecemos.</p>
 
                                     <form action="db/user/insert_user.php" method="POST" >
                                         <div class="form-group email-input">
-                                            <p class="text-center label-small">¿Cual es su correo electrónico?</p>
+                                            <p class="text-center label-small">¿Cúal es su correo electrónico?</p>
 
                                             <input type="email" name="email" class="form-control mr-auto" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="ejemplo@correo.com" required>
                                             <small id="emailHelp" class="form-text text-muted">Puede usar esta misma dirección de correo para volver a entrar más adelante.</small>

@@ -71,28 +71,28 @@
                                                 <div class="item-module <?php if ($values1[0]["is_completed"] == 1) : ?>active<?php endif ?>">
                                                     <!-- <img src="img/mod1/modulo1-act1.png" alt=""/> -->
                                                     <a href="mod_1/1-01_vid.php" class="v-act-1">VIDEO ANIMADO 01</a>
-                                                    <p class=dots-mod>. . .</p>
+                                                    <!--<p class=dots-mod>. . .</p>-->
                                                 </div>
                                             </div>
                                             <div class="col-12 col-sm-6  col-md-3">
                                                 <div class="item-module <?php if ($values1[1]["is_completed"] == 1) : ?>active<?php endif ?>">
                                                     <!-- <img src="img/icon.png" alt=""/> -->
                                                     <a href="mod_1/1-02_inf.php" class="v-act-2">INFOGRÁFICO 01</a>
-                                                    <p class=dots-mod>. . .</p>
+                                                    <!--<p class=dots-mod>. . .</p>-->
                                                 </div>
                                             </div>
                                             <div class="col-12 col-sm-6  col-md-3">
                                                 <div class="item-module <?php if ($values1[2]["is_completed"] == 1) : ?>active<?php endif ?>">
                                                     <!-- <img src="img/icon.png" alt=""/> -->
                                                     <a href="mod_1/1-03_act.php" class="v-act-3">ACTIVIDAD 01</a>
-                                                    <p class=dots-mod>. . .</p>
+                                                    <!--<p class=dots-mod>. . .</p>-->
                                                 </div>
                                             </div>
                                             <div class="col-12 col-sm-6  col-md-3">
                                                 <div class="item-module <?php if ($values1[3]["is_completed"] == 1) : ?>active<?php endif ?>">
                                                     <!-- <img src="img/icon.png" alt=""/> -->
                                                     <a href="mod_1/1-04_inf.php" class="v-act-4">INFOGRÁFICO 02</a>
-                                                    <p class=dots-mod>. . .</p>
+                                                    <!--<p class=dots-mod>. . .</p>-->
                                                 </div>
                                             </div>
                                         </div>
@@ -102,28 +102,28 @@
                                                 <div class="item-module <?php if ($values1[4]["is_completed"] == 1) : ?>active<?php endif ?>">
                                                     <!-- <img src="img/icon.png" alt=""/> -->
                                                     <a href="mod_1/1-05_sld.php" class="v-act-5">SLIDESHOW 01</a>
-                                                    <p class=dots-mod>. . .</p>
+                                                    <!--<p class=dots-mod>. . .</p>-->
                                                 </div>
                                             </div>
                                             <div class="col-12 col-sm-6  col-md-3">
                                                 <div class="item-module <?php if ($values1[5]["is_completed"] == 1) : ?>active<?php endif ?>">
                                                     <!-- <img src="img/icon.png" alt=""/> -->
                                                     <a href="mod_1/1-06_vid.php" class="v-act-6">VIDEO ANIMADO 02</a>
-                                                    <p class=dots-mod>. . .</p>
+                                                    <!--<p class=dots-mod>. . .</p>-->
                                                 </div>
                                             </div>
                                             <div class="col-12 col-sm-6  col-md-3">
                                                 <div class="item-module <?php if ($values1[6]["is_completed"] == 1) : ?>active<?php endif ?>">
                                                     <!-- <img src="img/icon.png" alt=""/> -->
                                                     <a href="mod_1/1-07_act.php" class="v-act-7">ACTIVIDAD 02</a>
-                                                    <p class=dots-mod>. . .</p>
+                                                    <!--<p class=dots-mod>. . .</p>-->
                                                 </div>
                                             </div>
                                             <div class="col-12 col-sm-6  col-md-3">
                                                 <div class="item-module <?php if ($values1[7]["is_completed"] == 1) : ?>active<?php endif ?>">
                                                     <!-- <img src="img/icon.png" alt=""/> -->
                                                     <a href="mod_1/1-08_sld.php" class="v-act-8">SLIDESHOW 02</a>
-                                                    <p class=dots-mod>. . .</p>
+                                                    <!--<p class=dots-mod>. . .</p>-->
                                                 </div>
                                             </div>
                                         </div>
@@ -159,25 +159,25 @@
                                                 <div class="col-12 col-sm-6 col-md-3">
                                                     <div class="item-module <?php if ($values2[0]["is_completed"] == 1) : ?>active<?php endif ?>">
                                                         <!-- <img src="img/icon.png" alt=""/> -->
-                                                        <a href="modulo2.php?stp=1" class="v2-act-1">VIDEO ANIMADO 01</a><p class=dots-mod>. . .</p>
+                                                        <a href="modulo2.php?stp=1" class="v2-act-1">VIDEO ANIMADO 01</a><!--<p class=dots-mod>. . .</p>-->
                                                     </div>
                                                 </div>
                                                 <div class="col-12 col-sm-6 col-md-3">
                                                     <div class="item-module <?php if ($values2[1]["is_completed"] == 1) : ?>active<?php endif ?>">
                                                         <!-- <img src="img/icon.png" alt=""/> -->
-                                                        <a href="modulo2.php?stp=2" class="v2-act-2">SLIDESHOW 01</a><p class=dots-mod>. . .</p>
+                                                        <a href="modulo2.php?stp=2" class="v2-act-2">SLIDESHOW 01</a><!--<p class=dots-mod>. . .</p>-->
                                                     </div>
                                                 </div>
                                                 <div class="col-12 col-sm-6  col-md-3">
                                                     <div class="item-module <?php if ($values2[2]["is_completed"] == 1) : ?>active<?php endif ?>">
                                                         <!-- <img src="img/icon.png" alt=""/> -->
-                                                        <a href="modulo2.php?stp=3" class="v2-act-3">ACTIVIDAD 01</a><p class=dots-mod>. . .</p>
+                                                        <a href="modulo2.php?stp=3" class="v2-act-3">ACTIVIDAD 01</a><!--<p class=dots-mod>. . .</p>-->
                                                     </div>
                                                 </div>
                                                 <div class="col-12 col-sm-6  col-md-3">
                                                     <div class="item-module <?php if ($values2[3]["is_completed"] == 1) : ?>active<?php endif ?>">
                                                         <!-- <img src="img/icon.png" alt=""/> -->
-                                                        <a href="modulo2.php?stp=4" class="v2-act-4">INFOGRÁFICO 01</a><p class=dots-mod>. . .</p>
+                                                        <a href="modulo2.php?stp=4" class="v2-act-4">INFOGRÁFICO 01</a><!--<p class=dots-mod>. . .</p>-->
                                                     </div>
                                                 </div>
                                             </div>
@@ -186,25 +186,25 @@
                                                 <div class="col-12 col-sm-6  col-md-3">
                                                     <div class="item-module <?php if ($values2[4]["is_completed"] == 1) : ?>active<?php endif ?>">
                                                         <!-- <img src="img/icon.png" alt=""/> -->
-                                                        <a href="modulo2.php?stp=5" class="v2-act-5">ACTIVIDAD 02</a><p class=dots-mod>. . .</p>
+                                                        <a href="modulo2.php?stp=5" class="v2-act-5">ACTIVIDAD 02</a><!--<p class=dots-mod>. . .</p>-->
                                                     </div>
                                                 </div>
                                                 <div class="col-12 col-sm-6  col-md-3">
                                                     <div class="item-module <?php if ($values2[5]["is_completed"] == 1) : ?>active<?php endif ?>">
                                                         <!-- <img src="img/icon.png" alt=""/> -->
-                                                        <a href="modulo2.php?stp=6" class="v2-act-6">ACTIVIDAD 03</a><p class=dots-mod>. . .</p>
+                                                        <a href="modulo2.php?stp=6" class="v2-act-6">ACTIVIDAD 03</a><!--<p class=dots-mod>. . .</p>-->
                                                     </div>
                                                 </div>
                                                 <div class="col-12 col-sm-6  col-md-3">
                                                     <div class="item-module <?php if ($values2[6]["is_completed"] == 1) : ?>active<?php endif ?>">
                                                         <!-- <img src="img/icon.png" alt=""/> -->
-                                                        <a href="modulo2.php?stp=7" class="v2-act-7">INFOGRÁFICO 02</a><p class=dots-mod>. . .</p>
+                                                        <a href="modulo2.php?stp=7" class="v2-act-7">INFOGRÁFICO 02</a><!--<p class=dots-mod>. . .</p>-->
                                                     </div>
                                                 </div>
                                                 <div class="col-12 col-sm-6  col-md-3">
                                                     <div class="item-module <?php if ($values2[7]["is_completed"] == 1) : ?>active<?php endif ?>">
                                                         <!-- <img src="img/icon.png" alt=""/> -->
-                                                        <a href="modulo2.php?stp=8" class="v2-act-8">VIDEO ANIMADO 02</a><p class=dots-mod>. . .</p>
+                                                        <a href="modulo2.php?stp=8" class="v2-act-8">VIDEO ANIMADO 02</a><!--<p class=dots-mod>. . .</p>-->
                                                     </div>
                                                 </div>
                                             </div>
@@ -213,7 +213,7 @@
                                                 <div class="col-12 col-sm-6  col-md-3">
                                                     <div class="item-module <?php if ($values2[8]["is_completed"] == 1) : ?>active<?php endif ?>">
                                                         <!-- <img src="img/icon.png" alt=""/> -->
-                                                        <a href="modulo2.php?stp=9" class="v2-act-9">SLIDESHOW 02</a><p class=dots-mod>. . .</p>
+                                                        <a href="modulo2.php?stp=9" class="v2-act-9">SLIDESHOW 02</a><!--<p class=dots-mod>. . .</p>-->
                                                     </div>
                                                 </div>
                                             </div>
@@ -252,25 +252,25 @@
                                                 <div class="col-12 col-sm-6  col-md-3">
                                                     <div class="item-module <?php if ($values3[0]["is_completed"] == 1) : ?>active<?php endif ?>">
                                                         <!-- <img src="img/icon.png" alt=""/> -->
-                                                        <a href="modulo3.php?stp=1" class="v3-act-1">VIDEO ANIMADO 01</a><p class=dots-mod>. . .</p>
+                                                        <a href="modulo3.php?stp=1" class="v3-act-1">VIDEO ANIMADO 01</a><!--<p class=dots-mod>. . .</p>-->
                                                     </div>
                                                 </div>
                                                 <div class="col-12 col-sm-6  col-md-3">
                                                     <div class="item-module <?php if ($values3[1]["is_completed"] == 1) : ?>active<?php endif ?>">
                                                         <!-- <img src="img/icon.png" alt=""/> -->
-                                                        <a href="modulo3.php?stp=2" class="v3-act-2">SLIDESHOW 01</a><p class=dots-mod>. . .</p>
+                                                        <a href="modulo3.php?stp=2" class="v3-act-2">SLIDESHOW 01</a><!--<p class=dots-mod>. . .</p>-->
                                                     </div>
                                                 </div>
                                                 <div class="col-12 col-sm-6  col-md-3">
                                                     <div class="item-module <?php if ($values3[2]["is_completed"] == 1) : ?>active<?php endif ?>">
                                                         <!-- <img src="img/icon.png" alt=""/> -->
-                                                        <a href="modulo3.php?stp=3" class="v3-act-3">ACTIVIDAD 01</a><p class=dots-mod>. . .</p>
+                                                        <a href="modulo3.php?stp=3" class="v3-act-3">ACTIVIDAD 01</a><!--<p class=dots-mod>. . .</p>-->
                                                     </div>
                                                 </div>
                                                 <div class="col-12 col-sm-6  col-md-3">
                                                     <div class="item-module <?php if ($values3[3]["is_completed"] == 1) : ?>active<?php endif ?>">
                                                         <!-- <img src="img/icon.png" alt=""/> -->
-                                                        <a href="modulo3.php?stp=4" class="v3-act-4">INFOGRÁFICO 01</a><p class=dots-mod>. . .</p>
+                                                        <a href="modulo3.php?stp=4" class="v3-act-4">INFOGRÁFICO 01</a><!--<p class=dots-mod>. . .</p>-->
                                                     </div>
                                                 </div>
                                             </div>
@@ -279,19 +279,19 @@
                                                 <div class="col-12 col-sm-6  col-md-3">
                                                     <div class="item-module <?php if ($values3[4]["is_completed"] == 1) : ?>active<?php endif ?>">
                                                         <!-- <img src="img/icon.png" alt=""/> -->
-                                                        <a href="modulo3.php?stp=5" class="v3-act-5">VIDEO ANIMADO 02</a><p class=dots-mod>. . .</p>
+                                                        <a href="modulo3.php?stp=5" class="v3-act-5">VIDEO ANIMADO 02</a><!--<p class=dots-mod>. . .</p>-->
                                                     </div>
                                                 </div>
                                                 <div class="col-12 col-sm-6  col-md-3">
                                                     <div class="item-module <?php if ($values3[5]["is_completed"] == 1) : ?>active<?php endif ?>">
                                                         <!-- <img src="img/icon.png" alt=""/> -->
-                                                        <a href="modulo3.php?stp=6" class="v3-act-6">INFOGRÁFICO 02</a><p class=dots-mod>. . .</p>
+                                                        <a href="modulo3.php?stp=6" class="v3-act-6">INFOGRÁFICO 02</a><!--<p class=dots-mod>. . .</p>-->
                                                     </div>
                                                 </div>
                                                 <div class="col-12 col-sm-6  col-md-3">
                                                     <div class="item-module <?php if ($values3[6]["is_completed"] == 1) : ?>active<?php endif ?>">
                                                         <!-- <img src="img/icon.png" alt=""/> -->
-                                                        <a href="modulo3.php?stp=7" class="v3-act-7">INFOGRÁFICO 03</a><p class=dots-mod>. . .</p>
+                                                        <a href="modulo3.php?stp=7" class="v3-act-7">INFOGRÁFICO 03</a><!--<p class=dots-mod>. . .</p>-->
                                                     </div>
                                                 </div>
                                             </div>

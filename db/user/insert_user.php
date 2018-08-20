@@ -19,7 +19,7 @@ $row_cnt = $result->num_rows;
 
 if ($row_cnt > 0) {
     echo json_encode(array('duplicated' => true));
-    header("Location: /familias/0-02_login.php");
+    header("Location: /0-02_login.php");
     die();
 }else{
 	
@@ -45,7 +45,7 @@ if ($row_cnt > 0) {
 
 	$_SESSION['last_id'] = $last_id;
 
-	header("Location: /familias/0-05_registro_01.php");
+	header("Location: /0-05_registro_01.php");
 	die();
 }
 ?>

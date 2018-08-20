@@ -41,9 +41,9 @@
                                     <h1 class="text-center"><img src="img/icon-question.png"></h1>
                                     <form action="db/user/update_user.php" method="POST">
                                         <div class="form-group">
-                                            <p class="text-center label">¿Cual es su nombre?</p>
+                                            <p class="text-center label">¿Cúal es su nombre?</p>
                                             <p class="text-center label-small">Hola, mi nombre es:</p>
-                                            <input type="text" class="form-control" name="data" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Bruno Díaz">
+                                            <input type="text" class="form-control" name="data" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Nombre">
                                             <input type="hidden" name="step" value="2">
                                             <input type="hidden" name="user" value="<?php session_start();
 print $_SESSION["last_id"];
