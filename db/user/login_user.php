@@ -7,6 +7,8 @@ mysqli_set_charset($mysqli, "utf8");
 $email = $_POST["email"];
 
 $query = "SELECT * FROM user WHERE email = '" . $email . "'";
+
+var_dump($query);
 $result = $mysqli->query($query);
 $value = mysqli_fetch_assoc($result);
 $row_cnt = $result->num_rows;

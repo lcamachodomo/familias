@@ -222,7 +222,7 @@
                 url: "/familias/db/user/update_module.php",
                 method: "POST",
                 data: {
-                    step: 7,
+                    step: 8,
                     module: 1
                 },
                 dataType: "html"

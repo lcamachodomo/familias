@@ -132,14 +132,7 @@ img[usemap]{
     margin: 0px;
 }
 
-.module.disabled .item-module{
-    color: #444;
-    border: 1px solid #aaa;
-    background-color: #b9bbbe;
-    margin-bottom: 10px;
-    border-radius: 5px;
-}
-.item-module a{color: #000 !important; display: block;}
+.item-module a{color: #000; display: block;}
 .module.disabled .item-module a{color: #888 !important}
 
 /*.tab-content > .tab-pane {

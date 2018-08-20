@@ -45,10 +45,10 @@
                                         </div>
                                     </div>
                                     <div class="row">
-                                        <div class="col-sm-6">
+                                        <div class="col-6">
                                             <a class="btn btn-blue float-right" href="0-02_login.php?t=1">Sí</a>
                                         </div>
-                                        <div class="col-sm-6">
+                                        <div class="col-6">
                                             <a class="btn btn-green" href="0-02_login.php?t=2">No</a>
                                         </div>
                                     </div>
