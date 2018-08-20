@@ -41,7 +41,7 @@
                                     <h1 class="text-center"><img src="img/icon-question.png"></h1>
                                     <form action="db/user/update_user.php" method="POST">
                                         <div class="form-group">
-                                            <p class="text-center label">¿Cual es su año de nacimento?</p>
+                                            <p class="text-center label">¿Cúal es su año de nacimento?</p>
                                             <select class="form-control year" name="data">
                                                 <?php for ($i = 2018; $i >= 1950; $i--) { ?>
                                                     <option class="<?php print $i ?>"><?php print $i ?></option>

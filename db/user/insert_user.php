@@ -44,7 +44,7 @@ if ($row_cnt > 0) {
 
 	$_SESSION['last_id'] = $last_id;
 
-	header("Location: /familias/0-05_registro_01.php");
+	header("Location: /0-05_registro_01.php");
 	die();
 }
 ?>
