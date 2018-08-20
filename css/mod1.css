@@ -88,6 +88,7 @@ a[class^="v-act-"]:before,a[class^="v2-act-"]:before,a[class^="v3-act-"]:before 
 	height: 120px;
 	display: block;
 	margin: auto;
+	max-width: 100%;
 }
 .disabled a[class^="v-act-"]:before,.disabled a[class^="v2-act-"]:before,.disabled a[class^="v3-act-"]:before {
 	background-position-x:100%;
