@@ -35,6 +35,7 @@
                         </div>
                     </div>
                 </nav>
+                <p class="intro-header blue">Aplicaciones más usadas</p>
                 <section class="container">
                     <div class="main">
                         <div id="act_01" class="mod">

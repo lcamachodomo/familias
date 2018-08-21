@@ -38,7 +38,7 @@
                         </div>
                     </div>
                 </nav>
-                <p class="intro-header">Actividad final</p>
+                <p class="intro-header orange">Actividad final</p>
                 <section class="container">
                     <div class="main">
                         <div id="eva_09p1" class="mod">
