@@ -433,15 +433,7 @@
                 $("#modal_1-07_act").modal("show");
 
             });
-            $.ajax({
-                url: "/db/user/update_module.php",
-                method: "POST",
-                data: {
-                    step: 7,
-                    module: 1
-                },
-                dataType: "html"
-            });
+
 
         </script>
     </body>

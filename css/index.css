@@ -439,11 +439,9 @@ a[data-toggle="collapse"] {
     margin-right: -350px;
 }
 button#sidebarCollapse{
-    position: absolute;
-    top: 5px;
-    right: 5px;
     border-radius: 50%;
     background-color: #f3f3f3;
+    height: 50px;
 }
 
 .btn-entrar{
