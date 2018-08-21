@@ -1,7 +1,8 @@
 <html>
     <head>
+    <link rel="icon" href="favicon.ico" type="image/gif">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-
+        <title>Registro | e-mentores</title>
         <link  type="text/css"  href="css/bootstrap.css" rel="stylesheet">
         <link  type="text/css"  href="css/bootstrap-grid.css" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css?family=Nunito:300,400,700,800" rel="stylesheet">

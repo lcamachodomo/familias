@@ -1,8 +1,8 @@
 <html>
-
 <head>
+    <link rel="icon" href="favicon.ico" type="image/gif">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-
+    <title>Inicio | e-mentores</title>
     <link type="text/css" href="css/bootstrap.css" rel="stylesheet">
     <link type="text/css" href="css/bootstrap-grid.css" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Nunito:300,400,700" rel="stylesheet">
@@ -63,7 +63,7 @@
                     <div class="container">
                         <div class="row">
                             <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6">
-                                <a class="btn-gestores mx-auto" href="#">e-mentores para gestores</a>
+                                <a class="btn-gestores mx-auto" href="https://e-mentores.moodle.school/login/index.php" target="_blank">e-mentores para gestores</a>
                             </div>
                             <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6">
                                 <a class="btn-apps mx-auto" href="#">apps para chicxs</a>
