@@ -5,8 +5,14 @@ include '../connection/conexion.php';
 mysqli_set_charset($mysqli, "utf8");
 
 $email = $_POST["email"];
+$type = $_POST["type"];
+$id = $_POST["id"];
 
-$query = "SELECT * FROM user WHERE email = '" . $email . "'";
+if ($type == 1) {
+    $query = "SELECT * FROM user WHERE id_number = " . $id;
+} else {
+    $query = "SELECT * FROM user WHERE email = '" . $email . "'";
+}
 
 $result = $mysqli->query($query);
 $value = mysqli_fetch_assoc($result);
