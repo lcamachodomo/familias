@@ -37,8 +37,8 @@
                 </nav>
                 <section class="container">
                     <div class="main">
-                        <div id="act_01p1" >
-                            <div class="row">
+                        <div id="act_01p1 " class="mod">
+                            <div class="row ">
                                 <div class="col-7">
                                     <p>Ser víctima de violencia sexual tiene efectos muy graves en la integridad de la persona menor de edad y puede, incluso, llegar a tener consecuencias a lo largo de su vida.</p> 
                                     <p>Seguidamente, vamos a clasificar las consecuencias en tres tipos: psicológicas (emocionales), sociales y físicas. Además, veremos las consecuencias a corto y largo plazo.</p>
@@ -54,11 +54,11 @@
                                 <div class="col-4">
                                     <div class="flip-container" ontouchstart="this.classList.toggle('hover');">
                                         <div class="flipper">
-                                            <div class="front">
+                                            <div class="front f-1">
                                                 <img src="../img/mod1/1-08_sli_icn1.png" alt="" class="d-block m-auto"/>
                                                 <p class="text-center">Consecuencias emocionales</p>
                                             </div>
-                                            <div class="back">
+                                            <div class="back b-1">
                                                 <ul>
                                                     <li>Temor, ansiedad, ataques de pánico</li>
                                                     <li>Depresión</li>
@@ -72,11 +72,11 @@
                                 <div class="col-4">
                                     <div class="flip-container" ontouchstart="this.classList.toggle('hover');">
                                         <div class="flipper">
-                                            <div class="front">
+                                            <div class="front f-2">
                                                 <img src="../img/mod1/1-08_sli_icn2.png" alt="" class="d-block m-auto"/>
                                                 <p class="text-center">Consecuencias sociales</p>
                                             </div>
-                                            <div class="back">
+                                            <div class="back b-2">
                                                 <ul>
                                                     <li>Aislamiento</li>
                                                     <li>Dificultades en las relaciones sociales</li>
@@ -90,11 +90,11 @@
                                 <div class="col-4">
                                     <div class="flip-container" ontouchstart="this.classList.toggle('hover');">
                                         <div class="flipper">
-                                            <div class="front">
+                                            <div class="front f-3">
                                                 <img src="../img/mod1/1-08_sli_icn3.png" alt="" class="d-block m-auto"/>
                                                 <p class="text-center">Consecuencias físicas</p>
                                             </div>
-                                            <div class="back">
+                                            <div class="back b-3">
                                                 <ul>
                                                     <li>Dolores</li>
                                                     <li>Trastornos digestivos</li>
