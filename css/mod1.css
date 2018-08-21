@@ -12,15 +12,22 @@
     color: #454545;
     font-family: 'Nunito', sans-serif;
     font-weight: bold;
-    font-size: 2em;
+    font-size: 1.7em;
+    text-align: left;
+    margin-bottom: 25px;
 }
 
+#eva .question, #eva .answers{
+    max-width: 750px;
+    margin: auto;
+    width: 100%;
+}
 #eva p.instruction{
     font-family: 'Nunito', sans-serif;
-    font-size: 1.3em;
+    font-size: 1.45em;
 }
 
-#eva h3 span{
+#eva h3 span, #eva p.instruction span{
     background-color: #2CA294;
     color: #fff;
     width: 50px;
@@ -28,9 +35,15 @@
     display: inline-block;
     line-height: 50px;
     border-radius: 50%;
-    position: relative;
-    top: 0px;
-    left: 0;
+    position: absolute;
+    text-align: center;
+    top: -5px;
+    left: -45px;
+}
+
+#eva .font-big{
+    font-size: 1.4em;
+    line-height: 45px;
 }
 
 #eva h3.intro-paragrah{
@@ -63,10 +76,69 @@
     line-height: 49px;
     border: none;
 }
-
-#eva .answers{
-    padding: 0px 20%;
+#eva .btn-finish-eva{
+    background-image: url(../img/botones/btn_finalizar.png);
+    background-color: transparent;
+    background-size: 400px;
+    display: inline-block;
+    width: 200px;
+    height: 57px;
+    background-position: -200px 0;
+    background-repeat: no-repeat;
+    font-family: 'Nunito', sans-serif;
+    font-weight: 700;
+    color: #FFFFFF;
+    font-size: 1.3em;
+    text-align: center;
+    line-height: 40px;
+    border: none;
 }
+
+#eva .btn-see-eva{
+    background-image: url(../img/botones/btn_turquesa.png);
+    background-color: transparent;
+    background-size: 470px;
+    display: inline-block;
+    width: 235px;
+    height: 57px;
+    background-position: 0px 0;
+    background-repeat: no-repeat;
+    font-family: 'Nunito', sans-serif;
+    font-weight: 700;
+    color: #FFFFFF;
+    font-size: 1.3em;
+    text-align: center;
+    line-height: 40px;
+    border: none;
+}
+
+#eva .btn-retry-eva{
+    background-image: url(../img/botones/btn_azul.png);
+    background-color: transparent;
+    background-size: 470px;
+    display: inline-block;
+    width: 235px;
+    height: 57px;
+    background-position: 0px 0;
+    background-repeat: no-repeat;
+    font-family: 'Nunito', sans-serif;
+    font-weight: 700;
+    color: #FFFFFF;
+    font-size: 1.3em;
+    text-align: center;
+    line-height: 40px;
+    border: none;
+}
+
+#eva .btn-see-eva:hover, #eva .btn-retry-eva:hover{
+    background-position: -235px 0;
+    text-decoration: none;
+}
+
+#eva .min-height-110 p{
+    min-height: 110px !important;
+}
+
 
 #eva .answer p {
     border: 1px solid #ABABAB;
@@ -90,6 +162,7 @@
 #eva .answer p:hover {
     background-color: #ddd;
 }
+
 #eva .text-help{
     background-color: #2367B3;
     color: #fff;
@@ -101,6 +174,9 @@
     padding: 25px;
     margin: 20px auto;
 }
+
+#eva .text-help.blue{background-color: #2367B3; }
+#eva .text-help.green{background-color: #86C142; }
 
 
 

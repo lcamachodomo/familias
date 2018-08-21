@@ -40,7 +40,7 @@
                 <p class="intro-header">Actividad final</p>
                 <section class="container">
                     <div class="main">
-                        <div id="eva_09p1" class="mod d-none">
+                        <div id="eva_09p1" class="mod">
                             <div class="cont row">
                                 <div class="col-12 text-center ">
 
@@ -75,26 +75,26 @@
                         <div id="eva_09p3" class="mod d-none">
                             <div class="question row">
                                 <div class="col-12 text-center">
-                                    <h3 class="">2. Un riesgo de que mi hijo o hija use Internet sin un acompañamiento adecuado es que...</h3>
-                                    <p>Elija la opción que completa la frase correctamente.</p>
+                                    <h3 class=""><span>2</span> Un riesgo de que mi hijo o hija use Internet sin un acompañamiento adecuado es que...</h3>
+                                    <p class="instruction">Elija la opción que completa la frase correctamente.</p>
                                 </div>
 
                             </div>
                             <div class="answers row" data-page="4">
                                 <div class="col-6 answer" data-value="1">
-                                    
+
                                     <p><img src="../img/mod1/1-09_eva-p2-a-videos.png" alt=""/>Vea videos musicales de moda</p>
                                 </div>
                                 <div class="col-6 answer" data-value="2">
-                                    
+
                                     <p><img src="../img/mod1/1-09_eva-p2-b-abuso.png" alt=""/>Sea víctima de sextorsión o abuso sexual</p>
                                 </div>
                                 <div class="col-6 answer" data-value="3">
-                                    
+
                                     <p><img src="../img/mod1/1-09_eva-p2-c-comunicarse.png" alt=""/>Se comunique con personas a distancia</p>
                                 </div>
                                 <div class="col-6 answer" data-value="4">
-                                    
+
                                     <p><img src="../img/mod1/1-09_eva-p2-d-información.png" alt=""/>Acceda a información sobre historia y cultura</p>
                                 </div>
 
@@ -103,8 +103,8 @@
                         <div id="eva_09p4" class="mod d-none">
                             <div class="question row">
                                 <div class="col-12 text-center">
-                                    <h3 class="">3. ¿Cuáles de las siguientes son actividades positivas que se pueden realizar y potenciar con el uso de las tecnologías digitales?</h3>
-                                    <p>Elija todas las opciones correctas.</p>
+                                    <h3 class=""><span>3</span> ¿Cuáles de las siguientes son actividades positivas que se pueden realizar y potenciar con el uso de las tecnologías digitales?</h3>
+                                    <p class="instruction">Elija todas las opciones correctas.</p>
                                 </div>
 
                             </div>
@@ -131,13 +131,12 @@
                             </div>
                             <button class="gotoModulePage btn btn-dark" data-page="5">Continuar</button>
                         </div>
-                        <div id="eva_09p5" class="mod">
+                        <div id="eva_09p5" class="mod d-none">
                             <div class="question row">
                                 <div class="col-12 text-center">
-                                    <h3 class="">4. Lea el siguiente testimonio:</h3>
-                                    <p class="text-help">“Me mandaron fotos comprometedoras de una compañera del cole de mi hija. Las reenvié al grupo de chat de mis vecinas para que no la dejen andar con sus hijas e hijos por mala junta”.</p>
+                                    <p class="instruction text-left"><span>4</span> Lea el siguiente testimonio:</p>
+                                    <p class="text-help blue">“Me mandaron fotos comprometedoras de una compañera del cole de mi hija. Las reenvié al grupo de chat de mis vecinas para que no la dejen andar con sus hijas e hijos por mala junta”.</p>
                                     <h3 class="">¿Es esto un tipo de abuso sexual?</h3>
-                                    <p>Elija una opción.</p>
                                 </div>
 
                             </div>
@@ -153,10 +152,9 @@
                         <div id="eva_09p6" class="mod d-none">
                             <div class="question row">
                                 <div class="col-12 text-center">
-                                    <h3 class="">5. Lea el siguiente testimonio:</h3>
-                                    <p class="text-help">“Mi hijo me contó que un amigo le ha estado enviando imágenes de mujeres desnudas. Yo le dije que lo ignorara si no le gusta. La verdad me parece lo más normal. Es hora de que vaya aprendiendo.”</p>
+                                    <p class="instruction text-left"><span>5</span> Lea el siguiente testimonio:</p>
+                                    <p class="text-help green">“Mi hijo me contó que un amigo le ha estado enviando imágenes de mujeres desnudas. Yo le dije que lo ignorara si no le gusta. La verdad me parece lo más normal. Es hora de que vaya aprendiendo.”</p>
                                     <h3 class="">¿Es esto un tipo de abuso sexual?</h3>
-                                    <p>Elija una opción.</p>
                                 </div>
 
                             </div>
@@ -173,151 +171,144 @@
                         <div id="eva_09p7" class="mod d-none">
                             <div class="question row">
                                 <div class="col-12 text-center">
-                                    <h3 class="">6. Cuando una persona adulta se comunica con una persona menor de edad para ganarse su conanza y después enviarle mensajes de contenido sexual, se trata de un caso de...</h3>
-                                    <p>Elija una opción.</p>
+                                    <h3 class=""><span>6</span> Cuando una persona adulta se comunica con una persona menor de edad para ganarse su conanza y después enviarle mensajes de contenido sexual, se trata de un caso de...</h3>
                                 </div>
 
                             </div>
                             <div class="answers row" data-page="8">
                                 <div class="col-6">
-                                    <div class="col-12 answer" data-value="1">
+                                    <div class="col-12 answer font-big" data-value="1">
                                         <p>Sextorsión</p>
                                     </div>
-                                    <div class="col-12 answer" data-value="2">
+                                    <div class="col-12 answer font-big" data-value="2">
                                         <p>Grooming</p>
                                     </div>
-                                    <div class="col-12 answer" data-value="3">
+                                    <div class="col-12 answer font-big" data-value="3">
                                         <p>Sexting</p>
                                     </div>
                                 </div>
                                 <div class="col-6">
-                                    <img src="../img/mod1/1-05_act_villano6.png" alt=""/>
+                                    <img src="../img/mod1/1-09_eva-p6-img.png" alt="" class="d-block m-auto"/>
                                 </div>
                             </div>
                         </div>
                         <div id="eva_09p8" class="mod d-none">
                             <div class="question row">
                                 <div class="col-12 text-center">
-                                    <h3 class="">7. Cuando una persona convence a otra de darle sus datos personales y bancarios por medio de Internet para robarle sus ahorros, se trata de un caso de...</h3>
-                                    <p>Elija una opción.</p>
+                                    <h3 class=""><span>7</span> Cuando una persona convence a otra de darle sus datos personales y bancarios por medio de Internet para robarle sus ahorros, se trata de un caso de...</h3>
                                 </div>
 
                             </div>
                             <div class="answers row" data-page="9">
                                 <div class="col-6">
-                                    <div class="col-12 answer" data-value="1">
+                                    <div class="col-12 answer font-big" data-value="1">
                                         <p>Phishing</p>
                                     </div>
-                                    <div class="col-12 answer" data-value="2">
+                                    <div class="col-12 answer font-big" data-value="2">
                                         <p>Matonismo</p>
                                     </div>
-                                    <div class="col-12 answer" data-value="3">
+                                    <div class="col-12 answer font-big" data-value="3">
                                         <p>Grooming</p>
                                     </div>
                                 </div>
                                 <div class="col-6">
-                                    <img src="../img/mod1/1-07_act_img5.png" alt=""/>
+                                    <img src="../img/mod1/1-09_eva-p7-img.png" alt="" class="d-block m-auto"/>
                                 </div>
                             </div>
                         </div>
                         <div id="eva_09p9" class="mod d-none">
                             <div class="question row">
                                 <div class="col-12 text-center">
-                                    <h3 class="">8. ¿Cuál de estas imágenes representa una situación de ciberbullying?</h3>
-                                    <p>Elija una opción.</p>
+                                    <h3 class=""><span>8</span> ¿Cuál de estas imágenes representa una situación de ciberbullying?</h3>
                                 </div>
 
                             </div>
                             <div class="answers row " data-page="10">
                                 <div class="col-4 answer" data-value="1">
-                                    <img src="../img/mod1/1-07_act_img5.png" alt=""/>
+                                    <p><img src="../img/mod1/1-09_eva-p8-a.png" alt="" class="img-fluid"/></p>
                                 </div>
                                 <div class="col-4 answer" data-value="2">
-                                    <img src="../img/mod1/1-07_act_img5.png" alt=""/>
+                                    <p><img src="../img/mod1/1-09_eva-p8-b.png" alt="" class="img-fluid"/></p>
                                 </div>
-                                <div class="col-4 answer" data-value="3">
-                                    <img src="../img/mod1/1-07_act_img5.png" alt=""/>
+                                <div class="col-4 answer " data-value="3">
+                                    <p><img src="../img/mod1/1-09_eva-p8-c.png" alt="" class="img-fluid"/></p>
                                 </div>
                             </div>
                         </div>
                         <div id="eva_09p10" class="mod d-none">
                             <div class="question row">
                                 <div class="col-12 text-center">
-                                    <h3 class="">9. ¿Cuál de estas imágenes representa una situación de sextorsión?</h3>
-                                    <p>Elija una opción.</p>
+                                    <h3 class=""><span>9</span> ¿Cuál de estas imágenes representa una situación de sextorsión?</h3>
                                 </div>
 
                             </div>
                             <div class="answers row" data-page="11">
                                 <div class="col-4 answer" data-value="1">
-                                    <img src="../img/mod1/1-07_act_img5.png" alt=""/>
+                                    <p><img src="../img/mod1/1-09_eva-p9-a.png" class="img-fluid"/></p>
                                 </div>
                                 <div class="col-4 answer" data-value="2">
-                                    <img src="../img/mod1/1-07_act_img5.png" alt=""/>
+                                    <p><img src="../img/mod1/1-09_eva-p9-b.png" class="img-fluid"/></p>
                                 </div>
                                 <div class="col-4 answer" data-value="3">
-                                    <img src="../img/mod1/1-07_act_img5.png" alt=""/>
+                                    <p><img src="../img/mod1/1-09_eva-p9-c.png" class="img-fluid"/></p>
                                 </div>
                             </div>
                         </div>
                         <div id="eva_09p11" class="mod d-none">
                             <div class="question row ">
-                                <div class="col-6 text-center">
-                                    <h3 class="">10. Observe la imagen. Este tipo de anuncio se usa para engañar a las personas menores de edad para secuestrarlas con nes sexuales. ¿Cómo se llama este tipo de explotación sexual?</h3>
+                                <div class="col-7 text-center">
+                                    <h3 class=""><span>10</span> Observe la imagen. Este tipo de anuncio se usa para engañar a las personas menores de edad para secuestrarlas con nes sexuales. <br><br>¿Cómo se llama este tipo de explotación sexual?</h3>
                                 </div>
-                                <div class="col-6 text-center">
-                                    <img src="../img/mod1/1-07_act_img7.png" alt=""/>
+                                <div class="col-5 text-center">
+                                    <img src="../img/mod1/1-09_eva-p10_img.png" alt="" class="img-fluid"/>
                                 </div>
 
-
-                            </div>
-                            <div class="question row final">
-                                <div class="col-12 text-center">
-                                    <p>Elija una opción.</p>
-                                </div>
 
                             </div>
                             <div class="answers row final">
-                                <div class="col-3 answer" data-value="1">
+                                <div class="col-3 answer min-height-110" data-value="1">
                                     <p>Pornografía infantil</p>
                                 </div>
-                                <div class="col-3 answer" data-value="2">
+                                <div class="col-3 answer min-height-110" data-value="2">
                                     <p>Producción de material de abuso infantil</p>
                                 </div>
-                                <div class="col-3 answer" data-value="3">
+                                <div class="col-3 answer min-height-110" data-value="3">
                                     <p>Explotación sexual turística</p>
                                 </div>
-                                <div class="col-3 answer" data-value="4">
+                                <div class="col-3 answer min-height-110" data-value="4">
                                     <p>Trata de personas</p>
                                 </div>
                             </div>
                         </div>
                         <div id="eva_09p12" class="mod d-none">
                             <div class="result row ">
-                                <div class="col-6 text-center">
-                                    <h3 class="">No ha logrado superar con éxito esta evaluación. Inténtelo de nuevo<br>Así podrá avanzar al Módulo 02, en el cual aprenderá sobre el tema de la prevención.</h3>
+
+                                <div class="col-12 text-center">
+                                    <img src="../img/mod1/1-09_eva-img-no_aprobado.png" alt="" class="img-md"/>
+                                    <h3 class="intro-paragrah text-center">No ha logrado superar con éxito esta evaluación. Inténtelo de nuevo. <br>Así podrá avanzar al Módulo 02, en el cual aprenderá sobre el tema de la prevención.</h3>
                                 </div>
                                 <div class="col-6 text-center">
-                                    <a href="../0-03_menu.php">Repasar contenidos</a>
+                                    <a href="../0-03_menu.php" class="btn-see-eva">Repasar contenidos</a>
                                 </div>
                                 <div class="col-6 text-center">
-                                    <a href="1-09_eva.php.php">Intentar Otra vez</a>
+                                    <a href="1-09_eva.php" class="btn-retry-eva">Intentar Otra vez</a>
                                 </div>
                             </div>
                         </div>
                         <div id="eva_09p13" class="mod d-none">
                             <div class="result row ">
-                                <div class="col-6 text-center">
-                                    <h3 class="">¡Muy bien! Usted ha logrado superar con éxito esta evaluación. Puede pasar al Módulo 02, en el cual aprenderá sobre el tema de la prevención. ¡Siga adelante!</h3>
+                                <div class="col-12 text-center">
+                                    <img src="../img/mod1/1-09_eva-img-aprobado.png" alt="" class="img-md"/>
+                                    <h3 class="intro-paragrah text-center">¡Muy bien! Usted ha logrado superar con éxito esta evaluación. Puede pasar al Módulo 02, en el cual aprenderá sobre el tema de la prevención. ¡Siga adelante!</h3>
                                 </div>
                                 <div class="col-12 text-center">
-                                    <a href="../0-03_menu.php">Continuar</a>
+                                    <a href="../0-03_menu.php" class="btn-finish-eva">Finalizar</a>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </section>
-                <form action="../db/evaluation/update_evaluation.php" method="POST" id="form_eva">
+                <form action="../db/evaluation/update_evaluation.php" method="POST" id="form_eva" class="d-none">
                     <input name="score" id="score">
                     <input name="module" value="1">
                     <input name="is_approved" id="is_approved">
@@ -414,6 +405,23 @@
                 multi = [];
                 $(this).toggleClass("active");
 
+            });
+
+            $("#form_eva").submit(function (e) {
+                var form = $(this);
+                var url = form.attr('action');
+
+                $.ajax({
+                    type: "POST",
+                    url: url,
+                    data: form.serialize(), // serializes the form's elements.
+                    success: function (data)
+                    {
+                       // alert(data); // show response from the php script.
+                    }
+                });
+
+                e.preventDefault(); // avoid to execute the actual submit of the form.
             });
 
             $("area").click(function (e) {
