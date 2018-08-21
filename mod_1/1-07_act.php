@@ -52,16 +52,24 @@
                         <div id="act_01p4" class="d-none mod">
                             <div class="cont row">
                                 <div id="map_container">
-                                    <img usemap="#1-07-act" src="../img/mod1/1-07_act_general.png" alt="" class="" style="height: 100%; margin: auto; display: block; width: auto" />
+                                    <img usemap="#1-07-act" src="../img/mod1/1-07_act_general.jpg" alt="" class="" style="height: 100%; margin: auto; display: block; width: auto" />
                                     <map name='1-07-act'>
-                                        <area data-nbr="1" shape='circle' coords='809, 214, 53' href='#' />
+                                        <!-- <area data-nbr="1" shape='circle' coords='809, 214, 53' href='#' />
                                         <area data-nbr="4" shape='circle' coords='678, 517, 135' href='#' />
                                         <area data-nbr="2" shape='circle' coords='167, 194, 37' href='#' />
                                         <area data-nbr="8" shape='circle' coords='401, 477, 109' href='#' />
                                         <area data-nbr="3" shape='circle' coords='908, 447, 99' href='#' />
                                         <area data-nbr="7" shape='circle' coords='697, 299, 78' href='#' />
                                         <area data-nbr="5" shape='circle' coords='440, 307, 68' href='#' />
-                                        <area data-nbr="6" shape='circle' coords='175, 367, 111' href='#' />
+                                        <area data-nbr="" shape='circle' coords='175, 367, 111' href='#' /> -->
+                                        <area data-nbr="1" shape='circle' coords='1800, 592, 95' href='#' />
+<area data-nbr="2" shape='circle' coords='212, 487, 67' href='#' />
+<area data-nbr="3" shape='circle' coords='1522, 727, 155' href='#' />
+<area data-nbr="4" shape='circle' coords='1092, 857, 195' href='#' />
+<area data-nbr="8" shape='circle' coords='652, 527, 115' href='#' />
+<area data-nbr="6" shape='circle' coords='232, 705, 157' href='#' />
+<area data-nbr="7" shape='circle' coords='1245, 555, 135' href='#' />
+<area data-nbr="5" shape='circle' coords='607, 802, 157' href='#' />
                                     </map>
                                 </div>
                             </div>
