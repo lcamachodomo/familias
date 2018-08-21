@@ -137,7 +137,7 @@ emocionales, sociales y físicas del abuso sexual.</p>
                                     <p class="text-center">Efectos que la persona sufre de inmediato</p>
                                     <button type="button" class="btn btn-primary btn-lg m-auto d-block ejem" data-toggle="modal" data-target="#modal_1-08_act2">Ver ejemplos</button>
                                 </div>
-                                
+
                                 <div class="col-12 col-md-6">
                                     <img src="../img/mod1/1-08_sli_img4.png" class="img-fluid d-block m-auto">
                                     <h4 class="text-center"><strong>Consecuencias a largo plazo</strong></h4>
@@ -152,7 +152,11 @@ emocionales, sociales y físicas del abuso sexual.</p>
                 <div class="modal fade" id="modal_1-08_act1" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
                     <div class="modal-dialog" role="document">
                         <div class="modal-content">
+<div class="modal-header">
+                        <span></span>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">x</button>
 
+                    </div>
                             <div class="modal-body">
                                 <div class="row" >
                                     <h3 class="col-12">Las consecuencias a corto plazo del abuso sexual pueden incluir:</h3>
@@ -187,11 +191,15 @@ emocionales, sociales y físicas del abuso sexual.</p>
                 <div class="modal fade" id="modal_1-08_act2" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
                     <div class="modal-dialog" role="document">
                         <div class="modal-content">
+<div class="modal-header">
+                        <span></span>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">x</button>
 
+                    </div>
                             <div class="modal-body">
                                 <div class="row" >
                                     <h3 class="col-12">Las consecuencias a largo plazo pueden manifestarse a lo largo de la vida adulta, y pueden incluir:</h3>
-                                    <div class="col-4">
+                                    <div class="col-6 col-md-4">
                                         <ul>
                                             <li>Trastornos de ansiedad (fobias, ansiedad social) </li>
                                             <li>Trastornos depresivos </li>
@@ -200,7 +208,7 @@ emocionales, sociales y físicas del abuso sexual.</p>
                                             <li>Dificultades para establecer vínculos afectivos </li>
                                         </ul>
                                     </div>
-                                    <div class="col-4">
+                                    <div class="col-6 col-md-4">
                                         <ul>
                                             <li>Trastornos del sueño</li> 
                                             <li>Trastornos alimentarios </li>
@@ -209,7 +217,7 @@ emocionales, sociales y físicas del abuso sexual.</p>
                                             <li>Ideas suicidas, intentos de suicidio</li>
                                         </ul>
                                     </div>
-                                    <div class="col-4">
+                                    <div class="col-12 col-md-4">
                                         <img src="../img/mod1/1-08_sli_img6.png" alt="" class="img-fluid"/>
                                     </div>
                                 </div>
