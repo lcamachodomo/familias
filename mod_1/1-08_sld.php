@@ -37,7 +37,7 @@
                 </nav>
                 <section class="container">
                     <div class="main">
-                        <div id="act_01p1" class="mod">
+                        <div id="act_01p1" >
                             <div class="row">
                                 <div class="col-7">
                                     <p>Ser víctima de violencia sexual tiene efectos muy graves en la integridad de la persona menor de edad y puede, incluso, llegar a tener consecuencias a lo largo de su vida.</p> 
