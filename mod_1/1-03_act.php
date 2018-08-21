@@ -39,7 +39,7 @@
                     <div class="main">
                         <p>Vea a cada una de estas personas menores de edad describir una oportunidad
                             que ofrecen las TIC y un desafío relacionado con ella.</p>
-                        <div id="act_01" class="mod">
+                        <div id="act_01" class="">
                             <div class="cont row">
                                 <div class="col-3">
                                     <a href="1-03_act/1-03_act_01.php"><img src="../img/mod1/1-03_act_personaje1.png" alt="" class="img-fluid"/></a>
@@ -55,6 +55,7 @@
                                 </div>
                             </div>
                         </div>
+                        <a href="../0-03_menu.php" class="back_to_menu">Volver al menú</a>
                     </div>
                 </section>
                 <?php require '../footer.php'; ?>

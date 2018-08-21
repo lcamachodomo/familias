@@ -38,7 +38,7 @@
                 </nav>
                 <section class="container">
                     <div class="main">
-                        <div id="act_01" class="mod">
+                        <div id="act_01" class="">
                             <ul class="nav nav-tabs " id="myTab" role="tablist">
                                 <li class="nav-item">
                                     <a class="nav-link active" id="home-tab" data-toggle="tab" href="#desafios" role="tab" aria-controls="home" aria-selected="true">Desafíos</a>
@@ -77,9 +77,11 @@
                                     </div>
                                 </div>
                             </div>
+                            <a href="../1-03_act.php" class="back_to_menu">Volver</a>
                         </div>
                     </div>
                 </section>
+                <?php require '../../footer.php'; ?>
             </div>
             <nav id="sidebar" class="active">
 
