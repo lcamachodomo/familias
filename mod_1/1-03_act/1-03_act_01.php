@@ -36,6 +36,7 @@
                         </div>
                     </div>
                 </nav>
+                <p class="intro-header blue">Oportunidades y desafíos</p>
                 <section class="container">
                     <div class="main">
                         <div id="act_01" class="">

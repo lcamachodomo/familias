@@ -7,7 +7,57 @@ and open the template in the editor.
     Created on : Jul 27, 2018, 3:46:53 PM
     Author     : Luis
 */
-
+h3{
+    color: #77A449;
+}
+h4{
+    color: grey;
+}
+.conti {
+    background-image: url(../img/mod1/flecha-siguiente_activa.png);
+    position: relative;
+    right: -7%;
+    border: none;
+    text-indent: -999999999;
+    width: 78px;
+    height: 78px;
+    cursor: pointer;
+    top: 35%;
+}
+.conti:hover {
+    background-image: url(../img/mod1/flecha-siguiente_hover.png);
+    background-color: transparent;
+}
+.baki {
+    background-image: url(../img/mod1/flecha-anterior_activa.png);
+    position: relative;
+    left: -7%;
+    border: none;
+    text-indent: -999999999;
+    width: 78px;
+    height: 78px;
+    cursor: pointer;
+    top: 35%;
+}
+.baki:hover {
+    background-image: url(../img/mod1/flecha-anterior_hover.png);
+   background-color: transparent;
+}
+.baki,.conti {
+    background-color: transparent;
+    border: none;
+    color: #000;
+}
+.baki,.conti {
+    background-color: transparent;
+    border: none;
+    color: #000;
+}
+.ejem {
+    background-color: #FCD65A;
+    border: navajowhite;
+    color: #000;
+}
 #content{
     width: 100%;
     overflow: hidden;
@@ -19,8 +69,8 @@ and open the template in the editor.
 
 .gotoModulePage{margin: auto; display: inherit; margin-top: 10px;}
 .mod{
-    height: 100%;
-    padding: 10px;
+        min-height: 470px;
+    /*padding: 10px;*/
 }
 .mod.intro{
     background: url(../img/mod1/1-07_act_general.jpg);
@@ -164,6 +214,7 @@ img[usemap]{
     /*height: 200px;*/
     height: 325px;
     border-radius: 10px;
+        margin-bottom: 10px;
 }
 
 /* flip speed goes here */
@@ -258,12 +309,32 @@ span.init-act {
 #modal_1-03init .close{
     opacity: 1;
 }
+#act_01p3 .img-md {
+    max-width: 100%; 
+    margin: auto;
+    display: block;
+}
 @media (min-width: 576px) { 
 }
 
 @media (min-width: 768px) { }
 
 @media (min-width: 992px) { 
+    #act_01p3 .img-md {
+    max-width:420px; 
+    
+    }
+    .conti {
+   
+    position: absolute;
+    
+}
+
+.baki {
+   
+    position: absolute;
+    
+}
     .main{
         position: relative;
         top: 0px;

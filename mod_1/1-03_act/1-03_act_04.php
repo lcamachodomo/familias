@@ -13,6 +13,7 @@
     <body>
         <div class="wrapper">
             <!-- Page Content -->
+
             <div id="content"> 
                 <nav class="navbar navbar-expand-lg navbar-light bg-light d-block">
                     <div class="container-fluid">
@@ -32,6 +33,7 @@
                         </div>
                     </div>
                 </nav>
+                <p class="intro-header blue">Oportunidades y desafíos</p>
                 <section class="container">
                     <div class="main">
                         <div id="act_01" class="mod">

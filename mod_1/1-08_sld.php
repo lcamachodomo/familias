@@ -35,23 +35,27 @@
                         </div>
                     </div>
                 </nav>
+                <p class="intro-header blue">Consecuencias del abuso sexual</p>
                 <section class="container">
                     <div class="main">
-                        <div id="act_01p1 " class="mod">
+                        <div id="act_01p1" class="mod">
                             <div class="row ">
-                                <div class="col-7">
+                                <div class="col-12 col-md-6">
                                     <p>Ser víctima de violencia sexual tiene efectos muy graves en la integridad de la persona menor de edad y puede, incluso, llegar a tener consecuencias a lo largo de su vida.</p> 
                                     <p>Seguidamente, vamos a clasificar las consecuencias en tres tipos: psicológicas (emocionales), sociales y físicas. Además, veremos las consecuencias a corto y largo plazo.</p>
                                 </div>
-                                <div class="col-5">
+                                <div class="col-12 col-md-6">
                                     <img src="../img/mod1/1-08_sli_img1.png" class="img-fluid img-small">
                                 </div>
                             </div>
-                            <button class="gotoModulePage btn btn-dark" data-page="2">Continuar</button>
+                            <button class="gotoModulePage conti" data-page="2">Continuar</button>
                         </div>
+
                         <div id="act_01p2" class="d-none mod">
+                            <p>Haga clic en los botones para descubrir cuáles son las consecuencias
+emocionales, sociales y físicas del abuso sexual.</p>
                             <div class="cont row">
-                                <div class="col-4">
+                                <div class="col-12 col-md-4">
                                     <div class="flip-container" ontouchstart="this.classList.toggle('hover');">
                                         <div class="flipper">
                                             <div class="front f-1">
@@ -69,7 +73,7 @@
 
                                     </div>
                                 </div>
-                                <div class="col-4">
+                                <div class="col-12 col-md-4">
                                     <div class="flip-container" ontouchstart="this.classList.toggle('hover');">
                                         <div class="flipper">
                                             <div class="front f-2">
@@ -87,7 +91,7 @@
 
                                     </div>
                                 </div>
-                                <div class="col-4">
+                                <div class="col-12 col-md-4">
                                     <div class="flip-container" ontouchstart="this.classList.toggle('hover');">
                                         <div class="flipper">
                                             <div class="front f-3">
@@ -106,7 +110,8 @@
 
                                     </div>
                                 </div>
-                                <button class="gotoModulePage btn btn-dark" data-page="3">Continuar</button>
+                                <button class="gotoModulePage baki" data-page="1">Atrás</button>
+                                <button class="gotoModulePage conti" data-page="3">Continuar</button>
                             </div>
                         </div>
                         <div id="act_01p3" class="d-none mod ">
@@ -118,25 +123,28 @@
                                 </div>
                                 <div class="col-12">
                                     <img src="../img/mod1/1-08_sli_img2.png" class="img-fluid img-md">
-                                    <button class="gotoModulePage btn btn-dark" data-page="4">Continuar</button>
+                                    
                                 </div>
+                                <button class="gotoModulePage baki" data-page="2">Atrás</button>
+                                    <button class="gotoModulePage conti" data-page="4">Continuar</button>
                             </div>
                         </div>
                         <div id="act_01p4" class="d-none mod ">
                             <div class="row">
-                                <div class="col-6">
+                                <div class="col-12 col-md-6">
                                     <img src="../img/mod1/1-08_sli_img3.png" class="img-fluid d-block m-auto">
-                                    <p class="text-center"><strong>Consecuencias a corto plazo</strong></p>
+                                    <h4 class="text-center"><strong>Consecuencias a corto plazo</strong></h4>
                                     <p class="text-center">Efectos que la persona sufre de inmediato</p>
-                                    <button type="button" class="btn btn-primary btn-lg m-auto d-block" data-toggle="modal" data-target="#modal_1-08_act2">Ejemplos</button>
+                                    <button type="button" class="btn btn-primary btn-lg m-auto d-block ejem" data-toggle="modal" data-target="#modal_1-08_act2">Ver ejemplos</button>
                                 </div>
-                                <div class="col-6">
+                                
+                                <div class="col-12 col-md-6">
                                     <img src="../img/mod1/1-08_sli_img4.png" class="img-fluid d-block m-auto">
-                                    <p class="text-center"><strong>Consecuencias a largo plazo</strong></p>
+                                    <h4 class="text-center"><strong>Consecuencias a largo plazo</strong></h4>
                                     <p class="text-center">Pueden marcar a la persona de por vida.</p>
-                                    <button type="button" class="btn btn-primary btn-lg m-auto d-block" data-toggle="modal" data-target="#modal_1-08_act1">Ejemplos</button>
+                                    <button type="button" class="btn btn-primary btn-lg m-auto d-block ejem" data-toggle="modal" data-target="#modal_1-08_act1">Ver ejemplos</button>
                                 </div>
-
+                                <button class="gotoModulePage btn btn-dark baki" data-page="3">Atrás</button>
                             </div>
                         </div>
                     </div>
@@ -207,8 +215,10 @@
                                 </div>
                             </div>
                         </div>
+
                     </div>
                 </div>
+                <a href="../0-03_menu.php" class="back_to_menu">Volver</a>
                 </section>
                 <?php require '../footer.php'; ?>
             </div>
