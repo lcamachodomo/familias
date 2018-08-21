@@ -66,7 +66,7 @@
                                         $values1[] = $row;
                                     }
                                     ?>
-                                    <h3 class="text-center menu-title">Módulo 1</h3>
+                                    <h3 class="text-center menu-title">Me informo: oportunidades y desafíos en la web.</h3>
                                     <div class="menu-mod-cont col-12">
                                         <div class="row">
                                             <div class="col-12 col-sm-6  col-md-3">
@@ -155,7 +155,7 @@
                                     $activity1 = mysqli_fetch_assoc($resultAct1);
                                     ?>
                                     <div class="module <?php if ($activity1["is_approved"] == 0) : ?>disabled<?php endif ?>">
-                                        <h3 class="text-center menu-title">Módulo 2</h3>
+                                        <h3 class="text-center menu-title">Prevengo: acompaño en línea.</h3>
                                         <div class="menu-mod-cont col-12">
                                             <div class="row">
                                                 <div class="col-12 col-sm-6 col-md-3">
@@ -248,7 +248,7 @@
                                     $activity2 = mysqli_fetch_assoc($resultAct2);
                                     ?>
                                     <div class="module <?php if ($activity2["is_approved"] == 0) : ?>disabled<?php endif ?>">
-                                        <h3 class="text-center menu-title">Módulo 3</h3>
+                                        <h3 class="text-center menu-title">Protejo: reacciono ante situaciones.</h3>
                                         <div class="menu-mod-cont col-12">
                                             <div class="row">
                                                 <div class="col-12 col-sm-6  col-md-3">

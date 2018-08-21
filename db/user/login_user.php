@@ -19,6 +19,7 @@ if ($row_cnt > 0) {
     die();
 }else{
     $_SESSION['user'] = null;
+    $_SESSION['incorrect_user'] = true;
     header("Location: ../../0-02_login.php");
     die();
 }

@@ -52,11 +52,11 @@
                                         </label>
                                     </div>
                                     <div class="email-input">
-                                        <h1 class="text-center"><img src="img/icon-form.png" alt=""/></h1>
+                                        <h2 class="text-center"><img src="img/icon-form.png" alt=""/></h2>
                                         
                                     </div> 
                                     <div class="id-input">
-                                        <h1 class="text-center"><img src="img/icon-login.png" alt=""/></h1>
+                                        <h2 class="text-center"><img src="img/icon-login.png" alt=""/></h2>
                                     </div> 
                                     <p class="text-center label">¡Perfecto! empecemos.</p>
 

@@ -39,7 +39,7 @@
                         <section class="container">
                             <div class="row justify-content-md-center">
                                 <div class="col-sm-10 main-block">
-                                    <h1 class="text-center"><img src="img/icon-question.png"></h1>
+                                    <h2 class="text-center"><img src="img/icon-question.png"></h2>
                                     <form action="db/user/update_user.php" method="POST">
                                         <div class="form-group">
                                             <p class="text-center label">¿Cúal es su año de nacimento?</p>

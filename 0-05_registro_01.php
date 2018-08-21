@@ -39,7 +39,7 @@
                         <section class="container">
                             <div class="row justify-content-md-center">
                                 <div class="col-sm-10 main-block">
-                                    <h1 class="text-center"><img src="img/icon-question.png"></h1>
+                                    <h2 class="text-center"><img src="img/icon-question.png"></h2>
                                     <div class="row">
                                         <div class="col-12">
                                             <p class="text-center label">Tenemos unas cuantas preguntas antes de iniciar.</p>
