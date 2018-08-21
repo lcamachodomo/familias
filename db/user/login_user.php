@@ -15,11 +15,14 @@ $row_cnt = $result->num_rows;
 if ($row_cnt > 0) {
     unset($_SESSION['user']);
     $_SESSION['user'] = $value;
+    $_SESSION['incorrect_user'] = false;
+    $_SESSION['duplicated_user'] = false;
     header("Location: ../../0-03_menu.php");
     die();
 }else{
     $_SESSION['user'] = null;
     $_SESSION['incorrect_user'] = true;
+    $_SESSION['duplicated_user'] = false;
     header("Location: ../../0-02_login.php");
     die();
 }

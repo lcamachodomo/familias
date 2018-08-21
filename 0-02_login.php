@@ -1,6 +1,6 @@
 <html>
     <head>
-    <link rel="icon" href="favicon.ico" type="image/gif">
+        <link rel="icon" href="favicon.ico" type="image/gif">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <title>Registro | e-mentores</title>
         <link  type="text/css"  href="css/bootstrap.css" rel="stylesheet">
@@ -39,6 +39,25 @@
                         <section class="container">
                             <div class="row justify-content-md-center">
                                 <div class="col-sm-10 main-block">
+                                    <?php
+                                    session_start();
+                                    
+                                    $incorrect_user = $_SESSION['incorrect_user'];
+                                   
+                                    if ($incorrect_user) {?>
+                                    <div class="alert alert-warning" role="alert">
+                                        ¡Huummm! Al parecer este correo no ha sido registrado aún. Corrobórelo y vuelva a intentarlo.
+                                    </div>
+                                    <?php } ?>
+                                    
+                                    <?php
+                                    $duplicated_user = $_SESSION['duplicated_user'];
+                                    
+                                    if ($duplicated_user) {?>
+                                    <div class="alert alert-warning" role="alert">
+                                        Oh oh, parece que este correo ya está registrado
+                                    </div>
+                                    <?php } ?>
                                     <div class="radio">
                                         <label>
                                             <input type="radio" name="userStatus" id="userStatus1" value="1" checked>
@@ -53,7 +72,7 @@
                                     </div>
                                     <div class="email-input">
                                         <h2 class="text-center"><img src="img/icon-form.png" alt=""/></h2>
-                                        
+
                                     </div> 
                                     <div class="id-input">
                                         <h2 class="text-center"><img src="img/icon-login.png" alt=""/></h2>
@@ -134,7 +153,7 @@
                     $("form").attr("action", "db/user/login_user.php");
                 }
             });
-            
+
         </script>
     </body>
 </html>
