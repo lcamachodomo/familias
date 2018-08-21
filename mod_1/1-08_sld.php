@@ -279,7 +279,7 @@
 
             });
             $.ajax({
-                url: "/db/user/update_module.php",
+                url: "../db/user/update_module.php",
                 method: "POST",
                 data: {
                     step: 8,

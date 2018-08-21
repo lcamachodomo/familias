@@ -91,14 +91,8 @@
         <script src="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.min.js"></script>
 
         <script>
-            var video = document.getElementById("video");
-
-            video.mozRequestFullScreen();
-
-// Webkit for video elements only
-            video.webkitEnterFullScreen();
             $.ajax({
-                url: "/db/user/update_module.php",
+                url: "../db/user/update_module.php",
                 method: "POST",
                 data: {
                     step: 6,

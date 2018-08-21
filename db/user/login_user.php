@@ -12,13 +12,15 @@ $result = $mysqli->query($query);
 $value = mysqli_fetch_assoc($result);
 $row_cnt = $result->num_rows;
 
+print getcwd() . "\n";
+
 if ($row_cnt > 0) {
     unset($_SESSION['user']);
     $_SESSION['user'] = $value;
-    header("Location: /familias/0-03_menu.php");
+    header("Location: ../../0-03_menu.php");
     die();
 }else{
     $_SESSION['user'] = null;
-    header("Location: /familias/0-02_login.php");
+    header("Location: ../../0-02_login.php");
     die();
 }

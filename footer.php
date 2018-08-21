@@ -1,3 +1,4 @@
+<?php $base_url = "https://localhost/familias/"; ?>
 <footer id="footer" class="container-full">
    <div class="container-full footer-bg-1 padding-top-bottom-footer"></div>
    <div class="container-full footer-bg-2 padding-top-bottom-footer"></div>

@@ -18,7 +18,7 @@ $result = $mysqli->query($query);
 $row_cnt = $result->num_rows;
 
 if ($row_cnt > 0) {
-    header("Location: /0-02_login.php");
+    header("Location: ../../0-02_login.php");
     die();
 }else{
 	
@@ -44,7 +44,7 @@ if ($row_cnt > 0) {
 
 	$_SESSION['last_id'] = $last_id;
 
-	header("Location: /0-05_registro_01.php");
+	header("Location: ../../0-05_registro_01.php");
 	die();
 }
 ?>
