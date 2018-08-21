@@ -21,6 +21,12 @@ switch ($step) {
     case 4:
         $field = "age";
         $url = "0-05_registro_05.php";
+        
+        $query1 = "SELECT * FROM user WHERE id = $last_id";
+
+        $result1 = $mysqli->query($query1);
+        $value1 = mysqli_fetch_assoc($result1);
+        $_SESSION['user'] = $value;
         break;
     default:
         break;

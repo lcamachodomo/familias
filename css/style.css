@@ -134,7 +134,7 @@ img[usemap]{
     margin: 0px;
 }
 
-.item-module a{color: #000; display: block;}
+.item-module a{color: #000; display: block; padding: 5px;}
 .module.disabled .item-module a{color: #888 !important}
 
 /*.tab-content > .tab-pane {

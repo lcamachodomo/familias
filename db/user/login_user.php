@@ -12,8 +12,6 @@ $result = $mysqli->query($query);
 $value = mysqli_fetch_assoc($result);
 $row_cnt = $result->num_rows;
 
-print getcwd() . "\n";
-
 if ($row_cnt > 0) {
     unset($_SESSION['user']);
     $_SESSION['user'] = $value;

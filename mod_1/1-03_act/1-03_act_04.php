@@ -73,9 +73,11 @@
                                     </div>
                                 </div>
                             </div>
+                        <a href="../1-03_act.php" class="back_to_menu">Volver</a>
                         </div>
                     </div>
                 </section>
+                <?php require '../../footer.php'; ?>
             </div>
             <nav id="sidebar" class="active">
 
