@@ -23,7 +23,7 @@
                             </div>
 
                             <div class="nav justify-content-center">
-                                <a class="mx-auto" href="#"><img src="img/logo-ementores.png" alt="E-mentores"></a>
+                                <h1><a class="mx-auto" href="/index.php"><img src="img/logo-ementores.png" alt="E-mentores"></a></h1>
                             </div>
 
                             <div class="nav justify-content-end">
@@ -40,7 +40,7 @@
                                 <div class="col-sm-10 main-block">
                                     <h1 class="text-center"><img src="img/icon-question.png"></h1>
                                     <p class="text-center label">¡Bienvenido! ya estamos listos para empezar</p>
-                                    <a href="0-02_login.php" class="d-block m-auto btn-finish">Finalizar</a>
+                                    <a href="0-03_menu.php" class="d-block m-auto btn-finish">Finalizar</a>
                                 </div>
                             </div>
 
@@ -64,7 +64,7 @@
                         <a href="#" class="nav-recursos">Recursos relacionados</a>
                     </li>
                     <li>
-                        <a href="#" class="nav-iniciar">Iniciar sesión</a>
+                        <a href="0-02_login.php" class="nav-iniciar">Iniciar sesión</a>
                     </li>
                 </ul>
 

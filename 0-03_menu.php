@@ -19,7 +19,7 @@
 
                     $user = $_SESSION['user'];
                     $last_id = $user["id"];
-
+                    
                     if (is_null($user)) {
                         header("Location: /familias/");
                         die();
@@ -33,7 +33,7 @@
                             </div>
 
                             <div class="nav justify-content-center">
-                                <a class="mx-auto" href="#"><img src="img/logo-ementores.png" alt="E-mentores"></a>
+                                <h1><a class="mx-auto" href="/index.php"><img src="img/logo-ementores.png" alt="E-mentores"></a></h1>
                             </div>
 
                             <div class="nav justify-content-end">
@@ -336,7 +336,7 @@
                         <a href="#" class="nav-recursos">Recursos relacionados</a>
                     </li>
                     <li>
-                        <a href="#" class="nav-iniciar">Iniciar sesión</a>
+                        <a href="0-02_login.php" class="nav-iniciar">Iniciar sesión</a>
                     </li>
                 </ul>
 

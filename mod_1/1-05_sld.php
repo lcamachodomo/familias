@@ -24,7 +24,7 @@
                         </div>
 
                         <div class="nav justify-content-center">
-                            <a class="mx-auto" href="#"><img src="../img/logo-ementores.png" alt="E-mentores"></a>
+                            <h1><a class="mx-auto" href="../index.php"><img src="../img/logo-ementores.png" alt="E-mentores"></a></h1>
                         </div>
 
                         <div class="nav justify-content-end">
@@ -122,7 +122,7 @@
                         <a href="#" class="nav-recursos">Recursos relacionados</a>
                     </li>
                     <li>
-                        <a href="#" class="nav-iniciar">Iniciar sesión</a>
+                        <a href="../0-02_login.php" class="nav-iniciar">Iniciar sesión</a>
                     </li>
                 </ul>
 
@@ -143,7 +143,7 @@
                                 <div class="col-8">
                                     <div class="slider1">
                                         <div>Descripción: cuando una persona de mayor edad involucra a una persona de menor edad en conversaciones con contenido sexual, observación de escenas en vivo o imágenes con contenido sexual, o establece contacto físico (no necesariamente coital), o relaciones sexuales coitales con la persona menor de edad.</div>
-                                        <div>Manifestación en línea: Algunas de estas variantes pueden darse a través de Internet, utilizando mensajes, llamadas de voz o videollamadas. Cuando tiene lugar a través de Internet, decimos que es abuso sexual en línea.</div>
+                                        <div>Manifestación en línea: Mediante mensajes, llamadas de voz o videollamadas</div>
                                     </div>
                                 </div>
                                 <div class="col-4">
@@ -155,9 +155,14 @@
                             <div class="row">
                                 <div class="col-8">
                                     <div class="slider2">
-                                        <div>Descripción: un abuso sexual en el que la persona que abusa se beneficia económicamente o en especie, al involucrar a las personas menores de edad en actividades sexuales.  También hay explotación cuando la víctima u otras personas reciben pagos en dinero o en especie.</div>
-                                        <div>Formas en las que se da: obtener imágenes (fotos, videos, audios, mensajes) para distribuirlos o comercializarlos; captar personas menores de edad para ofrecerlas como mercancía para personas abusadoras; o incluso esclavizar a las personas menores de edad, dentro o fuera del país, con fines de abuso sexual</div>
-                                        <div>Manifestación en línea: cuando el contacto para explotar a una persona menor de edad se da a través de Internet, a esto le llamamos explotación sexual en línea.</div>
+                                        <div>Descripción: Un adulto involucra a personas menores de edad en actividades sexuales para beneficiarse económicamente o en especie.  No importa si la víctima recibe algún pago.</div>
+                                        <div>Manifestación en línea: <br>
+                                            <ul>
+                                                <li>Alguien obtiene fotos, videos, audios o mensajes de personas menores para distribuirlos o comercializarlos.</li>
+                                                <li>Se capta y ofrece a personas menores de edad para ofrecerlas como mercancía para personas abusadoras.</li>
+                                            </ul>
+
+                                        </div>
                                     </div>
                                 </div>
                                 <div class="col-4">
@@ -169,9 +174,13 @@
                             <div class="row">
                                 <div class="col-8">
                                     <div class="slider3">
-                                        <div>Descripción: niñas, niños y adolescentes que, al hacer uso de un teléfono celular, computadora, o cualquier dispositivo con conexión a Internet, se ven expuestos, de manera involuntaria, a contenidos no apropiados para su edad, por ejemplo, contenidos sexuales, violencia, odio hacia ciertas personas o grupos, auto-agresión y muchos otros.</div>
-                                        <div>Formas en las que se da: pueden incluir distintos formatos como textos, imágenes, audios o videos y puede ocurrir en cualquier momento, por medio de páginas web, búsquedas en Google, mensajes de correo electrónico, redes sociales o Whatsapp</div>
-                                        <div>Manifestación en línea: si bien las niñas, niños y adolescentes pueden entrar en contacto involuntariamente con contenidos inapropiados, puede darse el caso de que reciban estos materiales por parte de otras personas directamente a su celular o computadora.  Cuando una persona, deliberadamente, envía mensajes de texto, audio, videos, dibujos o fotografías con contenidos sexuales a una persona menor de edad, está cometiendo abuso sexual en línea.</div>
+                                        <div>Descripción: Cuando una niña, niño o adolescente, al hacer uso de un celular, computadora, o cualquier dispositivo con conexión a Internet, se ve expuesto, de manera involuntaria, a contenidos no apropiados para su edad. Por ejemplo, contenidos sexuales, violencia, odio hacia ciertas personas o grupos, auto-agresión.</div>
+                                        <div>Manifestación en línea: <br>
+                                            <ul>
+                                                <li>Las personas menores visitar por accidente páginas web o acceder a  textos, videos, imágenes o audios en línea.</li>
+                                                <li>Reciben mensajes de correo electrónico, o a través de redes sociales o mensajes de texto.</li>
+                                            </ul>
+                                        </div>
                                     </div>
                                 </div>
                                 <div class="col-4">
@@ -183,8 +192,15 @@
                             <div class="row">
                                 <div class="col-8">
                                     <div class="slider4">
-                                        <div>Descripción: ocurre cuando una persona envía mensajes de texto, fotos, videos o audios con contenido sexual.  Por ejemplo, una conversación erótica, fotos o videos reveladores, o en poses sexuales.  Estos mensajes se envían a otras personas, quienes podrían, voluntaria o involuntariamente, enviarlas a otras personas o publicarlas en redes sociales.</div>
-                                        <div>Peligros asociados: alguna persona podría utilizar esos mensajes, fotos o videos íntimos como materiales de abuso sexual, que se distribuyen y hasta se venden a otras personas. También podría publicar los contenidos en sitios visibles a muchas personas, dañando así la reputación de quien aparece en las imágenes, o exponiéndolo a burlas y otras agresiones  En otros casos, podrían utilizarse estas imágenes para chantajear a las personas que aparecen en ellas, solicitándoles dinero o hacer algo contra su voluntad, con tal de no publicarlas (ver el riesgo de “sextorsión”).</div>
+                                        <div>Descripción: Es cuando una persona envía mensajes con contenido sexual a otras personas.  Por ejemplo, una conversación erótica, fotos o videos reveladores, o en poses sexuales.</div>
+                                        <div>Peligros asociados: <br>
+                                            <ul>
+                                                <li>Los contenidos podrían enviarse, voluntaria o involuntariamente, a otras personas o publicarlas en redes sociales.</li>
+                                                <li>Se podrían utilizar esos mensajes, fotos o videos íntimos como materiales de abuso sexual, para que se distribuyen y hasta se venden a otras personas.</li>
+                                                <li>Al publicar los contenidos en sitios visibles a muchas personas,  se daña la reputación de quien aparece en las imágenes y se le expone a burlas y otras agresiones.</li>
+                                                <li>Podrían chantajear a las personas que aparecen en ellas, solicitándoles dinero o hacer algo contra su voluntad, con tal de no publicarlas (ver el riesgo de “sextorsión”).</li>
+                                            </ul>
+                                        </div>
                                     </div>
                                 </div>
                                 <div class="col-4">
@@ -196,11 +212,13 @@
                             <div class="row">
                                 <div class="col-8">
                                     <div class="slider5">
-                                        <div>Palabra formada por "sexo" y "extorsión". Descripción: extorsión es una amenaza o chantaje, que hace una persona que tiene en su poder mensajes, fotos, vídeos o audios con contenidos sexuales de otra persona.</div>
+                                        <div>Es una palabra formada por "sexo" y "extorsión".  <br>
+                                        Es una amenaza o chantaje, que hace una persona que tiene en su poder mensajes, fotos, vídeos o audios con contenidos sexuales de otra persona.
+                                        </div>
                                         <div>Formas en que se da: 
                                             <ul>
                                                 <li>Cuando una persona pública este tipo de contenidos en redes sociales o sitios de Internet, donde otras personas los descargan.</li>
-                                                <li>Cuando una persona envía mensajes, fotos, audios o videos íntimos a otra, dentro de una relación de confianza, y luego esta persona los envía a otras o los utiliza para chantajear.</li>
+                                                <li>Cuando una persona envía mensajes, fotos, audios o videos íntimos a otra, dentro de una relación de confianza, y luego esta los envía a otras o los utiliza para chantajear.</li>
                                             </ul>
                                         </div>
                                         <div>Formas en que se da: 
@@ -220,10 +238,17 @@
                             <div class="row">
                                 <div class="col-8">
                                     <div class="slider6">
-                                        <div>“Grooming“, palabra en inglés que significa "preparación". Descripción: ocurre cuando una persona se gana la confianza de otra a través de Internet, y la va preparando para abusar sexualmente de ella.</div>
-                                        <div>Cómo sucede (parte 1): 1. Las personas menores de edad pueden ser contactadas por personas adultas que, haciéndose pasar por personas de su edad, o no ocultando su edad, establecen con ellas una relación de "amistad", buscando intereses comunes para conversar por medio de mensajes, chats, llamadas o videos por Internet.</div>
-                                        <div>Cómo sucede (parte 2): 2. En determinado momento, la persona que abusa puede enviar contenidos inapropiados, iniciar conversaciones sobre temas sexuales, o solicitar a la víctima que le envíe mensajes, fotos, videos o audios.  Pueden también grabar conversaciones en audio o videochats.</div>
-                                        <div>Cómo sucede (parte 3): 3. En casos extremos, pueden convencer a la persona menor de edad de tener encuentros físicos.</div>
+                                        <div>“Grooming“ es una palabra en inglés que significa "preparación". <br>Ocurre cuando una persona se gana la confianza de otra a través de Internet y la  prepara para abusar sexualmente de ella.</div>
+
+
+
+                                        <div>Modo en que sucede:<br>
+                                            <ul>
+                                                <li>Una persona mayor contacta a una menor de edad, algunas veces haciéndose pasar por alguien de su edad.  Establece con la víctima una relación de "amistad", buscando intereses comunes para conversar por medio de mensajes, chats, llamadas o videos por Internet.</li>
+                                                <li>En determinado momento, la persona que abusa puede enviar contenidos inapropiados, iniciar conversaciones sobre temas sexuales, o solicitar a la víctima que le envíe mensajes, fotos, videos o audios.</li>
+                                                <li>En casos extremos, pueden convencer a la persona menor de edad de tener encuentros físicos.</li>
+                                            </ul>
+                                        </div>
                                     </div>
                                 </div>
                                 <div class="col-4">
@@ -235,9 +260,8 @@
                             <div class="row">
                                 <div class="col-8">
                                     <div class="slider7">
-                                        <div>Palabra en inglés formada por “cyber” que significa “en la red”y “bullying” que significa “matonismo”. Descripción: cuando una persona menor de edad es agredida por otras personas de su edad de forma repetida.  Las agresiones no solo pueden ser físicas, sino también emocionales, a través de burlas y humillaciones.</div>
-                                        <div>Manifestación en línea: cuando este tipo de agresión se lleva a cabo en Internet, por medio de mensajes de texto, redes sociales u otras aplicaciones, se le llama "Ciberbullying".</div>
-                                        <div>NOTA: Aunque no forma parte de la violencia sexual, sí es una forma de violencia emocional, que tiene graves consecuencias en las víctimas, y es un riesgo del uso de las TIC que es preciso conocer y prevenir.</div>
+                                        <div>Descripción: Palabra en inglés formada por “cyber” que significa “en la red”y “bullying” que significa “matonismo”. <br>Se da cuando una persona menor de edad es agredida por otras personas de su edad de forma repetida.  Las agresiones pueden ser físicas, pero también emocionales, a través de burlas y humillaciones.</div>
+                                        <div>Manifestación en línea: Esta agresión se da por medio de mensajes de texto, redes sociales u otras aplicaciones.</div>
                                     </div>
                                 </div>
                                 <div class="col-4">
@@ -249,9 +273,14 @@
                             <div class="row">
                                 <div class="col-8">
                                     <div class="slider8">
-                                        <div>Proviene de la palabra en inglés“Fishing”, y significa "pescar". Descripción: una forma de robar datos personales.</div>
-                                        <div>Cómo funciona: una persona intenta engañar a otras, mediante una identidad falsa, simulando páginas web de una empresa o institución, o enviando mensajes fraudulentos que intentan convencer a otros de revelar sus contraseñas personales de acceso a servicios o aplicaciones de Internet.</div>
-                                        <div>NOTA: Aunque  no es una manifestación de violencia sexual, es un riesgo al que pueden verse expuestas las personas menores de edad si no protegen bien su información, y que podría llevar a que otras personas se hagan pasar por ellas para cometer delitos.</div>
+                                        <div>Proviene de la palabra en inglés“Fishing”, y significa "pescar". <br>Es una forma de robar datos personales.</div>
+                                        <div>Modo en que sucede: <br>
+                                            <ul>
+                                                <li>Una persona intenta engañar a otras, mediante una identidad falsa.</li>
+                                                <li>Se simulan páginas web de una empresa o institución.</li>
+                                                <li>Se envían mensajes fraudulentos que intentan convencer a otros de revelar sus contraseñas de internet y datos personales.</li>
+                                            </ul>
+                                        </div>
                                     </div>
                                 </div>
                                 <div class="col-4">
@@ -322,7 +351,7 @@
             });
 
             $.ajax({
-                url: "/familias/db/user/update_module.php",
+                url: "/db/user/update_module.php",
                 method: "POST",
                 data: {
                     step: 5,

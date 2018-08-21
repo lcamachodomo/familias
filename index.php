@@ -29,7 +29,7 @@
                        </div>
                        
                        <div class="nav justify-content-center">
-                            <a class="mx-auto" href="#"><img src="img/logo-ementores.png" alt="E-mentores"></a>
+                           <h1><a class="mx-auto" href="/index.php"><img src="img/logo-ementores.png" alt="E-mentores"></a></h1>
                        </div>
                     
                         <div class="nav justify-content-end">
@@ -49,7 +49,7 @@
                             </div>
                             <div class="col-12 col-sm-12 col-md-8 col-lg-8 col-xl-8">
                                 <div class="embed-responsive embed-responsive-16by9 main-div-iframe">
-                                    <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/ulc_vTfYiPo?showinfo=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+                                    <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/LLsdaT4NWu0?showinfo=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
                                 </div>
                             </div>
                             <div class="col-12 col-sm-12 col-md-4 col-lg-4 col-xl-4 ">
@@ -142,7 +142,7 @@
                     <a href="#" class="nav-recursos">Recursos relacionados</a>
                 </li>
                 <li>
-                    <a href="#" class="nav-iniciar">Iniciar sesión</a>
+                    <a href="0-02_login.php" class="nav-iniciar">Iniciar sesión</a>
                 </li>
             </ul>
 

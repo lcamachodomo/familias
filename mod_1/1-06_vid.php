@@ -24,7 +24,7 @@
                         </div>
 
                         <div class="nav justify-content-center">
-                            <a class="mx-auto" href="#"><img src="../img/logo-ementores.png" alt="E-mentores"></a>
+                            <h1><a class="mx-auto" href="../index.php"><img src="../img/logo-ementores.png" alt="E-mentores"></a></h1>
                         </div>
 
                         <div class="nav justify-content-end">
@@ -36,7 +36,7 @@
                 </nav>
                 <section class="container">
                     <div class="main">
-                        <div id="act_01" class="mod">
+                        <div id="act_01" class="">
                             <div class="cont row">
                                 <div class="col-12">
                                     <video width="100%" height="auto" controls>
@@ -78,7 +78,7 @@
                         <a href="#" class="nav-recursos">Recursos relacionados</a>
                     </li>
                     <li>
-                        <a href="#" class="nav-iniciar">Iniciar sesión</a>
+                        <a href="../0-02_login.php" class="nav-iniciar">Iniciar sesión</a>
                     </li>
                 </ul>
 
@@ -91,12 +91,14 @@
         <script src="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.min.js"></script>
 
         <script>
+            var video = document.getElementById("video");
 
+            video.mozRequestFullScreen();
 
-
-
+// Webkit for video elements only
+            video.webkitEnterFullScreen();
             $.ajax({
-                url: "/familias/db/user/update_module.php",
+                url: "/db/user/update_module.php",
                 method: "POST",
                 data: {
                     step: 6,

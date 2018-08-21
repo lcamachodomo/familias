@@ -19,15 +19,15 @@
 
                 <nav class="navbar navbar-expand-lg navbar-light bg-light d-block">
                     <div class="container-fluid">
-                      
-                      <div class="nav justify-content-start">
-                            
-                       </div>
-                       
-                       <div class="nav justify-content-center">
-                           <a class="mx-auto" href="#"><img src="../img/logo-ementores.png" alt="E-mentores"></a>
-                       </div>
-                    
+
+                        <div class="nav justify-content-start">
+
+                        </div>
+
+                        <div class="nav justify-content-center">
+                            <h1><a class="mx-auto" href="../index.php"><img src="../img/logo-ementores.png" alt="E-mentores"></a></h1>
+                        </div>
+
                         <div class="nav justify-content-end">
                             <button type="button" id="sidebarCollapse" class="btn" >
                                 <span class="navbar-toggler-icon"></span>
@@ -37,10 +37,10 @@
                 </nav>
                 <section class="container">
                     <div class="main">
-                        <div id="act_01" class="mod">
+                        <div id="act_01" class="">
                             <div class="cont row">
                                 <div class="col-12">
-                                    <video width="100%" height="auto" controls>
+                                    <video width="100%" height="auto" id="video" controls>
                                         <source src="../videos/1-01_vid.mp4" type="video/mp4">
                                     </video>
                                     <a href="../0-03_menu.php" class="back_to_menu">Volver al menú</a>
@@ -64,7 +64,7 @@
                         <a href="#" class="nav-recursos">Recursos relacionados</a>
                     </li>
                     <li>
-                        <a href="#" class="nav-iniciar">Iniciar sesión</a>
+                        <a href="../0-02_login.php" class="nav-iniciar">Iniciar sesión</a>
                     </li>
                 </ul>
 
@@ -77,12 +77,19 @@
         <script src="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.min.js"></script>
 
         <script>
+            var elem = document.getElementById("video");
 
-
-
-
+            if (elem.requestFullscreen) {
+                elem.requestFullscreen();
+            } else if (elem.mozRequestFullScreen) {
+                elem.mozRequestFullScreen();
+            } else if (elem.webkitRequestFullscreen) {
+                elem.webkitRequestFullscreen();
+            } else if (elem.msRequestFullscreen) {
+                elem.msRequestFullscreen();
+            }
             $.ajax({
-                url: "/familias/db/user/update_module.php",
+                url: "/db/user/update_module.php",
                 method: "POST",
                 data: {
                     step: 1,

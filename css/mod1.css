@@ -1,3 +1,109 @@
+.intro-header{
+    background: #DC7930;
+    font-family: 'Nunito', sans-serif;
+    color: #fff;
+    font-weight: bold;
+    padding: 12px;
+    font-size: 1.5em;
+    text-align: center;
+}
+
+#eva h3{
+    color: #454545;
+    font-family: 'Nunito', sans-serif;
+    font-weight: bold;
+    font-size: 2em;
+}
+
+#eva p.instruction{
+    font-family: 'Nunito', sans-serif;
+    font-size: 1.3em;
+}
+
+#eva h3 span{
+    background-color: #2CA294;
+    color: #fff;
+    width: 50px;
+    height: 50px;
+    display: inline-block;
+    line-height: 50px;
+    border-radius: 50%;
+    position: relative;
+    top: 0px;
+    left: 0;
+}
+
+#eva h3.intro-paragrah{
+    color: #206596;
+    font-family: 'Nunito', sans-serif;
+    font-weight: bold;
+}
+
+#eva p.label-info{
+    color: #5D5D5D;
+    font-family: 'Nunito', sans-serif;
+    font-weight: bold;
+    font-size: 1.4em;
+    text-align: left;
+}
+#eva .btn-start{
+    background-image: url(../img/botones/btn_iniciar.png);
+    background-color: transparent;
+    background-size: 300px;
+    display: block;
+    width: 150px;
+    height: 57px;
+    background-position: -150 0;
+    background-repeat: no-repeat;
+    font-family: 'Nunito', sans-serif;
+    font-weight: 700;
+    color: #FFFFFF;
+    font-size: 1.5em;
+    text-align: center;
+    line-height: 49px;
+    border: none;
+}
+
+#eva .answers{
+    padding: 0px 20%;
+}
+
+#eva .answer p {
+    border: 1px solid #ABABAB;
+    margin-bottom: 15px;
+    background-color: #F0F0F0;
+    border-radius: 15px;
+    min-height: 70px;
+    padding: 12px;
+    font-family: 'Nunito', sans-serif;
+    font-weight: 700;
+    text-align: center;
+    font-size: 1.15em;
+    cursor: pointer;
+}
+
+#eva .answer p img{
+    display: block;
+    margin: auto;
+}
+
+#eva .answer p:hover {
+    background-color: #ddd;
+}
+#eva .text-help{
+    background-color: #2367B3;
+    color: #fff;
+    font-family: 'Nunito', sans-serif;
+    font-weight: 700;
+    text-align: center;
+    font-size: 1.5em;
+    max-width: 600px;
+    padding: 25px;
+    margin: 20px auto;
+}
+
+
+
 a#home-tab {
     background-color: #EA7A30;
     color: #fff;
@@ -118,6 +224,10 @@ a.v-act-6:before{
 a.v-act-7:before{
     background-image: url(../img/mod1/modulo1-act7.png);
 }
+a.v-act-8:before{
+    background-image: url(../img/mod1/modulo1-act8.png);
+}
+
 /*2*/
 a.v2-act-1:before{
     background-image: url(../img/mod1/modulo2-act1.png);
