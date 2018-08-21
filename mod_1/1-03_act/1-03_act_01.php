@@ -1,5 +1,7 @@
 <html>
     <head>
+    <link rel="icon" href="favicon.ico" type="image/gif">
+        <title>Módulo 1 | e-mentores</title>
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link  type="text/css"  href="../../css/bootstrap.css" rel="stylesheet">
         <link  type="text/css"  href="../../css/bootstrap-grid.css" rel="stylesheet">
@@ -139,7 +141,7 @@
 
 
             $.ajax({
-                url: "/familias/db/user/update_module.php",
+                url: "/db/user/update_module.php",
                 method: "POST",
                 data: {
                     step: 3,

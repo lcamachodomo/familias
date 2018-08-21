@@ -1,7 +1,8 @@
 <html>
     <head>
+    <link rel="icon" href="favicon.ico" type="image/gif">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-
+        <title>Módulo 1 | e-mentores</title>
         <link  type="text/css"  href="../../css/bootstrap.css" rel="stylesheet">
         <link  type="text/css"  href="../../css/bootstrap-grid.css" rel="stylesheet">
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.css">

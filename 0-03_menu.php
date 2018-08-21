@@ -1,7 +1,8 @@
 <html>
     <head>
+    <link rel="icon" href="favicon.ico" type="image/gif">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-
+        <title>Menú | e-mentores</title>
         <link type="text/css" href="css/bootstrap.css" rel="stylesheet">
         <link type="text/css" href="css/bootstrap-grid.css" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css?family=Nunito:300,400,700" rel="stylesheet">
@@ -9,6 +10,7 @@
         <link href="css/style.css" rel="stylesheet" type="text/css" />
         <link href="css/index.css" rel="stylesheet" type="text/css" />
         <link href="css/mod1.css" rel="stylesheet" type="text/css" />
+        
     </head>
     <body>
         <div class="wrapper">
@@ -21,7 +23,7 @@
                     $last_id = $user["id"];
                     
                     if (is_null($user)) {
-                        header("Location: /familias/");
+                        header("Location: /");
                         die();
                     }
                     ?>
@@ -70,28 +72,28 @@
                                             <div class="col-12 col-sm-6  col-md-3">
                                                 <div class="item-module <?php if ($values1[0]["is_completed"] == 1) : ?>active<?php endif ?>">
                                                     <!-- <img src="img/mod1/modulo1-act1.png" alt=""/> -->
-                                                    <a href="mod_1/1-01_vid.php" class="v-act-1">VIDEO ANIMADO 01</a>
+                                                    <a href="mod_1/1-01_vid.php" class="v-act-1">Las TIC en la actualidad</a>
                                                     <!--<p class=dots-mod>. . .</p>-->
                                                 </div>
                                             </div>
                                             <div class="col-12 col-sm-6  col-md-3">
                                                 <div class="item-module <?php if ($values1[1]["is_completed"] == 1) : ?>active<?php endif ?>">
                                                     <!-- <img src="img/icon.png" alt=""/> -->
-                                                    <a href="mod_1/1-02_inf.php" class="v-act-2">INFOGRÁFICO 01</a>
+                                                    <a href="mod_1/1-02_inf.php" class="v-act-2">Overview aplicaciones más usadas</a>
                                                     <!--<p class=dots-mod>. . .</p>-->
                                                 </div>
                                             </div>
                                             <div class="col-12 col-sm-6  col-md-3">
                                                 <div class="item-module <?php if ($values1[2]["is_completed"] == 1) : ?>active<?php endif ?>">
                                                     <!-- <img src="img/icon.png" alt=""/> -->
-                                                    <a href="mod_1/1-03_act.php" class="v-act-3">ACTIVIDAD 01</a>
+                                                    <a href="mod_1/1-03_act.php" class="v-act-3">Oportunidades y desafíos</a>
                                                     <!--<p class=dots-mod>. . .</p>-->
                                                 </div>
                                             </div>
                                             <div class="col-12 col-sm-6  col-md-3">
                                                 <div class="item-module <?php if ($values1[3]["is_completed"] == 1) : ?>active<?php endif ?>">
                                                     <!-- <img src="img/icon.png" alt=""/> -->
-                                                    <a href="mod_1/1-04_inf.php" class="v-act-4">INFOGRÁFICO 02</a>
+                                                    <a href="mod_1/1-04_inf.php" class="v-act-4">¿Qué se puede hacer en Internet?</a>
                                                     <!--<p class=dots-mod>. . .</p>-->
                                                 </div>
                                             </div>
@@ -101,28 +103,28 @@
                                             <div class="col-12 col-sm-6  col-md-3">
                                                 <div class="item-module <?php if ($values1[4]["is_completed"] == 1) : ?>active<?php endif ?>">
                                                     <!-- <img src="img/icon.png" alt=""/> -->
-                                                    <a href="mod_1/1-05_sld.php" class="v-act-5">SLIDESHOW 01</a>
+                                                    <a href="mod_1/1-05_sld.php" class="v-act-5">Síntesis de los principales riesgos</a>
                                                     <!--<p class=dots-mod>. . .</p>-->
                                                 </div>
                                             </div>
                                             <div class="col-12 col-sm-6  col-md-3">
                                                 <div class="item-module <?php if ($values1[5]["is_completed"] == 1) : ?>active<?php endif ?>">
                                                     <!-- <img src="img/icon.png" alt=""/> -->
-                                                    <a href="mod_1/1-06_vid.php" class="v-act-6">VIDEO ANIMADO 02</a>
+                                                    <a href="mod_1/1-06_vid.php" class="v-act-6">Video sobre abuso y explotación sexual</a>
                                                     <!--<p class=dots-mod>. . .</p>-->
                                                 </div>
                                             </div>
                                             <div class="col-12 col-sm-6  col-md-3">
                                                 <div class="item-module <?php if ($values1[6]["is_completed"] == 1) : ?>active<?php endif ?>">
                                                     <!-- <img src="img/icon.png" alt=""/> -->
-                                                    <a href="mod_1/1-07_act.php" class="v-act-7">ACTIVIDAD 02</a>
+                                                    <a href="mod_1/1-07_act.php" class="v-act-7">Señales del abuso</a>
                                                     <!--<p class=dots-mod>. . .</p>-->
                                                 </div>
                                             </div>
                                             <div class="col-12 col-sm-6  col-md-3">
                                                 <div class="item-module <?php if ($values1[7]["is_completed"] == 1) : ?>active<?php endif ?>">
                                                     <!-- <img src="img/icon.png" alt=""/> -->
-                                                    <a href="mod_1/1-08_sld.php" class="v-act-8">SLIDESHOW 02</a>
+                                                    <a href="mod_1/1-08_sld.php" class="v-act-8">Consecuencias del abuso</a>
                                                     <!--<p class=dots-mod>. . .</p>-->
                                                 </div>
                                             </div>
