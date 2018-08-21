@@ -18,7 +18,7 @@
                 <section class="container-full index-main">
                     <?php
                     session_start();
-
+                    
                     $user = $_SESSION['user'];
                     $last_id = $user["id"];
                     
@@ -309,6 +309,7 @@
                         </section>
                     </div>
                 </section>
+                <?php require './footer.php'; ?>
             </div><!--  fin  <div id="content"> -->
             <nav id="sidebar" class="active">
                 <div class="sidebar-header">

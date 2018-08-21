@@ -258,6 +258,12 @@ span.init-act {
 #modal_1-03init .close{
     opacity: 1;
 }
+
+p{
+    font-family: 'Nunito', sans-serif;
+    font-size: 1.1em;
+    color: #5D5D5D;
+}
 @media (min-width: 576px) { 
 }
 
