@@ -36,6 +36,7 @@
                         </div>
                     </div>
                 </nav>
+                <p class="intro-header blue">¿Qué se puede hacer en Internet?</p>
                 <section class="container">
                     <div class="main">
                         <div id="act_01" class="mod">

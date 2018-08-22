@@ -56,7 +56,7 @@
                                     <div class="row">
                                         <div class="col-md-6">
                                             <div class="slider">
-                                                <div>Yo veo como mi hermano mayor usa la computadora para estudiar. ¡No creo que podría hacer sus reportes si no la tuviera!</div>
+                                                <div>Yo veo como mi hermano mayor usa la computadora para estudiar. ¡No creo que podría hacer sus tareas si no la tuviera!</div>
                                                 <div>Y bueno, cuando a mí me dejan usarla, me gusta buscar música que algunas veces cambio con un app de DJ.</div>
                                                 <div>Pero cuando sea grande, voy a trabajar usando una computadora.</div>
                                             </div>

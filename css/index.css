@@ -11,7 +11,7 @@
 }
 
 h1 img{
-    width: 300px;
+    width: 170px;
     float: left;
 }
 
@@ -534,7 +534,11 @@ button#sidebarCollapse{
 } /*fin 768*/
 
 
-@media (min-width: 992px) {  
+@media (min-width: 992px) {
+h1 img{
+    width: 300px;
+    
+}  
     .modal {
 
         width: 100%;

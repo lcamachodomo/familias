@@ -35,6 +35,7 @@
                         </div>
                     </div>
                 </nav>
+                <p class="intro-header blue">Oportunidades y desafíos</p>
                 <section class="container">
                     <div class="main">
                         <p>Vea a cada una de estas personas menores de edad describir una oportunidad
