@@ -357,6 +357,37 @@ p{
     color: #5D5D5D;
 
 }
+.page-7-act p{
+    background-color: rgba(23, 162, 184, 0.5);
+    color: #fff;
+        padding: 1% 0;
+
+}
+.bx-wrapper {
+
+    background: transparent;
+}
+.page-7-act button.btn{
+        opacity: 1;
+    background-color: green;
+    padding: 8px 20px;
+    border-radius: 10px;
+    text-shadow: none;
+    color: #fff;
+    margin: 10px auto;
+    display: block;
+    font-size: 1.2em;
+    border:none;
+}
+.page-02-inf .modal-content {
+    border-radius: 0;
+    padding: 0 2em 3em 2em;
+}
+.page-02-inf .modal-content a{
+    color: #000;
+    font-weight: bold;
+
+}
 @media (min-width: 576px) { 
 }
 

@@ -1,4 +1,4 @@
-<html>
+<html class="page-02-inf">
     <head>
     <link rel="icon" href="favicon.ico" type="image/gif">
         <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -60,8 +60,12 @@
                     <div class="modal" id="modal_1-04_act" tabindex="-1" role="dialog">
                     <div class="modal-dialog" role="document">
                         <div class="modal-content">
+                            <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+
+                    </div>
                             <div class="modal-body">
-                                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                                <!-- <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button> -->
                                 <div class="row d-none act-04-mdl act01" >
                                     <div class="col-12">
                                         <a href="http://www.facebook.com">facebook.com</a><br>

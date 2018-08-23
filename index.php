@@ -1,4 +1,4 @@
-<html>
+<html class="front-page">
 <head>
     <link rel="icon" href="favicon.ico" type="image/gif">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -83,8 +83,23 @@
                 <div class="container-fluid d-none d-sm-block d-md-block d-lg-block">
                     <div class="row">
                         <div class="col-8 col-sm-8 col-md-7 col-lg-7 col-xl-7 mx-auto">
-                            <img src="img/footer/footer-logo-paniamor.png" alt="Paniamor" class="img-fluid prefooter-logos">
-                            <img src="img/footer/footer-logo-endViolence.jpg" alt="End Violence Against Children" class="img-fluid prefooter-logos">
+                            <div class="row">
+                                <div class="col">
+                                <p>Con el apyo de:</p>
+                                <img src="img/footer/footer-logo-endViolence.jpg" alt="End Violence Against Children" class="img-fluid prefooter-logos">
+                                </div>
+                                <div class="col">
+                                <p>Respaldo institucional de:</p>
+                                <img src="img/logo-imas.png" alt="End Violence Against Children" class="img-fluid prefooter-logos">
+                                </div>
+                                <div class="col">
+                                <p>Una iniciativa de:</p>
+                                <img src="img/footer/footer-logo-paniamor.png" alt="Paniamor" class="img-fluid prefooter-logos">
+                                </div>
+                                <div class="col"></div>
+                            </div>
+
+                            
                         </div>
                         <div class="col-8 col-sm-8 col-md-5  col-lg-5 col-xl-5 text-opensans mx-auto">
                             <p id="prefooter-place">Barrio La California, de la Universidad UAM 75 M. Este. Ave. Central, Calles 29 y 33, San José, Costa Rica</p>
@@ -96,9 +111,20 @@
                 <!-- small -->
                 <div class="container-fluid d-block d-sm-none d-md-none d-lg-none">
                     <div class="container">
-                        <div class="row">
-                            <div class="col"><img src="img/footer/footer-logo-paniamor.png" alt="Paniamor" class="img-fluid prefooter-logos"></div>
-                            <div class="col"><img src="img/footer/footer-logo-endViolence.jpg" alt="End Violence Against Children" class="img-fluid prefooter-logos"></div>
+                        <div class="row small-f">
+                            <div class="col">
+                                <p>Con el apyo de:</p>
+                                <img src="img/footer/footer-logo-endViolence.jpg" alt="End Violence Against Children" class="img-fluid prefooter-logos">
+                                </div>
+                                <div class="col">
+                                <p>Respaldo institucional de:</p>
+                                <img src="img/logo-imas.png" alt="End Violence Against Children" class="img-fluid prefooter-logos logo-imas">
+                                </div>
+                                <div class="col">
+                                <p>Una iniciativa de:</p>
+                                <img src="img/footer/footer-logo-paniamor.png" alt="Paniamor" class="img-fluid prefooter-logos">
+                                </div>
+                                
                             
                             
                         </div>

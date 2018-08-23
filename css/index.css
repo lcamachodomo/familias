@@ -434,6 +434,10 @@ a[data-toggle="collapse"] {
     background-color: #006D9F;
     margin-top: 30px;
 }
+.front-page .footer-bg-1{
+    
+    margin-top: 0px;
+}
 
 .footer-bg-2{
     background-color: #1F4F86;
@@ -503,6 +507,19 @@ button#sidebarCollapse.active {
 .modal {
 
     width: 60%;
+}
+.small-f p {
+    font-size: 0.7em;
+    margin-bottom: 0;
+    height: 33px;
+}
+img.logo-imas {
+    max-width: 62%;
+    display: block;
+    margin: auto;
+}
+.row.small-f {
+    margin-bottom: 1em;
 }
 @media (min-width: 576px) { 
 
