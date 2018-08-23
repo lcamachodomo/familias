@@ -44,7 +44,7 @@
                                         <div class="form-group">
                                             <p class="text-center label">¿Cúal es su año de nacimento?</p>
                                             <select class="form-control year" name="data" required>
-                                                <?php for ($i = 2018; $i >= 1950; $i--) { ?>
+                                                <?php for ($i = 2018; $i >= 1900; $i--) { ?>
                                                     <option class="<?php print $i ?>"><?php print $i ?></option>
                                                 <?php } ?>
                                             </select>

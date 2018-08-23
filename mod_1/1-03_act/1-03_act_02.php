@@ -143,7 +143,7 @@
                     slider2 = $('.slider2').bxSlider({
                         pager: false,
                         infiniteLoop: true,
-                        auto: true
+                        auto: false
                     });
                 }
 
