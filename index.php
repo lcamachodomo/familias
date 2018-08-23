@@ -67,10 +67,7 @@
                             </div>
                             <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6">
                                 <a class="btn-apps mx-auto" href="#" id="btn-chxs">apps para chicxs</a>
-                                <a onclick="window.open('https://www.facebook.com/sharer/sharer.php?u=http%3A//costaricaporsiempre.org/yo-amo-parques-nacionales/', 
-                         'newwindow', 
-                         'width=300,height=250'); 
-              return false;" href="https://www.facebook.com/sharer/sharer.php?u=http%3A//costaricaporsiempre.org/yo-amo-parques-nacionales/">Share on Facebook</a>
+                                
                             </div>
                         </div>
                     </div>

@@ -177,7 +177,7 @@ a[data-toggle="collapse"] {
     font-weight: 700;
     color:#33AF99;
     font-size: 1em;
-    margin-bottom: 0px;
+    margin-bottom: 3px;
 }
 
 .bck-intro .main-block .btn-blue{
@@ -481,10 +481,6 @@ button#sidebarCollapse.active {
 
 }
 
-.modal {
-
-    width: 60%;
-}
 .small-f p {
     font-size: 0.7em;
     margin-bottom: 0;

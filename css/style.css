@@ -13,6 +13,26 @@ h3{
 h4{
     color: grey;
 }
+
+.btn-start {
+    background-image: url(../img/botones/btn_iniciar.png);
+    background-color: transparent;
+    background-size: 260px;
+    display: block;
+    width: 130px;
+    height: 45px;
+    background-position: 0 0;
+    background-repeat: no-repeat;
+    font-family: 'Nunito', sans-serif;
+    font-weight: 700;
+    color: #FFFFFF;
+    font-size: 1.3em;
+    text-align: center;
+    line-height: 45px;
+    border: none;
+}
+
+.btn-start:hover { background-position: -130px 0px; }
 .conti {
     background-image: url(../img/mod1/flecha-siguiente_activa.png);
     position: relative;
@@ -41,7 +61,7 @@ h4{
 }
 .baki:hover {
     background-image: url(../img/mod1/flecha-anterior_hover.png);
-   background-color: transparent;
+    background-color: transparent;
 }
 .baki,.conti {
     background-color: transparent;
@@ -69,7 +89,7 @@ h4{
 
 .gotoModulePage{margin: auto; display: inherit; margin-top: 10px;}
 .mod{
-        min-height: 470px;
+    min-height: 470px;
     /*padding: 10px;*/
 }
 .mod.intro{
@@ -101,9 +121,9 @@ h4{
 }
 .nav-sobre,.nav-recursos,.nav-iniciar{
     height:150px;
-font-family: 'open-sans', sans-serif;
-font-weight: 100;
-font-size:28px;
+    font-family: 'open-sans', sans-serif;
+    font-weight: 100;
+    font-size:28px;
 }
 a.nav-sobre:before{
     content: '';
@@ -134,11 +154,11 @@ a.nav-iniciar:before{
 }
 
 .nav-sobre{
-background: #EF404D;
+    background: #EF404D;
 
 }
 .nav-recursos{
-background: #DD3B44;
+    background: #DD3B44;
 
 }
 .nav-iniciar{
@@ -146,17 +166,17 @@ background: #DD3B44;
 
 }
 .modal-body {
-   
+
     padding: 0rem 2rem;
 }
 .bx-wrapper .bx-prev {
     left: -37px;
-    
+
 }
 #modal_1-03init p{color: #fff;}
 .bx-wrapper .bx-next {
     right: -37px;
-    
+
 }
 .item-villain img{
     margin:auto;
@@ -164,12 +184,12 @@ background: #DD3B44;
 }
 #sidebar .sidebar-header h3{
     font-family: 'Nunito', sans-serif;
-font-weight: lighter;
+    font-weight: lighter;
     color: fff;
-text-align:center;
-text-transform: UPPERCASE;
-font-size:2em;
-border-bottom: 1px #FFF solid;
+    text-align:center;
+    text-transform: UPPERCASE;
+    font-size:2em;
+    border-bottom: 1px #FFF solid;
 
 }
 
@@ -204,9 +224,6 @@ img[usemap]{
 .item-module a{color: #000; display: block; padding: 5px;}
 .module.disabled .item-module a{color: #888 !important; cursor: no-drop; text-decoration: none;}
 
-/*.tab-content > .tab-pane {
-    padding: 20px;
-}*/
 .tab-content > .tab-pane img{
     max-width: 200px;
     display: block;
@@ -214,7 +231,7 @@ img[usemap]{
 }
 #mapster_wrap_0{
     margin:auto;
-    
+
 }
 
 /* entire container, keeps perspective */
@@ -231,7 +248,7 @@ img[usemap]{
     /*height: 200px;*/
     height: 325px;
     border-radius: 10px;
-        margin-bottom: 10px;
+    margin-bottom: 10px;
 }
 
 /* flip speed goes here */
@@ -245,7 +262,7 @@ img[usemap]{
 /* hide back of pane during swap */
 .front, .back {
     backface-visibility: hidden;
-        padding: 0 10px;
+    padding: 0 10px;
     position: absolute;
     top: 0;
     left: 0;
@@ -258,7 +275,7 @@ img[usemap]{
     /* for firefox 31 */
     transform: rotateY(0deg);
     color: #fff;
-        font-size: 2em;
+    font-size: 2em;
 }
 .front p{
     color: #fff;
@@ -268,9 +285,9 @@ img[usemap]{
 .back {
     /*background-color: #aaa;*/
     transform: rotateY(180deg);
-        padding-top: 2em;
-        color: #fff;
-        font-size: 1.5em;
+    padding-top: 2em;
+    color: #fff;
+    font-size: 1.5em;
 }
 .f-1,.b-1{
     background-color: #F65832;
@@ -300,9 +317,9 @@ img[usemap]{
     border:none;
 }
 .modal-content {
-   
+
     background-color: rgba(255, 255, 255, 0.89);
-    
+
 }
 .bg-light{
     background-color: #ffffff !important;
@@ -331,7 +348,10 @@ img[usemap]{
     text-shadow: none;
 }
 #modal_1-03init .modal-content{
-    background-color: rgba(23, 162, 184, 0.9019607843137255);
+    background-color: rgba(33,111,117, 0.9019607843137255);
+    border-radius: 0px;
+    border: none;
+    padding: 30px 60px;
 }
 #modal_1-03init .close{
     opacity: 1;
@@ -360,7 +380,7 @@ p{
 .page-7-act p{
     background-color: rgba(23, 162, 184, 0.5);
     color: #fff;
-        padding: 1% 0;
+    padding: 1% 0;
 
 }
 .bx-wrapper {
@@ -368,7 +388,7 @@ p{
     background: transparent;
 }
 .page-7-act button.btn{
-        opacity: 1;
+    opacity: 1;
     background-color: green;
     padding: 8px 20px;
     border-radius: 10px;
@@ -395,20 +415,20 @@ p{
 
 @media (min-width: 992px) { 
     #act_01p3 .img-md {
-    max-width:420px; 
-    
+        max-width:420px; 
+
     }
     .conti {
-   
-    position: absolute;
-    
-}
 
-.baki {
-   
-    position: absolute;
-    
-}
+        position: absolute;
+
+    }
+
+    .baki {
+
+        position: absolute;
+
+    }
     .main{
         position: relative;
         top: 0px;

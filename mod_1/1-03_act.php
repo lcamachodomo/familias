@@ -97,7 +97,7 @@
         </div>
         <!-- modal -->
         <div class="modal" id="modal_1-03init" tabindex="-1" role="dialog">
-            <div class="modal-dialog" role="document">
+            <div class="modal-dialog modal-lg" role="document">
                 <div class="modal-content">
                     <div class="modal-header">
                             <!-- <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button> -->
@@ -105,7 +105,7 @@
                     </div>
                     <div class="modal-body init-03">
                         <p>Las TIC ofrecen una gran oportunidad para comunicarse, aprender, entretenerse, trabajar y estudiar. Pero estas ventajas conllevan algunos desafíos que es esencial conocer.</p>
-                        <button type="button" class="close " data-dismiss="modal" aria-label="Close"><span class="init-act">Iniciar</span></button>
+                        <button type="button" class="btn-start d-block m-auto " data-dismiss="modal" aria-label="Close">Iniciar</button>
                     </div>
                     <!-- <div class="modal-footer">
                         <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
@@ -147,8 +147,12 @@
                 },
                 dataType: "html"
             });
-
-            $("#modal_1-03init").modal("show");
+            var urlParams = new URLSearchParams(window.location.search);
+         
+            if (urlParams.get("t") === "m") {
+                $("#modal_1-03init").modal("show");
+            }
+            
 
         </script>
     </body>
