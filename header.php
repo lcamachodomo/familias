@@ -5,7 +5,7 @@ $user = $_SESSION['user'];
 $last_id = $user["id"];
 
 if (is_null($user)) {
-    header("Location: /familias/");
+    header("Location: /");
     die();
 }
 ?>
@@ -22,7 +22,7 @@ if (is_null($user)) {
                     <a class="nav-link" href="0-03_menu.php">Menúss de modulos <span class="sr-only">(current)</span></a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="/familias/db/user/logout_user.php">Cerrar sesión</a>
+                    <a class="nav-link" href="/db/user/logout_user.php">Cerrar sesión</a>
                 </li>
             </ul>
 

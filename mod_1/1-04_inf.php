@@ -1,7 +1,8 @@
 <html>
     <head>
+    <link rel="icon" href="favicon.ico" type="image/gif">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-
+        <title>Me informo: oportunidades y desafíos en la web | e-mentores</title>
         <link  type="text/css"  href="../css/bootstrap.css" rel="stylesheet">
         <link  type="text/css"  href="../css/bootstrap-grid.css" rel="stylesheet">
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.css">
@@ -35,6 +36,7 @@
                         </div>
                     </div>
                 </nav>
+                <p class="intro-header blue">¿Qué se puede hacer en Internet?</p>
                 <section class="container">
                     <div class="main">
                         <div id="act_01" class="mod">
@@ -88,7 +90,7 @@
                         <a href="#" class="nav-recursos">Recursos relacionados</a>
                     </li>
                     <li>
-                        <a href="../0-02_login.php" class="nav-iniciar">Iniciar sesión</a>
+                        <a href="../0-04_intro.php" class="nav-iniciar">Iniciar sesión</a>
                     </li>
                 </ul>
 
@@ -211,7 +213,7 @@
             });
 
             $.ajax({
-                url: "/db/user/update_module.php",
+                url: "../db/user/update_module.php",
                 method: "POST",
                 data: {
                     step: 4,

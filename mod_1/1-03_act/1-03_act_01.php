@@ -1,5 +1,7 @@
 <html>
     <head>
+    <link rel="icon" href="favicon.ico" type="image/gif">
+        <title>Me informo: oportunidades y desafíos en la web | e-mentores</title>
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link  type="text/css"  href="../../css/bootstrap.css" rel="stylesheet">
         <link  type="text/css"  href="../../css/bootstrap-grid.css" rel="stylesheet">
@@ -34,9 +36,10 @@
                         </div>
                     </div>
                 </nav>
+                <p class="intro-header blue">Oportunidades y desafíos</p>
                 <section class="container">
                     <div class="main">
-                        <div id="act_01" class="mod">
+                        <div id="act_01" class="">
 
                             <ul class="nav nav-tabs " id="myTab" role="tablist">
                                 <li class="nav-item">
@@ -53,7 +56,7 @@
                                     <div class="row">
                                         <div class="col-md-6">
                                             <div class="slider">
-                                                <div>Yo veo como mi hermano mayor usa la computadora para estudiar. ¡No creo que podría hacer sus reportes si no la tuviera!</div>
+                                                <div>Yo veo como mi hermano mayor usa la computadora para estudiar. ¡No creo que podría hacer sus tareas si no la tuviera!</div>
                                                 <div>Y bueno, cuando a mí me dejan usarla, me gusta buscar música que algunas veces cambio con un app de DJ.</div>
                                                 <div>Pero cuando sea grande, voy a trabajar usando una computadora.</div>
                                             </div>
@@ -79,9 +82,11 @@
                                     </div>
                                 </div>
                             </div>
+                            <a href="../1-03_act.php" class="back_to_menu">Volver</a>
                         </div>
                     </div>
                 </section>
+                <?php require '../../footer.php'; ?>
             </div>
             <nav id="sidebar" class="active">
 
@@ -116,7 +121,7 @@
                         <a href="#" class="nav-recursos">Recursos relacionados</a>
                     </li>
                     <li>
-                        <a href="../../0-02_login.php" class="nav-iniciar">Iniciar sesión</a>
+                        <a href="../../0-04_intro.php" class="nav-iniciar">Iniciar sesión</a>
                     </li>
                 </ul>
 
@@ -139,7 +144,7 @@
 
 
             $.ajax({
-                url: "/familias/db/user/update_module.php",
+                url: "/db/user/update_module.php",
                 method: "POST",
                 data: {
                     step: 3,

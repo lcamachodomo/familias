@@ -1,7 +1,8 @@
 <html>
     <head>
+    <link rel="icon" href="favicon.ico" type="image/gif">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-
+        <title>Me informo: oportunidades y desafíos en la web | e-mentores</title>
         <link  type="text/css"  href="../css/bootstrap.css" rel="stylesheet">
         <link  type="text/css"  href="../css/bootstrap-grid.css" rel="stylesheet">
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.css">
@@ -34,34 +35,35 @@
                         </div>
                     </div>
                 </nav>
+                <p class="intro-header blue">Señales del abuso</p>
                 <section class="container">
                     <div class="main">
-                        <div id="act_01p1" class="mod intro">
+                        <div id="act_01p1" class="mod module intro">
                             <p class="text-center">Señales del abuso sexual en personas menores de edad</p>
                             <button class="gotoModulePage btn btn-dark" data-page="2">Continuar</button>
                         </div>
-                        <div id="act_01p2" class="d-none mod intro">
+                        <div id="act_01p2" class="d-none mod module intro">
                             <p class="text-center">El abuso sexual y la explotación sexual, tanto física como en línea, tienen serias consecuencias en la vida de niñas, niños y adolescentes.</p>
                             <p class="text-center">¡No porque los abusos se cometen por medio de las TIC, las consecuencias son menores! Las áreas en las que una persona menor de edad puede verse afectada son de índole física, emocional (psicológica), académica y social.</p>
                             <button class="gotoModulePage btn btn-dark" data-page="3">Continuar</button>
                         </div>
-                        <div id="act_01p3" class="d-none mod intro">
+                        <div id="act_01p3" class="d-none mod module intro">
                             <p class="text-center">Identifique en esta imagen las diferentes consecuencias que puede experimentar una persona menor de edad está siendo víctima de abuso sexual.</p>
                             <button class="gotoModulePage btn btn-dark" data-page="4">Iniciar</button>
                         </div>
-                        <div id="act_01p4" class="d-none mod">
+                        <div id="act_01p4" class="d-none module">
                             <div class="cont row">
                                 <div id="map_container">
-                                    <img usemap="#1-07-act" src="../img/mod1/1-07_act_general.png" alt="" class="" style="height: 100%; margin: auto; display: block; width: auto" />
+                                    <img usemap="#1-07-act" style="max-height: 600px;" src="../img/mod1/1-07_act_general.jpg" alt="" class="" style="height: 100%; margin: auto; display: block; width: auto" />
                                     <map name='1-07-act'>
-                                        <area data-nbr="1" shape='circle' coords='809, 214, 53' href='#' />
-                                        <area data-nbr="4" shape='circle' coords='678, 517, 135' href='#' />
-                                        <area data-nbr="2" shape='circle' coords='167, 194, 37' href='#' />
-                                        <area data-nbr="8" shape='circle' coords='401, 477, 109' href='#' />
-                                        <area data-nbr="3" shape='circle' coords='908, 447, 99' href='#' />
-                                        <area data-nbr="7" shape='circle' coords='697, 299, 78' href='#' />
-                                        <area data-nbr="5" shape='circle' coords='440, 307, 68' href='#' />
-                                        <area data-nbr="6" shape='circle' coords='175, 367, 111' href='#' />
+                                        <area data-nbr="1" shape='circle' coords='1800, 592, 95' href='#' />
+                                        <area data-nbr="2" shape='circle' coords='212, 487, 67' href='#' />
+                                        <area data-nbr="3" shape='circle' coords='1522, 727, 155' href='#' />
+                                        <area data-nbr="4" shape='circle' coords='1092, 857, 195' href='#' />
+                                        <area data-nbr="8" shape='circle' coords='652, 527, 115' href='#' />
+                                        <area data-nbr="6" shape='circle' coords='232, 705, 157' href='#' />
+                                        <area data-nbr="7" shape='circle' coords='1245, 555, 135' href='#' />
+                                        <area data-nbr="5" shape='circle' coords='607, 802, 157' href='#' />
                                     </map>
                                 </div>
                             </div>
@@ -77,21 +79,7 @@
                 </div>
 
                 <ul class="list-unstyled components">
-                    <!-- <p>Dummy Heading</p> -->
-                    <!-- <li class="active">
-                        <a href="#homeSubmenu" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle">Home</a>
-                        <ul class="collapse list-unstyled" id="homeSubmenu">
-                            <li>
-                                <a href="#">Home 1</a>
-                            </li>
-                            <li>
-                                <a href="#">Home 2</a>
-                            </li>
-                            <li>
-                                <a href="#">Home 3</a>
-                            </li>
-                        </ul>
-                    </li> -->
+                    
                     <li>
                         <a href="#" class="nav-sobre">Sobre el proyecto</a>
                     </li>
@@ -99,7 +87,7 @@
                         <a href="#" class="nav-recursos">Recursos relacionados</a>
                     </li>
                     <li>
-                        <a href="../0-02_login.php" class="nav-iniciar">Iniciar sesión</a>
+                        <a href="../0-04_intro.php" class="nav-iniciar">Iniciar sesión</a>
                     </li>
                 </ul>
 
@@ -177,7 +165,7 @@
                         </div>
                     </div>
                     <div class="modal-footer">
-                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                        <button type="button" class="btn-cerrar" data-dismiss="modal">Cerrar</button>
                     </div>
                 </div>
             </div>
@@ -201,7 +189,7 @@
         <script type="text/javascript" src="../js/map/init.js" ></script>
         <script>
             $(".gotoModulePage").click(function () {
-                $(".mod").addClass("d-none");
+                $(".module").addClass("d-none");
                 $("#act_01p" + $(this).data("page")).removeClass("d-none");
 
                 if ($(this).data("page") === 4) {
@@ -218,7 +206,7 @@
 
             });
             $.ajax({
-                url: "/db/user/update_module.php",
+                url: "../db/user/update_module.php",
                 method: "POST",
                 data: {
                     step: 7,

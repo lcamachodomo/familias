@@ -1,7 +1,8 @@
 <html>
     <head>
+    <link rel="icon" href="favicon.ico" type="image/gif">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-
+        <title>Me informo: oportunidades y desafíos en la web | e-mentores</title>
         <link  type="text/css"  href="../css/bootstrap.css" rel="stylesheet">
         <link  type="text/css"  href="../css/bootstrap-grid.css" rel="stylesheet">
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.css">
@@ -34,11 +35,12 @@
                         </div>
                     </div>
                 </nav>
+                <p class="intro-header blue">Oportunidades y desafíos</p>
                 <section class="container">
                     <div class="main">
                         <p>Vea a cada una de estas personas menores de edad describir una oportunidad
                             que ofrecen las TIC y un desafío relacionado con ella.</p>
-                        <div id="act_01" class="mod">
+                        <div id="act_01" class="">
                             <div class="cont row">
                                 <div class="col-3">
                                     <a href="1-03_act/1-03_act_01.php"><img src="../img/mod1/1-03_act_personaje1.png" alt="" class="img-fluid"/></a>
@@ -54,6 +56,7 @@
                                 </div>
                             </div>
                         </div>
+                        <a href="../0-03_menu.php" class="back_to_menu">Volver al menú</a>
                     </div>
                 </section>
                 <?php require '../footer.php'; ?>
@@ -86,7 +89,7 @@
                         <a href="#" class="nav-recursos">Recursos relacionados</a>
                     </li>
                     <li>
-                        <a href="../0-02_login.php" class="nav-iniciar">Iniciar sesión</a>
+                        <a href="../0-04_intro.php" class="nav-iniciar">Iniciar sesión</a>
                     </li>
                 </ul>
 
@@ -136,7 +139,7 @@
 
 
             $.ajax({
-                url: "/db/user/update_module.php",
+                url: "../db/user/update_module.php",
                 method: "POST",
                 data: {
                     step: 3,

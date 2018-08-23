@@ -1,7 +1,8 @@
 <html>
     <head>
+    <link rel="icon" href="favicon.ico" type="image/gif">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-
+        <title>Me informo: oportunidades y desafíos en la web | e-mentores</title>
         <link  type="text/css"  href="../css/bootstrap.css" rel="stylesheet">
         <link  type="text/css"  href="../css/bootstrap-grid.css" rel="stylesheet">
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.css">
@@ -34,30 +35,34 @@
                         </div>
                     </div>
                 </nav>
+                <p class="intro-header blue">Consecuencias del abuso sexual</p>
                 <section class="container">
                     <div class="main">
                         <div id="act_01p1" class="mod">
-                            <div class="row">
-                                <div class="col-7">
+                            <div class="row ">
+                                <div class="col-12 col-md-6">
                                     <p>Ser víctima de violencia sexual tiene efectos muy graves en la integridad de la persona menor de edad y puede, incluso, llegar a tener consecuencias a lo largo de su vida.</p> 
                                     <p>Seguidamente, vamos a clasificar las consecuencias en tres tipos: psicológicas (emocionales), sociales y físicas. Además, veremos las consecuencias a corto y largo plazo.</p>
                                 </div>
-                                <div class="col-5">
+                                <div class="col-12 col-md-6">
                                     <img src="../img/mod1/1-08_sli_img1.png" class="img-fluid img-small">
                                 </div>
                             </div>
-                            <button class="gotoModulePage btn btn-dark" data-page="2">Continuar</button>
+                            <button class="gotoModulePage conti" data-page="2">Continuar</button>
                         </div>
+
                         <div id="act_01p2" class="d-none mod">
+                            <p>Haga clic en los botones para descubrir cuáles son las consecuencias
+emocionales, sociales y físicas del abuso sexual.</p>
                             <div class="cont row">
-                                <div class="col-4">
+                                <div class="col-12 col-md-4">
                                     <div class="flip-container" ontouchstart="this.classList.toggle('hover');">
                                         <div class="flipper">
-                                            <div class="front">
+                                            <div class="front f-1">
                                                 <img src="../img/mod1/1-08_sli_icn1.png" alt="" class="d-block m-auto"/>
                                                 <p class="text-center">Consecuencias emocionales</p>
                                             </div>
-                                            <div class="back">
+                                            <div class="back b-1">
                                                 <ul>
                                                     <li>Temor, ansiedad, ataques de pánico</li>
                                                     <li>Depresión</li>
@@ -68,14 +73,14 @@
 
                                     </div>
                                 </div>
-                                <div class="col-4">
+                                <div class="col-12 col-md-4">
                                     <div class="flip-container" ontouchstart="this.classList.toggle('hover');">
                                         <div class="flipper">
-                                            <div class="front">
+                                            <div class="front f-2">
                                                 <img src="../img/mod1/1-08_sli_icn2.png" alt="" class="d-block m-auto"/>
                                                 <p class="text-center">Consecuencias sociales</p>
                                             </div>
-                                            <div class="back">
+                                            <div class="back b-2">
                                                 <ul>
                                                     <li>Aislamiento</li>
                                                     <li>Dificultades en las relaciones sociales</li>
@@ -86,14 +91,14 @@
 
                                     </div>
                                 </div>
-                                <div class="col-4">
+                                <div class="col-12 col-md-4">
                                     <div class="flip-container" ontouchstart="this.classList.toggle('hover');">
                                         <div class="flipper">
-                                            <div class="front">
+                                            <div class="front f-3">
                                                 <img src="../img/mod1/1-08_sli_icn3.png" alt="" class="d-block m-auto"/>
                                                 <p class="text-center">Consecuencias físicas</p>
                                             </div>
-                                            <div class="back">
+                                            <div class="back b-3">
                                                 <ul>
                                                     <li>Dolores</li>
                                                     <li>Trastornos digestivos</li>
@@ -105,7 +110,8 @@
 
                                     </div>
                                 </div>
-                                <button class="gotoModulePage btn btn-dark" data-page="3">Continuar</button>
+                                <button class="gotoModulePage baki" data-page="1">Atrás</button>
+                                <button class="gotoModulePage conti" data-page="3">Continuar</button>
                             </div>
                         </div>
                         <div id="act_01p3" class="d-none mod ">
@@ -117,25 +123,28 @@
                                 </div>
                                 <div class="col-12">
                                     <img src="../img/mod1/1-08_sli_img2.png" class="img-fluid img-md">
-                                    <button class="gotoModulePage btn btn-dark" data-page="4">Continuar</button>
+                                    
                                 </div>
+                                <button class="gotoModulePage baki" data-page="2">Atrás</button>
+                                    <button class="gotoModulePage conti" data-page="4">Continuar</button>
                             </div>
                         </div>
                         <div id="act_01p4" class="d-none mod ">
                             <div class="row">
-                                <div class="col-6">
+                                <div class="col-12 col-md-6">
                                     <img src="../img/mod1/1-08_sli_img3.png" class="img-fluid d-block m-auto">
-                                    <p class="text-center"><strong>Consecuencias a corto plazo</strong></p>
+                                    <h4 class="text-center"><strong>Consecuencias a corto plazo</strong></h4>
                                     <p class="text-center">Efectos que la persona sufre de inmediato</p>
-                                    <button type="button" class="btn btn-primary btn-lg m-auto d-block" data-toggle="modal" data-target="#modal_1-08_act2">Ejemplos</button>
-                                </div>
-                                <div class="col-6">
-                                    <img src="../img/mod1/1-08_sli_img4.png" class="img-fluid d-block m-auto">
-                                    <p class="text-center"><strong>Consecuencias a largo plazo</strong></p>
-                                    <p class="text-center">Pueden marcar a la persona de por vida.</p>
-                                    <button type="button" class="btn btn-primary btn-lg m-auto d-block" data-toggle="modal" data-target="#modal_1-08_act1">Ejemplos</button>
+                                    <button type="button" class="btn btn-primary btn-lg m-auto d-block ejem" data-toggle="modal" data-target="#modal_1-08_act1">Ver ejemplos</button>
                                 </div>
 
+                                <div class="col-12 col-md-6">
+                                    <img src="../img/mod1/1-08_sli_img4.png" class="img-fluid d-block m-auto">
+                                    <h4 class="text-center"><strong>Consecuencias a largo plazo</strong></h4>
+                                    <p class="text-center">Pueden marcar a la persona de por vida.</p>
+                                    <button type="button" class="btn btn-primary btn-lg m-auto d-block ejem" data-toggle="modal" data-target="#modal_1-08_act2">Ver ejemplos</button>
+                                </div>
+                                <button class="gotoModulePage btn btn-dark baki" data-page="3">Atrás</button>
                             </div>
                         </div>
                     </div>
@@ -143,7 +152,11 @@
                 <div class="modal fade" id="modal_1-08_act1" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
                     <div class="modal-dialog" role="document">
                         <div class="modal-content">
+<div class="modal-header">
+                        <span></span>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">x</button>
 
+                    </div>
                             <div class="modal-body">
                                 <div class="row" >
                                     <h3 class="col-12">Las consecuencias a corto plazo del abuso sexual pueden incluir:</h3>
@@ -178,11 +191,15 @@
                 <div class="modal fade" id="modal_1-08_act2" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
                     <div class="modal-dialog" role="document">
                         <div class="modal-content">
+<div class="modal-header">
+                        <span></span>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">x</button>
 
+                    </div>
                             <div class="modal-body">
                                 <div class="row" >
                                     <h3 class="col-12">Las consecuencias a largo plazo pueden manifestarse a lo largo de la vida adulta, y pueden incluir:</h3>
-                                    <div class="col-4">
+                                    <div class="col-6 col-md-4">
                                         <ul>
                                             <li>Trastornos de ansiedad (fobias, ansiedad social) </li>
                                             <li>Trastornos depresivos </li>
@@ -191,7 +208,7 @@
                                             <li>Dificultades para establecer vínculos afectivos </li>
                                         </ul>
                                     </div>
-                                    <div class="col-4">
+                                    <div class="col-6 col-md-4">
                                         <ul>
                                             <li>Trastornos del sueño</li> 
                                             <li>Trastornos alimentarios </li>
@@ -200,14 +217,16 @@
                                             <li>Ideas suicidas, intentos de suicidio</li>
                                         </ul>
                                     </div>
-                                    <div class="col-4">
+                                    <div class="col-12 col-md-4">
                                         <img src="../img/mod1/1-08_sli_img6.png" alt="" class="img-fluid"/>
                                     </div>
                                 </div>
                             </div>
                         </div>
+
                     </div>
                 </div>
+                <a href="../0-03_menu.php" class="back_to_menu">Volver</a>
                 </section>
                 <?php require '../footer.php'; ?>
             </div>
@@ -239,7 +258,7 @@
                         <a href="#" class="nav-recursos">Recursos relacionados</a>
                     </li>
                     <li>
-                        <a href="../0-02_login.php" class="nav-iniciar">Iniciar sesión</a>
+                        <a href="../0-04_intro.php" class="nav-iniciar">Iniciar sesión</a>
                     </li>
                 </ul>
 
@@ -279,7 +298,7 @@
 
             });
             $.ajax({
-                url: "/db/user/update_module.php",
+                url: "../db/user/update_module.php",
                 method: "POST",
                 data: {
                     step: 8,

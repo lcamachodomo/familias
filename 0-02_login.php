@@ -1,7 +1,8 @@
 <html>
     <head>
+        <link rel="icon" href="favicon.ico" type="image/gif">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-
+        <title>Registro | e-mentores</title>
         <link  type="text/css"  href="css/bootstrap.css" rel="stylesheet">
         <link  type="text/css"  href="css/bootstrap-grid.css" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css?family=Nunito:300,400,700, 800" rel="stylesheet">
@@ -38,6 +39,25 @@
                         <section class="container">
                             <div class="row justify-content-md-center">
                                 <div class="col-sm-10 main-block">
+                                    <?php
+                                    session_start();
+                                    
+                                    $incorrect_user = isset($_SESSION['incorrect_user'])? $_SESSION['incorrect_user'] : null;
+                                   
+                                    if ($incorrect_user) {?>
+                                    <div class="alert alert-warning" role="alert">
+                                        ¡Huummm! Al parecer este correo no ha sido registrado aún. Corrobórelo y vuelva a intentarlo.
+                                    </div>
+                                    <?php } ?>
+                                    
+                                    <?php
+                                    $duplicated_user = isset($_SESSION['duplicated_user'])? $_SESSION['duplicated_user'] : null;
+                                    
+                                    if ($duplicated_user) {?>
+                                    <div class="alert alert-warning" role="alert">
+                                        Oh oh, parece que este correo ya está registrado
+                                    </div>
+                                    <?php } ?>
                                     <div class="radio">
                                         <label>
                                             <input type="radio" name="userStatus" id="userStatus1" value="1" checked>
@@ -51,11 +71,11 @@
                                         </label>
                                     </div>
                                     <div class="email-input">
-                                        <h1 class="text-center"><img src="img/icon-form.png" alt=""/></h1>
-                                        
+                                        <h2 class="text-center"><img src="img/icon-form.png" alt=""/></h2>
+
                                     </div> 
                                     <div class="id-input">
-                                        <h1 class="text-center"><img src="img/icon-login.png" alt=""/></h1>
+                                        <h2 class="text-center"><img src="img/icon-login.png" alt=""/></h2>
                                     </div> 
                                     <p class="text-center label">¡Perfecto! empecemos.</p>
 
@@ -97,7 +117,7 @@
                         <a href="#" class="nav-recursos">Recursos relacionados</a>
                     </li>
                     <li>
-                        <a href="0-02_login.php" class="nav-iniciar">Iniciar sesión</a>
+                        <a href="0-04_intro.php" class="nav-iniciar">Iniciar sesión</a>
                     </li>
                 </ul>
 
@@ -133,7 +153,7 @@
                     $("form").attr("action", "db/user/login_user.php");
                 }
             });
-            
+
         </script>
     </body>
 </html>

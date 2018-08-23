@@ -1,7 +1,8 @@
 <html>
     <head>
+    <link rel="icon" href="favicon.ico" type="image/gif">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-
+        <title>Me informo: oportunidades y desafíos en la web | e-mentores</title>
         <link  type="text/css"  href="../../css/bootstrap.css" rel="stylesheet">
         <link  type="text/css"  href="../../css/bootstrap-grid.css" rel="stylesheet">
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.css">
@@ -12,6 +13,7 @@
     <body>
         <div class="wrapper">
             <!-- Page Content -->
+
             <div id="content"> 
                 <nav class="navbar navbar-expand-lg navbar-light bg-light d-block">
                     <div class="container-fluid">
@@ -31,6 +33,7 @@
                         </div>
                     </div>
                 </nav>
+                <p class="intro-header blue">Oportunidades y desafíos</p>
                 <section class="container">
                     <div class="main">
                         <div id="act_01" class="mod">
@@ -73,9 +76,11 @@
                                     </div>
                                 </div>
                             </div>
+                        <a href="../1-03_act.php" class="back_to_menu">Volver</a>
                         </div>
                     </div>
                 </section>
+                <?php require '../../footer.php'; ?>
             </div>
             <nav id="sidebar" class="active">
 
@@ -110,7 +115,7 @@
                         <a href="#" class="nav-recursos">Recursos relacionados</a>
                     </li>
                     <li>
-                        <a href="../../0-02_login.php" class="nav-iniciar">Iniciar sesión</a>
+                        <a href="../../0-04_intro.php" class="nav-iniciar">Iniciar sesión</a>
                     </li>
                 </ul>
 
