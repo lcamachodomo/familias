@@ -228,7 +228,7 @@
                 $('.slider' + slider).bxSlider({
                     pager: false,
                     infiniteLoop: true,
-                    auto: true
+                    auto: false
                 });
             });
 

@@ -286,7 +286,7 @@
 
                                 <div class="col-12 text-center">
                                     <img src="../img/mod1/1-09_eva-img-no_aprobado.png" alt="" class="img-md"/>
-                                    <h3 class="intro-paragrah text-center">No ha logrado superar con éxito esta evaluación. Inténtelo de nuevo. <br>Así podrá avanzar al Módulo 02, en el cual aprenderá sobre el tema de la prevención.</h3>
+                                    <h3 class="intro-paragrah text-center">No ha logrado superar con éxito esta evaluación. Inténtelo de nuevo. <br>Así podrá avanzar al siguiente capítulo, en el cual aprenderá sobre el tema de la prevención.</h3>
                                 </div>
                                 <div class="col-6 text-center">
                                     <a href="../0-03_menu.php" class="btn-see-eva">Repasar contenidos</a>
@@ -300,7 +300,7 @@
                             <div class="result row ">
                                 <div class="col-12 text-center">
                                     <img src="../img/mod1/1-09_eva-img-aprobado.png" alt="" class="img-md"/>
-                                    <h3 class="intro-paragrah text-center">¡Muy bien! Usted ha logrado superar con éxito esta evaluación. Puede pasar al Módulo 02, en el cual aprenderá sobre el tema de la prevención. ¡Siga adelante!</h3>
+                                    <h3 class="intro-paragrah text-center">¡Muy bien! Usted ha logrado superar con éxito esta evaluación. Puede pasar al siguiente capítulo, en el cual aprenderá sobre el tema de la prevención. ¡Siga adelante!</h3>
                                 </div>
                                 <div class="col-12 text-center">
                                     <a href="../0-03_menu.php" class="btn-finish-eva">Finalizar</a>

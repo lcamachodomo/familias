@@ -202,7 +202,7 @@ img[usemap]{
 }
 
 .item-module a{color: #000; display: block; padding: 5px;}
-.module.disabled .item-module a{color: #888 !important}
+.module.disabled .item-module a{color: #888 !important; cursor: no-drop; text-decoration: none;}
 
 /*.tab-content > .tab-pane {
     padding: 20px;

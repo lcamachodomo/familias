@@ -174,14 +174,12 @@
 #eva .text-help.blue{background-color: #2367B3; }
 #eva .text-help.green{background-color: #86C142; }
 
-
-
 a#home-tab {
     background-color: #EA7A30;
     color: #fff;
     border: none;
-    padding: 10px 30px;
-    font-size: 2em;
+    padding: 5px 25px;
+    font-size: 1.5em;
     border-top-left-radius: 15px;
     border-top-right-radius: 15px;
 }
@@ -205,8 +203,8 @@ a#contact-tab{
     background-color: #0851A1;
     color: #fff;
     border:none;
-    padding: 10px 30px;
-    font-size: 2em;
+    padding: 5px 25px;
+    font-size: 1.5em;
     border-top-left-radius: 15px;
     border-top-right-radius: 15px;
 }
@@ -222,9 +220,10 @@ div#oportunidades,#oportunidades .bx-wrapper {
 }
 img.ico-personaje {
     position: absolute;
-    top: -8%;
+    top: 0px;
     left: 16px;
-    max-width: 100% !important;
+    width: 100%;
+    max-width: 150px !important;
 }
 section.container {
     margin-top: 5%;
@@ -366,8 +365,8 @@ a.v3-act-7:before{
         width: 50%;
         float: left;
     }
-    a#contact-tab,a#home-tab {
-
+    
+    a#contact-tab, a#home-tab {
         font-size: 1.2em;
 
     }
@@ -377,7 +376,8 @@ a.v3-act-7:before{
     }
     img.ico-personaje {
         position: relative;
-        margin-bottom: 2px !important;
+        left: 0px;
+        margin-bottom: 10px !important;
     }
 } /*fin*/
 
