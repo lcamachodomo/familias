@@ -161,25 +161,25 @@
                                                 <div class="col-12 col-sm-6 col-md-3">
                                                     <div class="item-module <?php if ($values2[0]["is_completed"] == 1) : ?>active<?php endif ?>">
                                                         <!-- <img src="img/icon.png" alt=""/> -->
-                                                        <a href="modulo2.php?stp=1" class="v2-act-1">VIDEO ANIMADO 01</a><!--<p class=dots-mod>. . .</p>-->
+                                                        <a href="#1" class="v2-act-1">VIDEO ANIMADO 01</a><!--<p class=dots-mod>. . .</p>-->
                                                     </div>
                                                 </div>
                                                 <div class="col-12 col-sm-6 col-md-3">
                                                     <div class="item-module <?php if ($values2[1]["is_completed"] == 1) : ?>active<?php endif ?>">
                                                         <!-- <img src="img/icon.png" alt=""/> -->
-                                                        <a href="modulo2.php?stp=2" class="v2-act-2">SLIDESHOW 01</a><!--<p class=dots-mod>. . .</p>-->
+                                                        <a href="#2" class="v2-act-2">SLIDESHOW 01</a><!--<p class=dots-mod>. . .</p>-->
                                                     </div>
                                                 </div>
                                                 <div class="col-12 col-sm-6  col-md-3">
                                                     <div class="item-module <?php if ($values2[2]["is_completed"] == 1) : ?>active<?php endif ?>">
                                                         <!-- <img src="img/icon.png" alt=""/> -->
-                                                        <a href="modulo2.php?stp=3" class="v2-act-3">ACTIVIDAD 01</a><!--<p class=dots-mod>. . .</p>-->
+                                                        <a href="#3" class="v2-act-3">ACTIVIDAD 01</a><!--<p class=dots-mod>. . .</p>-->
                                                     </div>
                                                 </div>
                                                 <div class="col-12 col-sm-6  col-md-3">
                                                     <div class="item-module <?php if ($values2[3]["is_completed"] == 1) : ?>active<?php endif ?>">
                                                         <!-- <img src="img/icon.png" alt=""/> -->
-                                                        <a href="modulo2.php?stp=4" class="v2-act-4">INFOGRÁFICO 01</a><!--<p class=dots-mod>. . .</p>-->
+                                                        <a href="#4" class="v2-act-4">INFOGRÁFICO 01</a><!--<p class=dots-mod>. . .</p>-->
                                                     </div>
                                                 </div>
                                             </div>
@@ -188,25 +188,25 @@
                                                 <div class="col-12 col-sm-6  col-md-3">
                                                     <div class="item-module <?php if ($values2[4]["is_completed"] == 1) : ?>active<?php endif ?>">
                                                         <!-- <img src="img/icon.png" alt=""/> -->
-                                                        <a href="modulo2.php?stp=5" class="v2-act-5">ACTIVIDAD 02</a><!--<p class=dots-mod>. . .</p>-->
+                                                        <a href="#5" class="v2-act-5">ACTIVIDAD 02</a><!--<p class=dots-mod>. . .</p>-->
                                                     </div>
                                                 </div>
                                                 <div class="col-12 col-sm-6  col-md-3">
                                                     <div class="item-module <?php if ($values2[5]["is_completed"] == 1) : ?>active<?php endif ?>">
                                                         <!-- <img src="img/icon.png" alt=""/> -->
-                                                        <a href="modulo2.php?stp=6" class="v2-act-6">ACTIVIDAD 03</a><!--<p class=dots-mod>. . .</p>-->
+                                                        <a href="#6" class="v2-act-6">ACTIVIDAD 03</a><!--<p class=dots-mod>. . .</p>-->
                                                     </div>
                                                 </div>
                                                 <div class="col-12 col-sm-6  col-md-3">
                                                     <div class="item-module <?php if ($values2[6]["is_completed"] == 1) : ?>active<?php endif ?>">
                                                         <!-- <img src="img/icon.png" alt=""/> -->
-                                                        <a href="modulo2.php?stp=7" class="v2-act-7">INFOGRÁFICO 02</a><!--<p class=dots-mod>. . .</p>-->
+                                                        <a href="#7" class="v2-act-7">INFOGRÁFICO 02</a><!--<p class=dots-mod>. . .</p>-->
                                                     </div>
                                                 </div>
                                                 <div class="col-12 col-sm-6  col-md-3">
                                                     <div class="item-module <?php if ($values2[7]["is_completed"] == 1) : ?>active<?php endif ?>">
                                                         <!-- <img src="img/icon.png" alt=""/> -->
-                                                        <a href="modulo2.php?stp=8" class="v2-act-8">VIDEO ANIMADO 02</a><!--<p class=dots-mod>. . .</p>-->
+                                                        <a href="#8" class="v2-act-8">VIDEO ANIMADO 02</a><!--<p class=dots-mod>. . .</p>-->
                                                     </div>
                                                 </div>
                                             </div>
@@ -215,13 +215,13 @@
                                                 <div class="col-12 col-sm-6  col-md-3">
                                                     <div class="item-module <?php if ($values2[8]["is_completed"] == 1) : ?>active<?php endif ?>">
                                                         <!-- <img src="img/icon.png" alt=""/> -->
-                                                        <a href="modulo2.php?stp=9" class="v2-act-9">SLIDESHOW 02</a><!--<p class=dots-mod>. . .</p>-->
+                                                        <a href="#9" class="v2-act-9">SLIDESHOW 02</a><!--<p class=dots-mod>. . .</p>-->
                                                     </div>
                                                 </div>
                                             </div>
                                             <div class="row">
                                                 <div class="col-12 item-module-final">
-                                                    <?php if ($row_cnt2 == 0): ?><a href="modulo2.php?stp=7">ACTIVIDAD FINAL 2</a><?php endif; ?>
+                                                    <?php if ($row_cnt2 == 0): ?><a href="#7">ACTIVIDAD FINAL 2</a><?php endif; ?>
                                                 </div>
                                             </div>
                                         </div>
@@ -311,7 +311,7 @@
                 </section>
                 <?php require './footer.php'; ?>
             </div><!--  fin  <div id="content"> -->
-            <nav id="sidebar" class="active">
+            <nav id="sidebar" class="">
                 <div class="sidebar-header">
                     <h3>Menu</h3>
                 </div>
@@ -339,7 +339,7 @@
                         <a href="#" class="nav-recursos">Recursos relacionados</a>
                     </li>
                     <li>
-                        <a href="0-02_login.php" class="nav-iniciar">Iniciar sesión</a>
+                        <a href="0-04_intro.php" class="nav-iniciar">Iniciar sesión</a>
                     </li>
                 </ul>
 

@@ -82,19 +82,19 @@
 
                             </div>
                             <div class="answers row" data-page="4">
-                                <div class="col-6 answer" data-value="1">
+                                <div class="col-12 col-sm-6 answer" data-value="1">
 
                                     <p><img src="../img/mod1/1-09_eva-p2-a-videos.png" alt=""/>Vea videos musicales de moda</p>
                                 </div>
-                                <div class="col-6 answer" data-value="2">
+                                <div class="col-12 col-sm-6 answer" data-value="2">
 
                                     <p><img src="../img/mod1/1-09_eva-p2-b-abuso.png" alt=""/>Sea víctima de sextorsión o abuso sexual</p>
                                 </div>
-                                <div class="col-6 answer" data-value="3">
+                                <div class="col-12 col-sm-6 answer" data-value="3">
 
                                     <p><img src="../img/mod1/1-09_eva-p2-c-comunicarse.png" alt=""/>Se comunique con personas a distancia</p>
                                 </div>
-                                <div class="col-6 answer" data-value="4">
+                                <div class="col-12 col-sm-6 answer" data-value="4">
 
                                     <p><img src="../img/mod1/1-09_eva-p2-d-información.png" alt=""/>Acceda a información sobre historia y cultura</p>
                                 </div>
@@ -110,22 +110,22 @@
 
                             </div>
                             <div class="answers row" data-page="5">
-                                <div class="col-4 answer" data-value="1">
+                                <div class="col-12 col-sm-6 col-md-4 answer" data-value="1">
                                     <p><img src="../img/mod1/1-09_eva-p3-a-compras.png" alt=""/>Comprar cosas que se necesitan</p>
                                 </div>
-                                <div class="col-4 answer" data-value="2">
+                                <div class="col-12 col-sm-6 col-md-4 answer" data-value="2">
                                     <p><img src="../img/mod1/1-09_eva-p3-b-aprender.png" alt=""/>Aprender algo nuevo</p>
                                 </div>
-                                <div class="col-4 answer" data-value="4">
+                                <div class="col-12 col-sm-6 col-md-4 answer" data-value="4">
                                     <p><img src="../img/mod1/1-09_eva-p3-d-trabajar.png" alt=""/>Trabajar desde la casa</p>
                                 </div>
-                                <div class="col-4 answer" data-value="5">
+                                <div class="col-12 col-sm-6 col-md-4 answer" data-value="5">
                                     <p><img src="../img/mod1/1-09_eva-p3-e-jugar.png" alt=""/>Jugar video juegos</p>
                                 </div>
-                                <div class="col-4 answer" data-value="6">
+                                <div class="col-12 col-sm-6 col-md-4 answer" data-value="6">
                                     <p><img src="../img/mod1/1-09_eva-p3-c-leer.png" alt=""/>Leer libros y revistas</p>
                                 </div>
-                                <div class="col-4 answer" data-value="7">
+                                <div class="col-12 col-sm-6 col-md-4 answer" data-value="7">
                                     <p><img src="../img/mod1/1-09_eva-p3-f-jugar.png" alt=""/>Todas las anteriores</p>
                                 </div>
 
@@ -257,26 +257,26 @@
                         </div>
                         <div id="eva_09p11" class="mod d-none">
                             <div class="question row ">
-                                <div class="col-7 text-center">
-                                    <h3 class=""><span>10</span> Observe la imagen. Este tipo de anuncio se usa para engañar a las personas menores de edad para secuestrarlas con nes sexuales. <br><br>¿Cómo se llama este tipo de explotación sexual?</h3>
+                                <div class="col-12 col-sm-7 text-center">
+                                    <h3 class=""><span>10</span> Observe la imagen. Este tipo de anuncio se usa para engañar a las personas menores de edad para secuestrarlas con fines sexuales. <br><br>¿Cómo se llama este tipo de explotación sexual?</h3>
                                 </div>
-                                <div class="col-5 text-center">
+                                <div class="col-12 col-sm-5 text-center">
                                     <img src="../img/mod1/1-09_eva-p10_img.png" alt="" class="img-fluid"/>
                                 </div>
 
 
                             </div>
                             <div class="answers row final">
-                                <div class="col-3 answer min-height-110" data-value="1">
+                                <div class="col-12 col-sm-6 col-md-3 answer min-height-110" data-value="1">
                                     <p>Pornografía infantil</p>
                                 </div>
-                                <div class="col-3 answer min-height-110" data-value="2">
+                                <div class="col-12 col-sm-6 col-md-3 answer min-height-110" data-value="2">
                                     <p>Producción de material de abuso infantil</p>
                                 </div>
-                                <div class="col-3 answer min-height-110" data-value="3">
+                                <div class="col-12 col-sm-6 col-md-3 answer min-height-110" data-value="3">
                                     <p>Explotación sexual turística</p>
                                 </div>
-                                <div class="col-3 answer min-height-110" data-value="4">
+                                <div class="col-12 col-sm-6 col-md-3 answer min-height-110" data-value="4">
                                     <p>Trata de personas</p>
                                 </div>
                             </div>
@@ -315,7 +315,7 @@
                     <input name="is_approved" id="is_approved">
                 </form>
             </div>
-            <nav id="sidebar" class="active">
+            <nav id="sidebar" class="">
                 <div class="sidebar-header">
                     <h3>Menu</h3>
                 </div>
@@ -343,7 +343,7 @@
                         <a href="#" class="nav-recursos">Recursos relacionados</a>
                     </li>
                     <li>
-                        <a href="../0-02_login.php" class="nav-iniciar">Iniciar sesión</a>
+                        <a href="../0-04_intro.php" class="nav-iniciar">Iniciar sesión</a>
                     </li>
                 </ul>
 

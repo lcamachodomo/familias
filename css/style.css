@@ -153,6 +153,7 @@ background: #DD3B44;
     left: -37px;
     
 }
+#modal_1-03init p{color: #fff;}
 .bx-wrapper .bx-next {
     right: -37px;
     
@@ -324,16 +325,6 @@ img[usemap]{
 .intro-header.blue{
     background: #2E8BB8;
 }
-span.init-act {
-    background-color: green;
-    padding: 5px;
-    border-radius: 10px;
-    text-shadow: none;
-    color: #fff;
-    /* text-align: center; */
-    margin: auto;
-    display: block;
-}
 .init-03{
     color: #fff;
     text-align: center;
@@ -344,6 +335,14 @@ span.init-act {
 }
 #modal_1-03init .close{
     opacity: 1;
+    background-color: green;
+    padding: 8px 20px;
+    border-radius: 10px;
+    text-shadow: none;
+    color: #fff;
+    margin: 10px auto;
+    display: block;
+    font-size: 1.2em;
 }
 
 #act_01p3 .img-md {

@@ -135,14 +135,14 @@ emocionales, sociales y físicas del abuso sexual.</p>
                                     <img src="../img/mod1/1-08_sli_img3.png" class="img-fluid d-block m-auto">
                                     <h4 class="text-center"><strong>Consecuencias a corto plazo</strong></h4>
                                     <p class="text-center">Efectos que la persona sufre de inmediato</p>
-                                    <button type="button" class="btn btn-primary btn-lg m-auto d-block ejem" data-toggle="modal" data-target="#modal_1-08_act2">Ver ejemplos</button>
+                                    <button type="button" class="btn btn-primary btn-lg m-auto d-block ejem" data-toggle="modal" data-target="#modal_1-08_act1">Ver ejemplos</button>
                                 </div>
 
                                 <div class="col-12 col-md-6">
                                     <img src="../img/mod1/1-08_sli_img4.png" class="img-fluid d-block m-auto">
                                     <h4 class="text-center"><strong>Consecuencias a largo plazo</strong></h4>
                                     <p class="text-center">Pueden marcar a la persona de por vida.</p>
-                                    <button type="button" class="btn btn-primary btn-lg m-auto d-block ejem" data-toggle="modal" data-target="#modal_1-08_act1">Ver ejemplos</button>
+                                    <button type="button" class="btn btn-primary btn-lg m-auto d-block ejem" data-toggle="modal" data-target="#modal_1-08_act2">Ver ejemplos</button>
                                 </div>
                                 <button class="gotoModulePage btn btn-dark baki" data-page="3">Atrás</button>
                             </div>
@@ -230,7 +230,7 @@ emocionales, sociales y físicas del abuso sexual.</p>
                 </section>
                 <?php require '../footer.php'; ?>
             </div>
-            <nav id="sidebar" class="active">
+            <nav id="sidebar" class="">
                 <div class="sidebar-header">
                     <h3>Menu</h3>
                 </div>
@@ -258,7 +258,7 @@ emocionales, sociales y físicas del abuso sexual.</p>
                         <a href="#" class="nav-recursos">Recursos relacionados</a>
                     </li>
                     <li>
-                        <a href="../0-02_login.php" class="nav-iniciar">Iniciar sesión</a>
+                        <a href="../0-04_intro.php" class="nav-iniciar">Iniciar sesión</a>
                     </li>
                 </ul>
 

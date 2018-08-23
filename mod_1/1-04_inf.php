@@ -36,6 +36,7 @@
                         </div>
                     </div>
                 </nav>
+                <p class="intro-header blue">¿Qué se puede hacer en Internet?</p>
                 <section class="container">
                     <div class="main">
                         <div id="act_01" class="mod">
@@ -61,7 +62,7 @@
                 </section>
                 <?php require '../footer.php'; ?>
             </div>
-            <nav id="sidebar" class="active">
+            <nav id="sidebar" class="">
                 <div class="sidebar-header">
                     <h3>Menu</h3>
                 </div>
@@ -89,7 +90,7 @@
                         <a href="#" class="nav-recursos">Recursos relacionados</a>
                     </li>
                     <li>
-                        <a href="../0-02_login.php" class="nav-iniciar">Iniciar sesión</a>
+                        <a href="../0-04_intro.php" class="nav-iniciar">Iniciar sesión</a>
                     </li>
                 </ul>
 

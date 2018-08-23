@@ -56,7 +56,7 @@
                                     <div class="row">
                                         <div class="col-md-6">
                                             <div class="slider">
-                                                <div>Yo veo como mi hermano mayor usa la computadora para estudiar. ¡No creo que podría hacer sus reportes si no la tuviera!</div>
+                                                <div>Yo veo como mi hermano mayor usa la computadora para estudiar. ¡No creo que podría hacer sus tareas si no la tuviera!</div>
                                                 <div>Y bueno, cuando a mí me dejan usarla, me gusta buscar música que algunas veces cambio con un app de DJ.</div>
                                                 <div>Pero cuando sea grande, voy a trabajar usando una computadora.</div>
                                             </div>
@@ -88,7 +88,7 @@
                 </section>
                 <?php require '../../footer.php'; ?>
             </div>
-            <nav id="sidebar" class="active">
+            <nav id="sidebar" class="">
 
 
                 <div class="sidebar-header">
@@ -121,7 +121,7 @@
                         <a href="#" class="nav-recursos">Recursos relacionados</a>
                     </li>
                     <li>
-                        <a href="../../0-02_login.php" class="nav-iniciar">Iniciar sesión</a>
+                        <a href="../../0-04_intro.php" class="nav-iniciar">Iniciar sesión</a>
                     </li>
                 </ul>
 

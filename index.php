@@ -66,7 +66,11 @@
                                 <a class="btn-gestores mx-auto" href="https://e-mentores.moodle.school/login/index.php" target="_blank">e-mentores para gestores</a>
                             </div>
                             <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6">
-                                <a class="btn-apps mx-auto" href="#">apps para chicxs</a>
+                                <a class="btn-apps mx-auto" href="#" id="btn-chxs">apps para chicxs</a>
+                                <a onclick="window.open('https://www.facebook.com/sharer/sharer.php?u=http%3A//costaricaporsiempre.org/yo-amo-parques-nacionales/', 
+                         'newwindow', 
+                         'width=300,height=250'); 
+              return false;" href="https://www.facebook.com/sharer/sharer.php?u=http%3A//costaricaporsiempre.org/yo-amo-parques-nacionales/">Share on Facebook</a>
                             </div>
                         </div>
                     </div>
@@ -109,7 +113,7 @@
 
             <?php require 'footer.php'; ?>
         </div>
-        <nav id="sidebar" class="active">
+        <nav id="sidebar" class="">
 
 
             <div class="sidebar-header">
@@ -142,12 +146,32 @@
                     <a href="#" class="nav-recursos">Recursos relacionados</a>
                 </li>
                 <li>
-                    <a href="0-02_login.php" class="nav-iniciar">Iniciar sesión</a>
+                    <a href="0-04_intro.php" class="nav-iniciar">Iniciar sesión</a>
                 </li>
             </ul>
 
         </nav>
     </div>
+
+
+
+    <div class="modal" id="modal_btn-chxs" tabindex="-1" role="dialog">
+            <div class="modal-dialog" role="document">
+                <div class="modal-content">
+
+                    <div class="modal-body">
+
+                        
+                            <p>Enlace pronto disponible.</p>
+                        </div>
+                        
+                    <div class="modal-footer">
+                        <button type="button" class="btn-cerrar" data-dismiss="modal">Cerrar</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
     <script src="js/bootstrap.bundle.js" type="text/javascript"></script>
@@ -155,6 +179,12 @@
     <script src="js/bootstrap.js" type="text/javascript"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/malihu-custom-scrollbar-plugin/3.1.5/jquery.mCustomScrollbar.concat.min.js"></script>
     <script>
+
+    $('#btn-chxs').on('click', function() {
+       $("#modal_btn-chxs").modal("show");
+    });
+
+         
         // $(".module.disabled a").each(function() {
         //     $(this).attr("href", "");
         //     $(this).attr("disabled", true);

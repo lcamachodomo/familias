@@ -62,7 +62,7 @@ print $_SESSION["last_id"];
                 </section>
 <?php require './footer.php'; ?>
             </div>
-            <nav id="sidebar" class="active">
+            <nav id="sidebar" class="">
                 <div class="sidebar-header">
                     <h3>Menu</h3>
                 </div>
@@ -76,7 +76,7 @@ print $_SESSION["last_id"];
                         <a href="#" class="nav-recursos">Recursos relacionados</a>
                     </li>
                     <li>
-                        <a href="0-02_login.php" class="nav-iniciar">Iniciar sesión</a>
+                        <a href="0-04_intro.php" class="nav-iniciar">Iniciar sesión</a>
                     </li>
                 </ul>
 
