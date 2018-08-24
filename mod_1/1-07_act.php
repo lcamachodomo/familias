@@ -40,20 +40,20 @@
                     <div class="main">
                         <div id="act_01p1" class="mod module intro">
                             <p class="text-center">Señales del abuso sexual en personas menores de edad
-                                <button class="gotoModulePage btn btn-dark" data-page="2">Continuar</button>
+                                <button class="gotoModulePage btn-continue" data-page="2">Continuar</button>
                             </p>
                             
                         </div>
                         <div id="act_01p2" class="d-none mod module intro">
                             <p class="text-center">El abuso sexual y la explotación sexual, tanto física como en línea, tienen serias consecuencias en la vida de niñas, niños y adolescentes. <br>
                             <br> ¡No porque los abusos se cometen por medio de las TIC, las consecuencias son menores! Las áreas en las que una persona menor de edad puede verse afectada son de índole física, emocional (psicológica), académica y social.
-                            <button class="gotoModulePage btn btn-dark" data-page="3">Continuar</button>
+                            <button class="gotoModulePage btn-continue" data-page="3">Continuar</button>
                         </p>
                             
                         </div>
                         <div id="act_01p3" class="d-none mod module intro">
                             <p class="text-center">Identifique en esta imagen las diferentes consecuencias que puede experimentar una persona menor de edad está siendo víctima de abuso sexual.
-                                <button class="gotoModulePage btn btn-dark" data-page="4">Iniciar</button>
+                                <button class="gotoModulePage btn-continue" data-page="4">Iniciar</button>
                             </p>
                             
                         </div>

@@ -132,7 +132,7 @@
             </nav>
         </div>
         <div class="modal" id="modal_1-07_act" tabindex="-1" role="dialog">
-            <div class="modal-dialog" role="document">
+            <div class="modal-dialog modal-lg" role="document">
                 <div class="modal-content">
 
                     <div class="modal-header">
@@ -197,11 +197,15 @@
                                     <div class="slider4">
                                         <div>Descripción: Es cuando una persona envía mensajes con contenido sexual a otras personas.  Por ejemplo, una conversación erótica, fotos o videos reveladores, o en poses sexuales.</div>
                                         <div>Peligros asociados: <br>
-                                            <ul>
-                                                <li>Los contenidos podrían enviarse, voluntaria o involuntariamente, a otras personas o publicarlas en redes sociales.</li>
-                                                <li>Se podrían utilizar esos mensajes, fotos o videos íntimos como materiales de abuso sexual, para que se distribuyen y hasta se venden a otras personas.</li>
-                                                <li>Al publicar los contenidos en sitios visibles a muchas personas,  se daña la reputación de quien aparece en las imágenes y se le expone a burlas y otras agresiones.</li>
-                                                <li>Podrían chantajear a las personas que aparecen en ellas, solicitándoles dinero o hacer algo contra su voluntad, con tal de no publicarlas (ver el riesgo de “sextorsión”).</li>
+                                            <ul class="list-unstyled list-unstyled-md">
+                                                <li>1. Los contenidos podrían enviarse, voluntaria o involuntariamente, a otras personas o publicarlas en redes sociales.</li>
+                                                <li>2. Se podrían utilizar esos mensajes, fotos o videos íntimos como materiales de abuso sexual, para que se distribuyen y hasta se venden a otras personas.</li>
+                                            </ul>
+                                        </div>
+                                        <div>Peligros asociados: <br>
+                                            <ul class="list-unstyled list-unstyled-md">
+                                                <li>3. Al publicar los contenidos en sitios visibles a muchas personas,  se daña la reputación de quien aparece en las imágenes y se le expone a burlas y otras agresiones.</li>
+                                                <li>4. Podrían chantajear a las personas que aparecen en ellas, solicitándoles dinero o hacer algo contra su voluntad, con tal de no publicarlas (ver el riesgo de “sextorsión”).</li>
                                             </ul>
                                         </div>
                                     </div>

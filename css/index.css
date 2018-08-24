@@ -205,9 +205,9 @@ a[data-toggle="collapse"] {
     background-position: -125px 0px !important;
 }
 
-.bck-intro .main-block .btn-continue{ background: url(../img/botones/boton-continuar.png) no-repeat; }
-.bck-intro .main-block .btn-finish{ background: url(../img/botones/boton-finalizar.png) no-repeat; }
-.bck-intro .main-block .btn-continue, .bck-intro .main-block .btn-finish{
+.btn-continue{ background: url(../img/botones/boton-continuar.png) no-repeat; }
+.btn-finish{ background: url(../img/botones/boton-finalizar.png) no-repeat; }
+.btn-continue, .btn-finish{
     background-position: 0px 0px;
     background-size: 270px;
     width: 135px;
@@ -218,12 +218,11 @@ a[data-toggle="collapse"] {
     font-weight: 700;
     font-size: 1.3em;
     text-align: center;
-    padding-top: 10px;
     margin-bottom: 20px !important;
-    margin-top: 5px !important;
+    margin-top: 0px !important;
 }
 
-.bck-intro .main-block .btn-continue:hover, .bck-intro .main-block .btn-finish:hover{background-position: -135px 0px; text-decoration: none;}
+.btn-continue:hover, .btn-finish:hover{background-position: -135px 0px; text-decoration: none;}
 
 .btn-entrar{
     background-image: url('../img/botones/boton-entrar.png');
@@ -253,19 +252,19 @@ a[data-toggle="collapse"] {
 
 .item-module-final a{
     background-image: url(../img/botones/boton-evaluacion-modulos.png);
-    background-size: 900px;
+    background-size: 660px;
     display: block;
-    width: 300px;
-    height: 62px;
+    width: 220px;
+    height: 45px;
     background-position: 0 0;
     background-repeat: no-repeat;
     font-family: 'Nunito', sans-serif;
     font-weight: 700;
     color: #FFFFFF !important;
-    font-size: 1.3em;
+    font-size: 1em;
     text-align: center;
     text-transform: uppercase;
-    line-height: 65px;
+    line-height: 45px;
     padding-right: 20px;
     margin: auto;
     padding-bottom: 15px;
@@ -403,6 +402,7 @@ a[data-toggle="collapse"] {
     padding-bottom: 1%;
     padding-top: 1%;
     min-height: 30px;
+    font-size: 0.8em;
 }
 
 .footer-bg-1{
@@ -410,7 +410,7 @@ a[data-toggle="collapse"] {
     margin-top: 30px;
 }
 .front-page .footer-bg-1{
-    
+
     margin-top: 0px;
 }
 
@@ -495,6 +495,13 @@ img.logo-imas {
     margin-bottom: 1em;
 }
 @media (min-width: 576px) { 
+    .item-module-final a{
+        background-size: 900px;
+        width: 300px;
+        height: 62px;
+        font-size: 1.3em;
+        line-height: 65px;
+    }
 
 
 } /*fin 576*/
@@ -540,6 +547,10 @@ img.logo-imas {
     }
     #sidebar.active {
         right: 0px;
+    }
+
+    .footer-div-copyright{
+        font-size: 1em;
     }
 } /*fin 992*/
 
