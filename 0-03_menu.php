@@ -21,9 +21,14 @@
                     
                     $user = $_SESSION['user'];
                     $last_id = $user["id"];
+
+                    //var_dump($user);
                     
                     if (is_null($user)) {
-                        header("Location: /");
+
+                        echo '<script>window.location="http://ementores.org/error.php"</script>';
+
+                        // header("Location: http://ementores.org/error.php");
                         die();
                     }
                     ?>
