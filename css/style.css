@@ -308,10 +308,13 @@ img[usemap]{
     display: block;
 
 }
+
+.list-unstyled-md li{ margin: 10px auto; padding-left: 15px; }
 .img-md{
     max-width: 420px;
     margin: auto;
     display: block;
+    width: 100%;
 }
 .modal-header {
     border:none;
@@ -319,6 +322,10 @@ img[usemap]{
 .modal-content {
 
     background-color: rgba(255, 255, 255, 0.89);
+    background-color: rgba(255, 255, 255, 0.89);
+    border: none;
+    border-radius: 0px;
+    padding: 15px;
 
 }
 .bg-light{
