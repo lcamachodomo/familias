@@ -97,7 +97,7 @@
                 </section>
                 <?php require '../footer.php'; ?>
             </div>
-            <nav id="sidebar" class="active">
+            <nav id="sidebar" class="">
                 <div class="sidebar-header">
                     <h3>Menu</h3>
                 </div>
@@ -334,7 +334,7 @@
                 $('.slider' + slider).bxSlider({
                     pager: false,
                     infiniteLoop: true,
-                    auto: true
+                    auto: false
                 });
             });
 

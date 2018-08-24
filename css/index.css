@@ -4,12 +4,6 @@
     align-items: stretch;
 }
 
-#sidebar {
-    min-width: 250px;
-    max-width: 250px;
-    z-index: 8;
-}
-
 h1 img{
     width: 170px;
     float: left;
@@ -23,6 +17,7 @@ h1 img{
     min-width: 250px;
     max-width: 250px;
     min-height: 100vh;
+    z-index: 89;
     /* FIXED */
     position: fixed;
     right: -250px;
@@ -33,10 +28,6 @@ h1 img{
     background: #FF4256;
 }
 
-/*#sidebar ul.components {
-    padding: 20px 0;
-    border-bottom: 1px solid #47748b;
-}*/
 
 #sidebar ul p {
     color: #fff;
@@ -56,23 +47,12 @@ ul ul a {
     background: #6d7fcc;
 }
 
-/*@media (max-width: 768px) {
-    #sidebar {
-        margin-right:  -250px;
-    }
-    #sidebar.active {
-        margin-right: 0;
-    }
-}*/
-
 .back_to_menu{
-    background-image: url(../img/botones/btn_menu.png);
-    background-size: 350px;
+    background: url(../img/botones/btn_menu.png) 0 0 no-repeat;
+    background-size: 380px;
     display: block;
-    width: 175px;
-    height: 36px;
-    background-position: 0 0;
-    background-repeat: no-repeat;
+    width: 190px;
+    height: 40px;
     font-family: 'Nunito', sans-serif;
     font-weight: 700;
     color: #FFFFFF;
@@ -80,9 +60,11 @@ ul ul a {
     text-align: center;
     line-height: 33px;
     margin: auto;
-    padding-right: 10px;
+    padding: 1px 10px 10px;
     margin-top: 10px;
 }
+
+.back_to_menu:hover{ background-position: -190px 0; color: #FFFFFF; text-decoration: none;}
 
 a[data-toggle="collapse"] {
     position: relative;
@@ -130,9 +112,11 @@ a[data-toggle="collapse"] {
     padding: 20px;  
 }
 
+.chk-female img, .chk-male img{ cursor: pointer;}
 /* ENTRAR BUTTON */
 .bck-intro{
-    background: url('../img/circulos-fondo.png') #3FA891 no-repeat center; 
+    background: url('../img/circulos-fondo.png') #3FA891 no-repeat center;
+    background-size: contain;
     margin-bottom: 200px;
 }
 
@@ -193,7 +177,7 @@ a[data-toggle="collapse"] {
     font-weight: 700;
     color:#33AF99;
     font-size: 1em;
-    margin-bottom: 0px;
+    margin-bottom: 3px;
 }
 
 .bck-intro .main-block .btn-blue{
@@ -226,7 +210,7 @@ a[data-toggle="collapse"] {
 .bck-intro .main-block .btn-continue, .bck-intro .main-block .btn-finish{
     background-position: 0px 0px;
     background-size: 270px;
-    width: 136px;
+    width: 135px;
     height: 50px;
     border: none;
     color: #fff;
@@ -234,11 +218,12 @@ a[data-toggle="collapse"] {
     font-weight: 700;
     font-size: 1.3em;
     text-align: center;
-    padding-top: 5px;
+    padding-top: 10px;
     margin-bottom: 20px !important;
+    margin-top: 5px !important;
 }
 
-.bck-intro .main-block .btn-continue:hover, .bck-intro .main-block .btn-finish:hover{background-position: -136px 0px;}
+.bck-intro .main-block .btn-continue:hover, .bck-intro .main-block .btn-finish:hover{background-position: -135px 0px; text-decoration: none;}
 
 .btn-entrar{
     background-image: url('../img/botones/boton-entrar.png');
@@ -301,40 +286,30 @@ a[data-toggle="collapse"] {
 
 
 
-.btn-gestores:hover{
-    background-position: 0 0;
-    background-repeat: no-repeat;
-    text-decoration: none;
-    color:#FFFFFF;
-    background-position-x: 100%;
-}
+
 
 /* APPS BUTTON */
 
 .btn-apps{
-    background-image: url('../img/botones/boton-apps.png');
-    background-size: 700px;
+    background: url('../img/botones/boton-apps.png') no-repeat 0px 0px;
+    background-size: 550px;
     display: block;
-    width: 350px;
-    height: 85px;
-    background-position: 0px;
-    background-repeat: no-repeat;
+    width: 275px;
+    height: 70px;
     font-family: 'Nunito', sans-serif;
-    font-weight: 700;
-    color:#FFFFFF;
-    font-size: 1.3em;
+    font-weight: bold;
+    color: #FFFFFF;
+    font-size: 1em;
     text-transform: uppercase;
     text-align: left;
-    line-height: 80px;
-    padding-left: 5%;
+    padding: 20px 60px 10px 10px;
+
 }
 
 .btn-apps:hover{
-    background-position: 0 0;
-    background-repeat: no-repeat;
+    background-position: -275px 0px !important;
     text-decoration: none;
     color:#FFFFFF;
-    background-position: 100%;
 }
 
 
@@ -434,6 +409,10 @@ a[data-toggle="collapse"] {
     background-color: #006D9F;
     margin-top: 30px;
 }
+.front-page .footer-bg-1{
+    
+    margin-top: 0px;
+}
 
 .footer-bg-2{
     background-color: #1F4F86;
@@ -452,6 +431,11 @@ button#sidebarCollapse{
     top: 5px;
     right: 5px;
     position: absolute;
+    transition: all 0.3s;
+}
+
+button#sidebarCollapse.active {
+    right: 240px;
 }
 
 .btn-entrar{
@@ -459,22 +443,24 @@ button#sidebarCollapse{
     margin-top: 10px;
 }
 .btn-gestores {
-    background-image: url(../img/botones/boton-gestores.png);
-    background-size: cover;
+    background: url(../img/botones/boton-gestores.png) no-repeat 0px 0px;
+    background-size: 550px;
     display: block;
-    width: 100%;
-    background-position: -344px 0;
+    width: 275px;
+    height: 55px;
     font-family: 'Nunito', sans-serif;
+    font-weight: bold;
     color: #FFFFFF;
-    font-size: 1em;
+    font-size: .8em;
     text-transform: uppercase;
     text-align: left;
-    line-height: 66px;
-    padding-left: 5%;
+    padding: 15px 60px 5px 10px;
 }
 
+.btn-gestores:hover{ background-position: -275px 0; text-decoration: none; }
+
 .btn-cerrar {
-     background-image: url(../img/botones/btn_cerrar.png);
+    background-image: url(../img/botones/btn_cerrar.png);
     background-size: 250px;
     display: block;
     width: 125px;
@@ -495,9 +481,18 @@ button#sidebarCollapse{
 
 }
 
-.modal {
-
-    width: 60%;
+.small-f p {
+    font-size: 0.7em;
+    margin-bottom: 0;
+    height: 33px;
+}
+img.logo-imas {
+    max-width: 62%;
+    display: block;
+    margin: auto;
+}
+.row.small-f {
+    margin-bottom: 1em;
 }
 @media (min-width: 576px) { 
 
@@ -511,23 +506,15 @@ button#sidebarCollapse{
         height: 32px;
 
     }
-    .btn-gestores{
-        background-image: url('../img/botones/boton-gestores.png');
-        background-size: 900px;
-        display: block;
-        width: 450px;
-        height: 80px;
-        background-position: 0;
-        background-repeat: no-repeat;
-        font-family: 'Nunito', sans-serif;
-        font-weight: 700;
-        color:#FFFFFF;
-        font-size: 1.3em;
-        text-transform: uppercase;
-        text-align: left;
-        line-height: 80px;
-        padding-left: 5%;
+    .btn-gestores {
+        background-size: 650px;
+        width: 325px;
+        height: 65px;
+        font-size: 1em;
+        padding: 18px 60px 5px 10px;
     }
+
+    .btn-gestores:hover{ background-position: -325px 0; text-decoration: none; }
 
     .main-div-intro-text{
 
@@ -538,10 +525,10 @@ button#sidebarCollapse{
 
 
 @media (min-width: 992px) {
-h1 img{
-    width: 300px;
-    
-}  
+    h1 img{
+        width: 300px;
+
+    }  
     .modal {
 
         width: 100%;

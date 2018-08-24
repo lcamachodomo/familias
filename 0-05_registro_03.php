@@ -44,13 +44,13 @@
                                         <div class="form-group">
                                             <p class="text-center label">Escoja su personaje</p>
                                             <div class="row">
-                                                <div class="form-check d-inline-block col-6">
+                                                <div class="form-check d-inline-block col-6 chk-female">
                                                     <input class="form-check-input d-none" type="radio" name="data" id="exampleRadios1" value="1">
                                                     <label class="form-check-label float-right" for="exampleRadios1">
                                                         <img src="img/icon-female.png" alt=""/>
                                                     </label>
                                                 </div>
-                                                <div class="form-check d-inline-block col-6">
+                                                <div class="form-check d-inline-block col-6 chk-male">
                                                     <input class="form-check-input d-none" type="radio" name="data" id="exampleRadios2" value="2">
                                                     <label class="form-check-label" for="exampleRadios2">
                                                         <img src="img/icon-male.png" alt=""/>
@@ -70,7 +70,7 @@
                 </section>
                 <?php require './footer.php'; ?>
             </div>
-            <nav id="sidebar" class="active">
+            <nav id="sidebar" class="">
                 <div class="sidebar-header">
                     <h3>Menu</h3>
                 </div>

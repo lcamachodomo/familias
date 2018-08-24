@@ -1,6 +1,6 @@
 <html>
     <head>
-    <link rel="icon" href="favicon.ico" type="image/gif">
+        <link rel="icon" href="favicon.ico" type="image/gif">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <title>Me informo: oportunidades y desafíos en la web | e-mentores</title>
         <link  type="text/css"  href="../../css/bootstrap.css" rel="stylesheet">
@@ -38,53 +38,57 @@
                 </nav>
                 <p class="intro-header blue">Oportunidades y desafíos</p>
                 <section class="container">
-                    <div class="main">
-                        <div id="act_01" class="">
-                            <ul class="nav nav-tabs " id="myTab" role="tablist">
-                                <li class="nav-item">
-                                    <a class="nav-link active" id="home-tab" data-toggle="tab" href="#desafios" role="tab" aria-controls="home" aria-selected="true">Desafíos</a>
-                                </li>
-                                <li class="nav-item">
-                                    <a class="nav-link" id="contact-tab" data-toggle="tab" href="#oportunidades" role="tab" aria-controls="contact" aria-selected="false">Oportunidades</a>
-                                </li>
-                            </ul>
-                            <div class="tab-content" id="myTabContent">
-                                <div class="tab-pane fade show active" id="desafios" role="tabpanel" aria-labelledby="home-tab">
-                                    <img src="../../img/mod1/1-03_act_personaje2rec.png" class="ico-personaje">
-                                    <div class="row">
-                                        <div class="col-sm-6">
-                                            <div class="slider">
-                                                <div>A veces me doy cuenta que la información que encuentro no siempre es cierta o muchas veces tengo que abrir muchas páginas que no me sirven para encontrar lo que ando buscando. ¡Es muy frustrante!</div>
+                    <div class="row justify-content-md-center">
+                        <div class="col-sm-10">
+                            <div class="main">
+                                <div id="act_01" class="">
+                                    <ul class="nav nav-tabs " id="myTab" role="tablist">
+                                        <li class="nav-item">
+                                            <a class="nav-link active" id="home-tab" data-toggle="tab" href="#desafios" role="tab" aria-controls="home" aria-selected="true">Desafíos</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link" id="contact-tab" data-toggle="tab" href="#oportunidades" role="tab" aria-controls="contact" aria-selected="false">Oportunidades</a>
+                                        </li>
+                                    </ul>
+                                    <div class="tab-content" id="myTabContent">
+                                        <div class="tab-pane fade show active" id="desafios" role="tabpanel" aria-labelledby="home-tab">
+                                            <img src="../../img/mod1/1-03_act_personaje2rec.png" class="ico-personaje">
+                                            <div class="row">
+                                                <div class="col-sm-7">
+                                                    <div class="slider">
+                                                        <div>A veces me doy cuenta que la información que encuentro no siempre es cierta o muchas veces tengo que abrir muchas páginas que no me sirven para encontrar lo que ando buscando. ¡Es muy frustrante!</div>
+                                                    </div>
+                                                </div>
+                                                <div class="col-sm-5">
+                                                    <img src="../../img/mod1/1-03_act_img2.png" alt="" class="img-fluid"/>
+                                                </div>
                                             </div>
                                         </div>
-                                        <div class="col-sm-6">
-                                            <img src="../../img/mod1/1-03_act_img2.png" alt="" class="img-fluid"/>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="tab-pane fade" id="oportunidades" role="tabpanel" aria-labelledby="profile-tab">
-                                    <img src="../../img/mod1/1-03_act_personaje2rec.png" class="ico-personaje">
-                                    <div class="row">
-                                        <div class="col-sm-6">
-                                            <div class="slider2">
-                                                <div>Cuando yo no sé algo que me dicen mis amigas o cuando en el cole no entendí algo que explicaron, lo primero que hago al llegar a la casa es usar la Tablet para buscarlo.</div>
-                                                <div>Me gusta poder encontrar respuestas a todos lo que quiero saber. ¡Internet lo sabe todo!</div>
+                                        <div class="tab-pane fade" id="oportunidades" role="tabpanel" aria-labelledby="profile-tab">
+                                            <img src="../../img/mod1/1-03_act_personaje2rec.png" class="ico-personaje">
+                                            <div class="row">
+                                                <div class="col-sm-7">
+                                                    <div class="slider2">
+                                                        <div>Cuando yo no sé algo que me dicen mis amigas o cuando en el cole no entendí algo que explicaron, lo primero que hago al llegar a la casa es usar la Tablet para buscarlo.</div>
+                                                        <div>Me gusta poder encontrar respuestas a todos lo que quiero saber. ¡Internet lo sabe todo!</div>
 
+                                                    </div>
+                                                </div>
+                                                <div class="col-sm-5">
+                                                    <img src="../../img/mod1/1-03_act_img2.png" alt="" class="img-fluid"/>
+                                                </div>
                                             </div>
                                         </div>
-                                        <div class="col-sm-6">
-                                            <img src="../../img/mod1/1-03_act_img2.png" alt="" class="img-fluid"/>
-                                        </div>
                                     </div>
+                                    <a href="../1-03_act.php" class="back_to_menu">Volver</a>
                                 </div>
                             </div>
-                            <a href="../1-03_act.php" class="back_to_menu">Volver</a>
                         </div>
                     </div>
                 </section>
                 <?php require '../../footer.php'; ?>
             </div>
-            <nav id="sidebar" class="active">
+            <nav id="sidebar" class="">
 
 
                 <div class="sidebar-header">
@@ -143,7 +147,7 @@
                     slider2 = $('.slider2').bxSlider({
                         pager: false,
                         infiniteLoop: true,
-                        auto: true
+                        auto: false
                     });
                 }
 

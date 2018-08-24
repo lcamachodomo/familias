@@ -1,6 +1,6 @@
 <html>
     <head>
-    <link rel="icon" href="favicon.ico" type="image/gif">
+        <link rel="icon" href="favicon.ico" type="image/gif">
         <title>Me informo: oportunidades y desafíos en la web | e-mentores</title>
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link  type="text/css"  href="../../css/bootstrap.css" rel="stylesheet">
@@ -38,57 +38,61 @@
                 </nav>
                 <p class="intro-header blue">Oportunidades y desafíos</p>
                 <section class="container">
-                    <div class="main">
-                        <div id="act_01" class="">
+                    <div class="row justify-content-md-center">
+                        <div class="col-sm-10">
+                            <div class="main">
+                                <div id="act_01" class="">
 
-                            <ul class="nav nav-tabs " id="myTab" role="tablist">
-                                <li class="nav-item">
-                                    <a class="nav-link active" id="home-tab" data-toggle="tab" href="#desafios" role="tab" aria-controls="home" aria-selected="true">Desafíos</a>
-                                </li>
-                                <li class="nav-item">
-                                    <a class="nav-link" id="contact-tab" data-toggle="tab" href="#oportunidades" role="tab" aria-controls="contact" aria-selected="false">Oportunidades</a>
-                                </li>
-                            </ul>
-                            <div class="tab-content" id="myTabContent">
+                                    <ul class="nav nav-tabs " id="myTab" role="tablist">
+                                        <li class="nav-item">
+                                            <a class="nav-link active" id="home-tab" data-toggle="tab" href="#desafios" role="tab" aria-controls="home" aria-selected="true">Desafíos</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link" id="contact-tab" data-toggle="tab" href="#oportunidades" role="tab" aria-controls="contact" aria-selected="false">Oportunidades</a>
+                                        </li>
+                                    </ul>
+                                    <div class="tab-content" id="myTabContent">
 
-                                <div class="tab-pane fade show active" id="desafios" role="tabpanel" aria-labelledby="home-tab">
-                                    <img src="../../img/mod1/1-03_act_personaje1rec.png" class="ico-personaje">
-                                    <div class="row">
-                                        <div class="col-md-6">
-                                            <div class="slider">
-                                                <div>Yo veo como mi hermano mayor usa la computadora para estudiar. ¡No creo que podría hacer sus tareas si no la tuviera!</div>
-                                                <div>Y bueno, cuando a mí me dejan usarla, me gusta buscar música que algunas veces cambio con un app de DJ.</div>
-                                                <div>Pero cuando sea grande, voy a trabajar usando una computadora.</div>
+                                        <div class="tab-pane fade show active" id="desafios" role="tabpanel" aria-labelledby="home-tab">
+                                            <img src="../../img/mod1/1-03_act_personaje1rec.png" class="ico-personaje">
+                                            <div class="row">
+                                                <div class="col-md-6">
+                                                    <div class="slider">
+                                                        <div>Yo veo como mi hermano mayor usa la computadora para estudiar. ¡No creo que podría hacer sus tareas si no la tuviera!</div>
+                                                        <div>Y bueno, cuando a mí me dejan usarla, me gusta buscar música que algunas veces cambio con un app de DJ.</div>
+                                                        <div>Pero cuando sea grande, voy a trabajar usando una computadora.</div>
+                                                    </div>
+                                                </div>
+                                                <div class="col-md-6">
+                                                    <img src="../../img/mod1/1-03_act_img1.png" alt="" class="img-fluid"/>
+                                                </div>
                                             </div>
                                         </div>
-                                        <div class="col-md-6">
-                                            <img src="../../img/mod1/1-03_act_img1.png" alt="" class="img-fluid"/>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="tab-pane fade" id="oportunidades" role="tabpanel" aria-labelledby="profile-tab">
-                                    <img src="../../img/mod1/1-03_act_personaje1rec.png" class="ico-personaje">
-                                    <div class="row">
-                                        <div class="col-sm-6">
-                                            <div class="slider2">
-                                                <div>Yo veo que mis papás no saben usar bien la compu y no tienen muchos apps en sus teléfonos.</div>
-                                                <div>os usan más que nada para llamar, aunque yo les he dicho que con Internet se pueden hacer muchas cosas.</div>
-                                                <div>Siento que están perdiendo muchas chances porque no se ponen las pilas.</div>
+                                        <div class="tab-pane fade" id="oportunidades" role="tabpanel" aria-labelledby="profile-tab">
+                                            <img src="../../img/mod1/1-03_act_personaje1rec.png" class="ico-personaje">
+                                            <div class="row">
+                                                <div class="col-sm-6">
+                                                    <div class="slider2">
+                                                        <div>Yo veo que mis papás no saben usar bien la compu y no tienen muchos apps en sus teléfonos.</div>
+                                                        <div>os usan más que nada para llamar, aunque yo les he dicho que con Internet se pueden hacer muchas cosas.</div>
+                                                        <div>Siento que están perdiendo muchas chances porque no se ponen las pilas.</div>
+                                                    </div>
+                                                </div>
+                                                <div class="col-sm-6">
+                                                    <img src="../../img/mod1/1-03_act_img1.png" alt="" class="img-fluid"/>
+                                                </div>
                                             </div>
                                         </div>
-                                        <div class="col-sm-6">
-                                            <img src="../../img/mod1/1-03_act_img1.png" alt="" class="img-fluid"/>
-                                        </div>
                                     </div>
+                                    <a href="../1-03_act.php" class="back_to_menu">Volver</a>
                                 </div>
                             </div>
-                            <a href="../1-03_act.php" class="back_to_menu">Volver</a>
                         </div>
                     </div>
                 </section>
                 <?php require '../../footer.php'; ?>
             </div>
-            <nav id="sidebar" class="active">
+            <nav id="sidebar" class="">
 
 
                 <div class="sidebar-header">
@@ -159,7 +163,7 @@
                     slider2 = $('.slider2').bxSlider({
                         pager: false,
                         infiniteLoop: true,
-                        auto: true
+                        auto: false
                     });
                 }
 

@@ -82,19 +82,19 @@
 
                             </div>
                             <div class="answers row" data-page="4">
-                                <div class="col-12 col-sm-6 answer" data-value="1">
+                                <div class="col-12 col-sm-6 answer img-answer" data-value="1">
 
                                     <p><img src="../img/mod1/1-09_eva-p2-a-videos.png" alt=""/>Vea videos musicales de moda</p>
                                 </div>
-                                <div class="col-12 col-sm-6 answer" data-value="2">
+                                <div class="col-12 col-sm-6 answer img-answer" data-value="2">
 
                                     <p><img src="../img/mod1/1-09_eva-p2-b-abuso.png" alt=""/>Sea víctima de sextorsión o abuso sexual</p>
                                 </div>
-                                <div class="col-12 col-sm-6 answer" data-value="3">
+                                <div class="col-12 col-sm-6 answer img-answer" data-value="3">
 
                                     <p><img src="../img/mod1/1-09_eva-p2-c-comunicarse.png" alt=""/>Se comunique con personas a distancia</p>
                                 </div>
-                                <div class="col-12 col-sm-6 answer" data-value="4">
+                                <div class="col-12 col-sm-6 answer img-answer" data-value="4">
 
                                     <p><img src="../img/mod1/1-09_eva-p2-d-información.png" alt=""/>Acceda a información sobre historia y cultura</p>
                                 </div>
@@ -110,27 +110,26 @@
 
                             </div>
                             <div class="answers row" data-page="5">
-                                <div class="col-12 col-sm-6 col-md-4 answer" data-value="1">
+                                <div class="col-12 col-sm-6 col-md-4 answer img-answer" data-value="1">
                                     <p><img src="../img/mod1/1-09_eva-p3-a-compras.png" alt=""/>Comprar cosas que se necesitan</p>
                                 </div>
-                                <div class="col-12 col-sm-6 col-md-4 answer" data-value="2">
+                                <div class="col-12 col-sm-6 col-md-4 answer img-answer" data-value="2">
                                     <p><img src="../img/mod1/1-09_eva-p3-b-aprender.png" alt=""/>Aprender algo nuevo</p>
                                 </div>
-                                <div class="col-12 col-sm-6 col-md-4 answer" data-value="4">
+                                <div class="col-12 col-sm-6 col-md-4 answer img-answer" data-value="4">
                                     <p><img src="../img/mod1/1-09_eva-p3-d-trabajar.png" alt=""/>Trabajar desde la casa</p>
                                 </div>
-                                <div class="col-12 col-sm-6 col-md-4 answer" data-value="5">
+                                <div class="col-12 col-sm-6 col-md-4 answer img-answer" data-value="5">
                                     <p><img src="../img/mod1/1-09_eva-p3-e-jugar.png" alt=""/>Jugar video juegos</p>
                                 </div>
-                                <div class="col-12 col-sm-6 col-md-4 answer" data-value="6">
+                                <div class="col-12 col-sm-6 col-md-4 answer img-answer" data-value="6">
                                     <p><img src="../img/mod1/1-09_eva-p3-c-leer.png" alt=""/>Leer libros y revistas</p>
                                 </div>
-                                <div class="col-12 col-sm-6 col-md-4 answer" data-value="7">
+                                <div class="col-12 col-sm-6 col-md-4 answer img-answer" data-value="7">
                                     <p><img src="../img/mod1/1-09_eva-p3-f-jugar.png" alt=""/>Todas las anteriores</p>
                                 </div>
 
                             </div>
-                            <button class="gotoModulePage btn btn-dark" data-page="5">Continuar</button>
                         </div>
                         <div id="eva_09p5" class="mod d-none">
                             <div class="question row">
@@ -165,19 +164,19 @@
                                     <p>No. Si quien se lo está enviando es un amigo de su misma edad y las mujeres en las fotos son mayores de edad, no hay ningún problema. Basta con ignorarlo si no le gusta.</p>
                                 </div>
                                 <div class="col-12 answer" data-value="2">
-                                    <p>Sí. Cuando una personas envía mensajes, audio, videos o imágenes con contenido sexual a una persona menor de edad está cometiendo un abuso sexual que, además, es delito.</p>
+                                    <p>Sí. Cuando una persona envía mensajes, audio, videos o imágenes con contenido sexual a una persona menor de edad está cometiendo un abuso sexual que, además, es delito.</p>
                                 </div>
                             </div>
                         </div>
                         <div id="eva_09p7" class="mod d-none">
                             <div class="question row">
                                 <div class="col-12 text-center">
-                                    <h3 class=""><span>6</span> Cuando una persona adulta se comunica con una persona menor de edad para ganarse su conanza y después enviarle mensajes de contenido sexual, se trata de un caso de...</h3>
+                                    <h3 class=""><span>6</span> Cuando una persona adulta se comunica con una persona menor de edad para ganarse su confianza y después enviarle mensajes de contenido sexual, se trata de un caso de...</h3>
                                 </div>
 
                             </div>
                             <div class="answers row" data-page="8">
-                                <div class="col-6">
+                                <div class="col-12 col-md-6">
                                     <div class="col-12 answer font-big" data-value="1">
                                         <p>Sextorsión</p>
                                     </div>
@@ -188,7 +187,7 @@
                                         <p>Sexting</p>
                                     </div>
                                 </div>
-                                <div class="col-6">
+                                <div class="col-12 col-md-6">
                                     <img src="../img/mod1/1-09_eva-p6-img.png" alt="" class="d-block m-auto"/>
                                 </div>
                             </div>
@@ -201,7 +200,7 @@
 
                             </div>
                             <div class="answers row" data-page="9">
-                                <div class="col-6">
+                                <div class="col-12 col-md-6">
                                     <div class="col-12 answer font-big" data-value="1">
                                         <p>Phishing</p>
                                     </div>
@@ -212,7 +211,7 @@
                                         <p>Grooming</p>
                                     </div>
                                 </div>
-                                <div class="col-6">
+                                <div class="col-12 col-md-6">
                                     <img src="../img/mod1/1-09_eva-p7-img.png" alt="" class="d-block m-auto"/>
                                 </div>
                             </div>
@@ -225,13 +224,13 @@
 
                             </div>
                             <div class="answers row " data-page="10">
-                                <div class="col-4 answer" data-value="1">
+                                <div class="col-12 col-sm-4 answer" data-value="1">
                                     <p><img src="../img/mod1/1-09_eva-p8-a.png" alt="" class="img-fluid"/></p>
                                 </div>
-                                <div class="col-4 answer" data-value="2">
+                                <div class="col-12 col-sm-4 answer" data-value="2">
                                     <p><img src="../img/mod1/1-09_eva-p8-b.png" alt="" class="img-fluid"/></p>
                                 </div>
-                                <div class="col-4 answer " data-value="3">
+                                <div class="col-12 col-sm-4 answer " data-value="3">
                                     <p><img src="../img/mod1/1-09_eva-p8-c.png" alt="" class="img-fluid"/></p>
                                 </div>
                             </div>
@@ -244,13 +243,13 @@
 
                             </div>
                             <div class="answers row" data-page="11">
-                                <div class="col-4 answer" data-value="1">
+                                <div class="col-12 col-sm-4 answer" data-value="1">
                                     <p><img src="../img/mod1/1-09_eva-p9-a.png" class="img-fluid"/></p>
                                 </div>
-                                <div class="col-4 answer" data-value="2">
+                                <div class="col-12 col-sm-4 answer" data-value="2">
                                     <p><img src="../img/mod1/1-09_eva-p9-b.png" class="img-fluid"/></p>
                                 </div>
-                                <div class="col-4 answer" data-value="3">
+                                <div class="col-12 col-sm-4 answer" data-value="3">
                                     <p><img src="../img/mod1/1-09_eva-p9-c.png" class="img-fluid"/></p>
                                 </div>
                             </div>
@@ -258,7 +257,7 @@
                         <div id="eva_09p11" class="mod d-none">
                             <div class="question row ">
                                 <div class="col-12 col-sm-7 text-center">
-                                    <h3 class=""><span>10</span> Observe la imagen. Este tipo de anuncio se usa para engañar a las personas menores de edad para secuestrarlas con fines sexuales. <br><br>¿Cómo se llama este tipo de explotación sexual?</h3>
+                                    <p class="instruction text-left"><span>10</span> Observe la imagen. Este tipo de anuncio se usa para engañar a las personas menores de edad para secuestrarlas con fines sexuales. </p><h3>¿Cómo se llama este tipo de explotación sexual?</h3>
                                 </div>
                                 <div class="col-12 col-sm-5 text-center">
                                     <img src="../img/mod1/1-09_eva-p10_img.png" alt="" class="img-fluid"/>
@@ -286,7 +285,7 @@
 
                                 <div class="col-12 text-center">
                                     <img src="../img/mod1/1-09_eva-img-no_aprobado.png" alt="" class="img-md"/>
-                                    <h3 class="intro-paragrah text-center">No ha logrado superar con éxito esta evaluación. Inténtelo de nuevo. <br>Así podrá avanzar al Módulo 02, en el cual aprenderá sobre el tema de la prevención.</h3>
+                                    <h3 class="intro-paragrah text-center">No ha logrado superar con éxito esta evaluación. Inténtelo de nuevo. <br>Así podrá avanzar al siguiente capítulo, en el cual aprenderá sobre el tema de la prevención.</h3>
                                 </div>
                                 <div class="col-6 text-center">
                                     <a href="../0-03_menu.php" class="btn-see-eva">Repasar contenidos</a>
@@ -300,7 +299,7 @@
                             <div class="result row ">
                                 <div class="col-12 text-center">
                                     <img src="../img/mod1/1-09_eva-img-aprobado.png" alt="" class="img-md"/>
-                                    <h3 class="intro-paragrah text-center">¡Muy bien! Usted ha logrado superar con éxito esta evaluación. Puede pasar al Módulo 02, en el cual aprenderá sobre el tema de la prevención. ¡Siga adelante!</h3>
+                                    <h3 class="intro-paragrah text-center">¡Muy bien! Usted ha logrado superar con éxito esta evaluación. Puede pasar al siguiente capítulo, en el cual aprenderá sobre el tema de la prevención. ¡Siga adelante!</h3>
                                 </div>
                                 <div class="col-12 text-center">
                                     <a href="../0-03_menu.php" class="btn-finish-eva">Finalizar</a>
@@ -315,6 +314,7 @@
                     <input name="is_approved" id="is_approved">
                 </form>
             </div>
+            
             <nav id="sidebar" class="">
                 <div class="sidebar-header">
                     <h3>Menu</h3>
@@ -349,7 +349,7 @@
 
             </nav>
         </div>
-
+<?php require '../footer.php'; ?>
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
         <script src="../js/bootstrap.bundle.js" type="text/javascript"></script>
         <script src="../js/bootstrap.js" type="text/javascript"></script>

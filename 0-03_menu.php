@@ -69,6 +69,9 @@
                                     <h3 class="text-center menu-title">Me informo: oportunidades y desafíos en la web.</h3>
                                     <div class="menu-mod-cont col-12">
                                         <div class="row">
+                                            <div class="intro-menu col-12">
+                                                <p>A continuación usted encontrará la información para aprender sobre el uso seguro de internet. Cada vez que termine de ver los contenidos de un capítulo, podrá realizar una actividad evaluativa para desbloquear el capítulo siguiente.</p>
+                                            </div>
                                             <div class="col-12 col-sm-6  col-md-3">
                                                 <div class="item-module <?php if ($values1[0]["is_completed"] == 1) : ?>active<?php endif ?>">
                                                     <!-- <img src="img/mod1/modulo1-act1.png" alt=""/> -->
@@ -86,7 +89,7 @@
                                             <div class="col-12 col-sm-6  col-md-3">
                                                 <div class="item-module <?php if ($values1[2]["is_completed"] == 1) : ?>active<?php endif ?>">
                                                     <!-- <img src="img/icon.png" alt=""/> -->
-                                                    <a href="mod_1/1-03_act.php" class="v-act-3">Oportunidades y desafíos</a>
+                                                    <a href="mod_1/1-03_act.php?t=m" class="v-act-3">Oportunidades y desafíos</a>
                                                     <!--<p class=dots-mod>. . .</p>-->
                                                 </div>
                                             </div>
@@ -311,7 +314,7 @@
                 </section>
                 <?php require './footer.php'; ?>
             </div><!--  fin  <div id="content"> -->
-            <nav id="sidebar" class="active">
+            <nav id="sidebar" class="">
                 <div class="sidebar-header">
                     <h3>Menu</h3>
                 </div>

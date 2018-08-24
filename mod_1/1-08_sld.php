@@ -230,7 +230,7 @@ emocionales, sociales y físicas del abuso sexual.</p>
                 </section>
                 <?php require '../footer.php'; ?>
             </div>
-            <nav id="sidebar" class="active">
+            <nav id="sidebar" class="">
                 <div class="sidebar-header">
                     <h3>Menu</h3>
                 </div>

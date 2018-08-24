@@ -28,13 +28,12 @@
     color: #fff;
     width: 50px;
     height: 50px;
-    display: inline-block;
+    display: block;
     line-height: 50px;
     border-radius: 50%;
-    position: absolute;
     text-align: center;
-    top: -5px;
-    left: -45px;
+    margin: 5px auto;
+
 }
 
 #eva .font-big{
@@ -54,23 +53,6 @@
     font-weight: bold;
     font-size: 1.4em;
     text-align: left;
-}
-#eva .btn-start{
-    background-image: url(../img/botones/btn_iniciar.png);
-    background-color: transparent;
-    background-size: 300px;
-    display: block;
-    width: 150px;
-    height: 57px;
-    background-position: -150 0;
-    background-repeat: no-repeat;
-    font-family: 'Nunito', sans-serif;
-    font-weight: 700;
-    color: #FFFFFF;
-    font-size: 1.5em;
-    text-align: center;
-    line-height: 49px;
-    border: none;
 }
 #eva .btn-finish-eva{
     background-image: url(../img/botones/btn_finalizar.png);
@@ -149,11 +131,15 @@
     font-size: 1.15em;
     cursor: pointer;
 }
+#eva .answer.img-answer p{
+    min-height: 180px;
+}
 
 #eva .answer p img{
     display: block;
     margin: auto;
 }
+
 
 #eva .answer p:hover {
     background-color: #ddd;
@@ -174,16 +160,14 @@
 #eva .text-help.blue{background-color: #2367B3; }
 #eva .text-help.green{background-color: #86C142; }
 
-
-
 a#home-tab {
     background-color: #EA7A30;
     color: #fff;
     border: none;
-    padding: 10px 30px;
-    font-size: 2em;
-    border-top-left-radius: 15px;
-    border-top-right-radius: 15px;
+    padding: 5px 25px;
+    font-size: 1.5em;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
 }
 div#desafios,#desafios .bx-wrapper {
     background-color: #EA7A30;
@@ -198,17 +182,17 @@ div#desafios,#desafios .bx-wrapper {
     margin-left: 15px;
 }
 .tab-content > .tab-pane {
-    padding: 10% 5%;
-    border-radius: 15px;
+    padding: 115px 5%;
+    border-radius: 10px;
 }
 a#contact-tab{
     background-color: #0851A1;
     color: #fff;
     border:none;
-    padding: 10px 30px;
-    font-size: 2em;
-    border-top-left-radius: 15px;
-    border-top-right-radius: 15px;
+    padding: 5px 25px;
+    font-size: 1.5em;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
 }
 div#oportunidades,#oportunidades .bx-wrapper {
     background-color: #0851A1;
@@ -222,9 +206,10 @@ div#oportunidades,#oportunidades .bx-wrapper {
 }
 img.ico-personaje {
     position: absolute;
-    top: -8%;
+    top: 0px;
     left: 16px;
-    max-width: 100% !important;
+    width: 100%;
+    max-width: 150px !important;
 }
 section.container {
     margin-top: 5%;
@@ -366,8 +351,8 @@ a.v3-act-7:before{
         width: 50%;
         float: left;
     }
-    a#contact-tab,a#home-tab {
 
+    a#contact-tab, a#home-tab {
         font-size: 1.2em;
 
     }
@@ -377,7 +362,8 @@ a.v3-act-7:before{
     }
     img.ico-personaje {
         position: relative;
-        margin-bottom: 2px !important;
+        left: 0px;
+        margin-bottom: 10px !important;
     }
 } /*fin*/
 
@@ -389,6 +375,13 @@ a.v3-act-7:before{
     .nav-tabs {
         border-bottom: none;
         padding-left: 25%;
+    }
+    
+    #eva h3 span, #eva p.instruction span{
+        display: inline-block;
+        position: absolute;
+        top: -5px;
+        left: -45px;
     }
 } /*fin*/
 

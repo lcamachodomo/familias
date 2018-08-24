@@ -1,6 +1,6 @@
 <html>
     <head>
-    <link rel="icon" href="favicon.ico" type="image/gif">
+        <link rel="icon" href="favicon.ico" type="image/gif">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <title>Me informo: oportunidades y desafíos en la web | e-mentores</title>
         <link  type="text/css"  href="../../css/bootstrap.css" rel="stylesheet">
@@ -37,55 +37,59 @@
                 </nav>
                 <p class="intro-header blue">Oportunidades y desafíos</p>
                 <section class="container">
-                    <div class="main">
-                        <div id="act_01" class="">
-                            <ul class="nav nav-tabs " id="myTab" role="tablist">
-                                <li class="nav-item">
-                                    <a class="nav-link active" id="home-tab" data-toggle="tab" href="#desafios" role="tab" aria-controls="home" aria-selected="true">Desafíos</a>
-                                </li>
-                                <li class="nav-item">
-                                    <a class="nav-link" id="contact-tab" data-toggle="tab" href="#oportunidades" role="tab" aria-controls="contact" aria-selected="false">Oportunidades</a>
-                                </li>
-                            </ul>
-                            <div class="tab-content" id="myTabContent">
-                                <div class="tab-pane fade show active" id="desafios" role="tabpanel" aria-labelledby="home-tab">
-                                    <img src="../../img/mod1/1-03_act_personaje3rec.png" class="ico-personaje">
-                                    <div class="row">
-                                        <div class="col-sm-6">
-                                            <div class="slider">
-                                                <div>Me ha pasado que de pronto me habla o me manda un mensaje alguien que no conozco y si es una persona rara, no me gusta.</div>
-                                                <div>Además me molesta cuando mis amigos le mandan a otra gente del cole fotos en las que yo salgo.</div>
-                                                <div>Preferiría que quedara entre nosotros.</div>
+                    <div class="row justify-content-md-center">
+                        <div class="col-sm-10">
+                            <div class="main">
+                                <div id="act_01" class="">
+                                    <ul class="nav nav-tabs " id="myTab" role="tablist">
+                                        <li class="nav-item">
+                                            <a class="nav-link active" id="home-tab" data-toggle="tab" href="#desafios" role="tab" aria-controls="home" aria-selected="true">Desafíos</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link" id="contact-tab" data-toggle="tab" href="#oportunidades" role="tab" aria-controls="contact" aria-selected="false">Oportunidades</a>
+                                        </li>
+                                    </ul>
+                                    <div class="tab-content" id="myTabContent">
+                                        <div class="tab-pane fade show active" id="desafios" role="tabpanel" aria-labelledby="home-tab">
+                                            <img src="../../img/mod1/1-03_act_personaje3rec.png" class="ico-personaje">
+                                            <div class="row">
+                                                <div class="col-sm-6">
+                                                    <div class="slider">
+                                                        <div>Me ha pasado que de pronto me habla o me manda un mensaje alguien que no conozco y si es una persona rara, no me gusta.</div>
+                                                        <div>Además me molesta cuando mis amigos le mandan a otra gente del cole fotos en las que yo salgo.</div>
+                                                        <div>Preferiría que quedara entre nosotros.</div>
+                                                    </div>
+                                                </div>
+                                                <div class="col-sm-6">
+                                                    <img src="../../img/mod1/1-03_act_img3.png" alt="" class="img-fluid"/>
+                                                </div>
                                             </div>
                                         </div>
-                                        <div class="col-sm-6">
-                                            <img src="../../img/mod1/1-03_act_img3.png" alt="" class="img-fluid"/>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="tab-pane fade" id="oportunidades" role="tabpanel" aria-labelledby="profile-tab">
-                                    <img src="../../img/mod1/1-03_act_personaje3rec.png" class="ico-personaje">
-                                    <div class="row">
-                                        <div class="col-sm-6">
-                                            <div class="slider2">
-                                                <div>Me encanta mensajear con mis amigos siempre que podemos.</div>
-                                                <div>Cada cosa que pasa, nos compartimos una foto o nos enviamos un video.</div>
-                                                <div>¡Es casi como estar en el mismo lugar pero desde casas diferentes!</div>
+                                        <div class="tab-pane fade" id="oportunidades" role="tabpanel" aria-labelledby="profile-tab">
+                                            <img src="../../img/mod1/1-03_act_personaje3rec.png" class="ico-personaje">
+                                            <div class="row">
+                                                <div class="col-sm-6">
+                                                    <div class="slider2">
+                                                        <div>Me encanta mensajear con mis amigos siempre que podemos.</div>
+                                                        <div>Cada cosa que pasa, nos compartimos una foto o nos enviamos un video.</div>
+                                                        <div>¡Es casi como estar en el mismo lugar pero desde casas diferentes!</div>
+                                                    </div>
+                                                </div>
+                                                <div class="col-sm-6">
+                                                    <img src="../../img/mod1/1-03_act_img3.png" alt="" class="img-fluid"/>
+                                                </div>
                                             </div>
                                         </div>
-                                        <div class="col-sm-6">
-                                            <img src="../../img/mod1/1-03_act_img3.png" alt="" class="img-fluid"/>
-                                        </div>
                                     </div>
+                                    <a href="../1-03_act.php" class="back_to_menu">Volver</a>
                                 </div>
                             </div>
-                            <a href="../1-03_act.php" class="back_to_menu">Volver</a>
                         </div>
                     </div>
                 </section>
                 <?php require '../../footer.php'; ?>
             </div>
-            <nav id="sidebar" class="active">
+            <nav id="sidebar" class="">
 
 
                 <div class="sidebar-header">
@@ -144,7 +148,7 @@
                     slider2 = $('.slider2').bxSlider({
                         pager: false,
                         infiniteLoop: true,
-                        auto: true
+                        auto: false
                     });
                 }
 

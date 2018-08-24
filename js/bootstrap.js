@@ -3955,8 +3955,8 @@ $(".module.disabled a").click(function (e) {
 });
 
 $(document).ready(function () {
-
     $('#sidebarCollapse').on('click', function () {
+        $(this).toggleClass('active');
         $('#sidebar').toggleClass('active');
     });
 
