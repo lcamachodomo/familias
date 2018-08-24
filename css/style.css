@@ -385,7 +385,12 @@ p{
 }
 .bx-wrapper {
 
+
+    box-shadow: none;
+    /* border: 5px solid #fff; */
+    border: transparent;
     background: transparent;
+
 }
 .page-7-act button.btn{
     opacity: 1;
