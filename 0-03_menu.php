@@ -1,6 +1,6 @@
 <html>
     <head>
-    <link rel="icon" href="favicon.ico" type="image/gif">
+        <link rel="icon" href="favicon.ico" type="image/gif">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <title>Menú | e-mentores</title>
         <link type="text/css" href="css/bootstrap.css" rel="stylesheet">
@@ -10,7 +10,7 @@
         <link href="css/style.css" rel="stylesheet" type="text/css" />
         <link href="css/index.css" rel="stylesheet" type="text/css" />
         <link href="css/mod1.css" rel="stylesheet" type="text/css" />
-        
+
     </head>
     <body>
         <div class="wrapper">
@@ -18,12 +18,14 @@
                 <section class="container-full index-main">
                     <?php
                     session_start();
-                    
+
                     $user = $_SESSION['user'];
                     $last_id = $user["id"];
-                    
-                    if (is_null($user["id"])) {
-                        header("Location: /");
+
+                    if (is_null($user)) {
+
+                        echo '<script>window.location="http://ementores.org/error.php"</script>';
+
                         die();
                     }
                     ?>
@@ -100,7 +102,7 @@
                                                     <!--<p class=dots-mod>. . .</p>-->
                                                 </div>
                                             </div>
-                                      
+
                                             <div class="col-12 col-sm-6 col-md-4 col-lg-3">
                                                 <div class="item-module <?php if ($values1[4]["is_completed"] == 1) : ?>active<?php endif ?>">
                                                     <!-- <img src="img/icon.png" alt=""/> -->
@@ -183,7 +185,7 @@
                                                         <a href="#4" class="v2-act-4">INFOGRÁFICO 01</a><!--<p class=dots-mod>. . .</p>-->
                                                     </div>
                                                 </div>
-                                          
+
 
                                                 <div class="col-12 col-sm-6 col-md-4 col-lg-3">
                                                     <div class="item-module <?php if ($values2[4]["is_completed"] == 1) : ?>active<?php endif ?>">
@@ -209,7 +211,7 @@
                                                         <a href="#8" class="v2-act-8">VIDEO ANIMADO 02</a><!--<p class=dots-mod>. . .</p>-->
                                                     </div>
                                                 </div>
-                                        
+
 
                                                 <div class="col-12 col-sm-6 col-md-4 col-lg-3">
                                                     <div class="item-module <?php if ($values2[8]["is_completed"] == 1) : ?>active<?php endif ?>">
@@ -274,7 +276,7 @@
                                                         <a href="modulo3.php?stp=4" class="v3-act-4">INFOGRÁFICO 01</a><!--<p class=dots-mod>. . .</p>-->
                                                     </div>
                                                 </div>
-                                          
+
 
                                                 <div class="col-12 col-sm-6 col-md-4 col-lg-3">
                                                     <div class="item-module <?php if ($values3[4]["is_completed"] == 1) : ?>active<?php endif ?>">

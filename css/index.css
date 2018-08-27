@@ -47,24 +47,7 @@ ul ul a {
     background: #6d7fcc;
 }
 
-.back_to_menu{
-    background: url(../img/botones/btn_menu.png) 0 0 no-repeat;
-    background-size: 380px;
-    display: block;
-    width: 190px;
-    height: 40px;
-    font-family: 'Nunito', sans-serif;
-    font-weight: 700;
-    color: #FFFFFF;
-    font-size: 1em;
-    text-align: center;
-    line-height: 33px;
-    margin: auto;
-    padding: 1px 10px 10px;
-    margin-top: 10px;
-}
 
-.back_to_menu:hover{ background-position: -190px 0; color: #FFFFFF; text-decoration: none;}
 
 a[data-toggle="collapse"] {
     position: relative;
@@ -180,75 +163,7 @@ a[data-toggle="collapse"] {
     margin-bottom: 3px;
 }
 
-.bck-intro .main-block .btn-blue{
-    background: url(../img/botones/boton-YES.png) no-repeat;
-}
 
-.bck-intro .main-block .btn-green{
-    background: url(../img/botones/boton-NO.png) no-repeat;
-}
-
-.bck-intro .main-block .btn-blue, .bck-intro .main-block .btn-green{
-    background-position: 0px 0px;
-    background-size: 250px;
-    width: 126px;
-    height: 74px;
-    color: #fff;
-    font-family: 'Nunito', sans-serif;
-    font-weight: 700;
-    font-size: 1.4em;
-    text-align: center;
-    padding-top: 18px;
-}
-
-.bck-intro .main-block .btn-blue:hover, .bck-intro .main-block .btn-green:hover{
-    background-position: -125px 0px !important;
-}
-
-.btn-continue{ background: url(../img/botones/boton-continuar.png) no-repeat; }
-.btn-finish{ background: url(../img/botones/boton-finalizar.png) no-repeat; }
-.btn-continue, .btn-finish{
-    background-position: 0px 0px;
-    background-size: 270px;
-    width: 135px;
-    height: 50px;
-    border: none;
-    color: #fff;
-    font-family: 'Nunito', sans-serif;
-    font-weight: 700;
-    font-size: 1.3em;
-    text-align: center;
-    margin-bottom: 20px !important;
-    margin-top: 0px !important;
-}
-
-.btn-continue:hover, .btn-finish:hover{background-position: -135px 0px; text-decoration: none;}
-
-.btn-entrar{
-    background-image: url('../img/botones/boton-entrar.png');
-    background-size: 300px;
-    display: block;
-    width: 150px;
-    height: 60px;
-    /*background-position: -150 0;*/
-    background-position: 0px;
-    background-repeat: no-repeat;
-    font-family: 'Nunito', sans-serif;
-    font-weight: 700;
-    color:#FFFFFF;
-    font-size: 1.5em;
-    text-transform: uppercase;
-    text-align: center;
-    line-height: 60px;
-}
-
-.btn-entrar:hover{
-    background-position: 0 0;
-    background-repeat: no-repeat;
-    text-decoration: none;
-    color:#FFFFFF;
-    background-position: 100%;
-}
 
 .item-module-final a{
     background-image: url(../img/botones/boton-evaluacion-modulos.png);
@@ -280,37 +195,6 @@ a[data-toggle="collapse"] {
     border-bottom: 1px solid #000;
 
 }
-
-/* GESTORES BUTTON */
-
-
-
-
-
-/* APPS BUTTON */
-
-.btn-apps{
-    background: url('../img/botones/boton-apps.png') no-repeat 0px 0px;
-    background-size: 550px;
-    display: block;
-    width: 275px;
-    height: 70px;
-    font-family: 'Nunito', sans-serif;
-    font-weight: bold;
-    color: #FFFFFF;
-    font-size: 1em;
-    text-transform: uppercase;
-    text-align: left;
-    padding: 20px 60px 10px 10px;
-
-}
-
-.btn-apps:hover{
-    background-position: -275px 0px !important;
-    text-decoration: none;
-    color:#FFFFFF;
-}
-
 
 .index-video{
     background-color: #6DCBDF;
@@ -438,10 +322,136 @@ button#sidebarCollapse.active {
     right: 240px;
 }
 
+
+
+.small-f p {
+    font-size: 0.7em;
+    margin-bottom: 0;
+    height: 33px;
+}
+img.logo-imas {
+    max-width: 62%;
+    display: block;
+    margin: auto;
+}
+.row.small-f {
+    margin-bottom: 1em;
+}
+
+.back_to_menu{
+    background: url(../img/botones/btn_menu.png) 0 0 no-repeat;
+    background-size: 380px;
+    display: block;
+    width: 190px;
+    height: 40px;
+    font-family: 'Nunito', sans-serif;
+    font-weight: 700;
+    color: #FFFFFF;
+    font-size: 1em;
+    text-align: center;
+    line-height: 33px;
+    margin: auto;
+    padding: 1px 10px 10px;
+    margin-top: 10px;
+}
+
+.back_to_menu:hover{ background-position: -190px 0; color: #FFFFFF; text-decoration: none;}
+
+.bck-intro .main-block .btn-blue{
+    background: url(../img/botones/boton-YES.png) no-repeat;
+}
+
+.bck-intro .main-block .btn-green{
+    background: url(../img/botones/boton-NO.png) no-repeat;
+}
+
+.bck-intro .main-block .btn-blue, .bck-intro .main-block .btn-green{
+    background-position: 0px 0px;
+    background-size: 250px;
+    width: 126px;
+    height: 74px;
+    color: #fff;
+    font-family: 'Nunito', sans-serif;
+    font-weight: 700;
+    font-size: 1.4em;
+    text-align: center;
+    padding-top: 18px;
+}
+
+.bck-intro .main-block .btn-blue:hover, .bck-intro .main-block .btn-green:hover{
+    background-position: -125px 0px !important;
+}
+
+.btn-continue{ background: url(../img/botones/boton-continuar.png) no-repeat; }
+.btn-finish{ background: url(../img/botones/boton-finalizar.png) no-repeat; }
+.btn-continue, .btn-finish{
+    background-position: 0px 0px;
+    background-size: 270px;
+    width: 135px;
+    height: 50px;
+    border: none;
+    color: #fff;
+    font-family: 'Nunito', sans-serif;
+    font-weight: 700;
+    font-size: 1.3em;
+    text-align: center;
+    margin-bottom: 20px !important;
+    margin-top: 0px !important;
+}
+
+.btn-continue:hover, .btn-finish:hover{background-position: -135px 0px; text-decoration: none;}
+
 .btn-entrar{
+    background-image: url('../img/botones/boton-entrar.png');
+    background-size: 300px;
+    display: block;
+    width: 150px;
+    height: 60px;
+    /*background-position: -150 0;*/
+    background-position: 0px;
+    background-repeat: no-repeat;
+    font-family: 'Nunito', sans-serif;
+    font-weight: 700;
+    color:#FFFFFF;
+    font-size: 1.5em;
+    text-transform: uppercase;
+    text-align: center;
+    line-height: 60px;
     margin: auto;
     margin-top: 10px;
 }
+
+.btn-entrar:hover{
+    background-position: 0 0;
+    background-repeat: no-repeat;
+    text-decoration: none;
+    color:#FFFFFF;
+    background-position: 100%;
+}
+
+.btn-apps{
+    background: url('../img/botones/boton-apps.png') no-repeat 0px 0px;
+    background-size: 550px;
+    display: block;
+    width: 275px;
+    height: 70px;
+    font-family: 'Nunito', sans-serif;
+    font-weight: bold;
+    color: #FFFFFF;
+    font-size: 1em;
+    text-transform: uppercase;
+    text-align: left;
+    padding: 20px 60px 10px 10px;
+
+}
+
+.btn-apps:hover{
+    background-position: -275px 0px !important;
+    text-decoration: none;
+    color:#FFFFFF;
+}
+
+
 .btn-gestores {
     background: url(../img/botones/boton-gestores.png) no-repeat 0px 0px;
     background-size: 550px;
@@ -479,20 +489,6 @@ button#sidebarCollapse.active {
     border: none;
     margin: auto;
 
-}
-
-.small-f p {
-    font-size: 0.7em;
-    margin-bottom: 0;
-    height: 33px;
-}
-img.logo-imas {
-    max-width: 62%;
-    display: block;
-    margin: auto;
-}
-.row.small-f {
-    margin-bottom: 1em;
 }
 @media (min-width: 576px) { 
     .item-module-final a{
