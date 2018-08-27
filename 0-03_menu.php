@@ -22,7 +22,7 @@
                     $user = $_SESSION['user'];
                     $last_id = $user["id"];
                     
-                    if (is_null($user)) {
+                    if (is_null($user["id"])) {
                         header("Location: /");
                         die();
                     }
