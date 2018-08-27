@@ -9,6 +9,7 @@ h1 img{
     float: left;
 }
 
+
 #sidebar {
     /* don't forget to add all the previously mentioned styles here too */
     background: #FF4256;
@@ -96,7 +97,76 @@ a[data-toggle="collapse"] {
 }
 
 .chk-female img, .chk-male img{ cursor: pointer;}
+
 /* ENTRAR BUTTON */
+
+.no-padding{
+    padding: 0px;
+}
+.bck-pink{
+    background-color: #FF4D70;
+}
+.bck-pink h2{
+    margin-top: -35px;
+    height: 30px;
+    color: #fff;
+    text-transform: uppercase;
+    font-family: 'Nunito';
+    font-weight: 700;
+    font-size: 1.2em;
+}
+.bck-internas{
+    background-color: #F4F4F4;
+    padding-bottom: 20px;
+}
+
+.bck-internas .main-block{
+    background: #fff;
+    padding: 30px 50px 50px;
+    position: relative;
+}
+.bck-internas .main-block h3{
+    font-family: 'Nunito', sans-serif;
+    font-weight: 700;
+    color: #E48230;
+}
+
+.bck-internas .main-block h4{
+    font-family: 'Nunito', sans-serif;
+    font-weight: 700;
+    color: #FF6159;
+    font-size: 1.4em;
+}
+
+.bck-internas .main-block p{
+    font-family: 'Open Sans', sans-serif;
+    color: #214063;
+}
+
+.bck-internas .main-block p.title-resources{
+    font-family: 'Nunito', sans-serif;
+    font-weight: 700;
+    font-size: 1.2em;
+    color: #218FA9;
+    margin-bottom: 3px;
+}
+
+.bck-internas .main-block .resource{
+    margin: 15px 0px;
+    padding: 20px 0px;
+    border-bottom: 1px solid #D4D1D1;
+}
+
+.bck-internas .main-block ul.list-resources{
+   list-style: none;
+   padding-left: 0px;
+}
+
+.bck-internas .main-block ul.list-resources a{
+   color: #1F8AB3;
+   font-family: 'Open Sans', sans-serif;
+}
+
 .bck-intro{
     background: url('../img/circulos-fondo.png') #3FA891 no-repeat center;
     background-size: contain;
@@ -127,7 +197,7 @@ a[data-toggle="collapse"] {
     background-size: 100%;
 }
 
-.bck-intro .main-block:before{
+.bck-intro .main-block:before, .bck-internas .main-block:before{
     background: url(../img/bottom-color-line.png) no-repeat;
     position: absolute;
     content: "";
@@ -242,6 +312,12 @@ a[data-toggle="collapse"] {
 
 #prefooter{
     background-color: #EAEDED;
+}
+
+#prefooter .support-label{
+    min-height: 53px;
+    line-height: 16px;
+    padding-top: 10px;
 }
 
 #prefooter-place:before{
@@ -397,9 +473,11 @@ img.logo-imas {
     text-align: center;
     margin-bottom: 20px !important;
     margin-top: 0px !important;
+    display: block;
+    line-height: 50px;
 }
 
-.btn-continue:hover, .btn-finish:hover{background-position: -135px 0px; text-decoration: none;}
+.btn-continue:hover, .btn-finish:hover{background-position: -135px 0px; text-decoration: none; color: #fff;}
 
 .btn-entrar{
     background-image: url('../img/botones/boton-entrar.png');
@@ -500,10 +578,22 @@ img.logo-imas {
     }
 
 
+
 } /*fin 576*/
 
 
 @media (min-width: 768px) { 
+    
+     .bck-pink h2{
+        margin-top: -70px;
+        height: 64px;
+        color: #fff;
+        text-transform: uppercase;
+        font-family: 'Nunito';
+        font-weight: 700;
+        font-size: 2.4em;
+    }
+    
     #prefooter-place:before {
 
         height: 32px;
@@ -547,6 +637,16 @@ img.logo-imas {
 
     .footer-div-copyright{
         font-size: 1em;
+    }
+    
+      .bck-pink h2{
+        margin-top: -100px;
+        height: 90px;
+        color: #fff;
+        text-transform: uppercase;
+        font-family: 'Nunito';
+        font-weight: 700;
+        font-size: 3.4em;
     }
 } /*fin 992*/
 

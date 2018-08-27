@@ -1,6 +1,6 @@
 <html>
     <head>
-    <link rel="icon" href="favicon.ico" type="image/gif">
+        <link rel="icon" href="favicon.ico" type="image/gif">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <title>Me informo: oportunidades y desafíos en la web | e-mentores</title>
         <link  type="text/css"  href="../css/bootstrap.css" rel="stylesheet">
@@ -41,8 +41,9 @@
                         <div id="act_01p1" class="mod">
                             <div class="row ">
                                 <div class="col-12 col-md-6">
-                                    <p>Ser víctima de violencia sexual tiene efectos muy graves en la integridad de la persona menor de edad y puede, incluso, llegar a tener consecuencias a lo largo de su vida.</p> 
-                                    <p>Seguidamente, vamos a clasificar las consecuencias en tres tipos: psicológicas (emocionales), sociales y físicas. Además, veremos las consecuencias a corto y largo plazo.</p>
+                                    <p>Las consecuencias de la violencia sexual duran toda la vida.</p> 
+                                    <p>Una persona menor de edad que es víctima de este tipo de violencia puede tener problemas emocionales como ansiedad o depresión, sociales como agresividad y físicos como, por ejemplo, no poder dormir bien.</p>
+                                    <p>Vamos a conocer en detalle las consecuencias del abuso sexual...</p> 
                                 </div>
                                 <div class="col-12 col-md-6">
                                     <img src="../img/mod1/1-08_sli_img1.png" class="img-fluid img-small">
@@ -53,7 +54,7 @@
 
                         <div id="act_01p2" class="d-none mod">
                             <p>Haga clic en los botones para descubrir cuáles son las consecuencias
-emocionales, sociales y físicas del abuso sexual.</p>
+                                emocionales, sociales y físicas del abuso sexual.</p>
                             <div class="cont row">
                                 <div class="col-12 col-md-4">
                                     <div class="flip-container" ontouchstart="this.classList.toggle('hover');">
@@ -118,15 +119,14 @@ emocionales, sociales y físicas del abuso sexual.</p>
                             <div class="row">
                                 <div class="col-12">
                                     <h3>Consecuencias de corto y largo plazo</h3>
-                                    <p>Las consecuencias de la violencia emocional y/o sexual en las personas menores de edad pueden además clasificarse en consecuencias de corto y largo plazo. </p> 
-                                    <p>Hay abusos que pueden durar en el tiempo, por días, semanas, meses o incluso años.</p>
+                                    <p>El abuso contra las personas menores de edad puede durar días, semanas, meses o incluso años. Por eso se habla de consecuencias de corto y largo plazo.</p>
                                 </div>
                                 <div class="col-12">
                                     <img src="../img/mod1/1-08_sli_img2.png" class="img-fluid img-md">
-                                    
+
                                 </div>
                                 <button class="gotoModulePage baki" data-page="2">Atrás</button>
-                                    <button class="gotoModulePage conti" data-page="4">Continuar</button>
+                                <button class="gotoModulePage conti" data-page="4">Continuar</button>
                             </div>
                         </div>
                         <div id="act_01p4" class="d-none mod ">
@@ -134,7 +134,7 @@ emocionales, sociales y físicas del abuso sexual.</p>
                                 <div class="col-12 col-md-6">
                                     <img src="../img/mod1/1-08_sli_img3.png" class="img-fluid d-block m-auto">
                                     <h4 class="text-center"><strong>Consecuencias a corto plazo</strong></h4>
-                                    <p class="text-center">Efectos que la persona sufre de inmediato</p>
+                                    <p class="text-center">Efectos que la persona sufre de inmediato.</p>
                                     <button type="button" class="btn btn-primary btn-lg m-auto d-block ejem" data-toggle="modal" data-target="#modal_1-08_act1">Ver ejemplos</button>
                                 </div>
 
@@ -152,11 +152,11 @@ emocionales, sociales y físicas del abuso sexual.</p>
                 <div class="modal fade" id="modal_1-08_act1" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
                     <div class="modal-dialog" role="document">
                         <div class="modal-content">
-<div class="modal-header">
-                        <span></span>
-                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">x</button>
+                            <div class="modal-header">
+                                <span></span>
+                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">x</button>
 
-                    </div>
+                            </div>
                             <div class="modal-body">
                                 <div class="row" >
                                     <h3 class="col-12">Las consecuencias a corto plazo del abuso sexual pueden incluir:</h3>
@@ -164,19 +164,17 @@ emocionales, sociales y físicas del abuso sexual.</p>
                                         <ul>
                                             <li>Problemas para dormir </li>
                                             <li>Pesadillas</li> 
-                                            <li><strong>Cambio en hábitos de comida</strong> (no comer o comer mucho) </li>
-                                            <li><strong>Problemas emocionales:</strong> ansiedad, temores, culpa, vergüenza, depresión </li>
-                                            <li><strong>Problemas de conducta:</strong> agresividad, consumo de sustancias, fuga del centro educativo, conductas autodestructivas</li>
+                                            <li>No comer o comer mucho, problemas para controlar la necesidad de ir al baño</li>
+                                            <li>Ansiedad, temor, culpa, vergüenza, depresión</li>
+                                            <li>Agresividad, consumo de drogas, escaparse de la escuela/colegio</li>
                                         </ul>
                                     </div>
                                     <div class="col-6">
                                         <ul>
-                                            <li>Baja en el rendimiento académico </li>
+                                            <li>Malas notas, mala conducta</li>
                                             <li>Baja autoestima </li>
-                                            <li><strong>Aislamiento social</strong> (no se relaciona con otras personas, se retrae) </li>
-                                            <li><strong>Apatía:</strong>  no realiza actividades que antes disfrutaba.</li>
-                                            <li><strong>Problemas en el control de esfínteres</strong></li>
-                                            <li><strong>Enfermedades</strong>, dolor, malestar físico, con causas emocionales </li>
+                                            <li>No relacionarse con otros, aislarse, no realizar actividades que antes disfrutaba</li>
+                                            <li>Enfermedades, dolor, malestar físico</li>
                                         </ul>
                                     </div>
                                     <div class="col-4">
@@ -191,29 +189,27 @@ emocionales, sociales y físicas del abuso sexual.</p>
                 <div class="modal fade" id="modal_1-08_act2" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
                     <div class="modal-dialog" role="document">
                         <div class="modal-content">
-<div class="modal-header">
-                        <span></span>
-                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">x</button>
-
-                    </div>
+                            <div class="modal-header">
+                                <span></span>
+                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">x</button>
+                            </div>
                             <div class="modal-body">
                                 <div class="row" >
                                     <h3 class="col-12">Las consecuencias a largo plazo pueden manifestarse a lo largo de la vida adulta, y pueden incluir:</h3>
                                     <div class="col-6 col-md-4">
                                         <ul>
-                                            <li>Trastornos de ansiedad (fobias, ansiedad social) </li>
-                                            <li>Trastornos depresivos </li>
-                                            <li>Consumo de alcohol u otras sustancias </li>
-                                            <li>Dificultades en las relaciones de pareja </li>
-                                            <li>Dificultades para establecer vínculos afectivos </li>
+                                            <li>Ansiedades y miedos</li>
+                                            <li>Depresión</li>
+                                            <li>Consumo de alcohol o drogas</li>
+                                            <li>Dificultad para encontrar o mantener pareja</li>
                                         </ul>
                                     </div>
                                     <div class="col-6 col-md-4">
                                         <ul>
-                                            <li>Trastornos del sueño</li> 
-                                            <li>Trastornos alimentarios </li>
+                                            <li>Dificultad al dormir</li> 
+                                            <li>Problemas de alimentación</li>
                                             <li>Problemas sexuales </li>
-                                            <li>Enfermedades psicosomáticas </li>
+                                            <li>Enfermedades sin causa física</li>
                                             <li>Ideas suicidas, intentos de suicidio</li>
                                         </ul>
                                     </div>
