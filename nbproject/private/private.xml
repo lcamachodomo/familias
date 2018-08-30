@@ -3,14 +3,15 @@
     <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
         <group>
-<<<<<<< HEAD
             <file>file:/C:/xampp/htdocs/familias/db/user/error_log</file>
             <file>file:/C:/xampp/htdocs/familias/mod_1/1-08_sld.php</file>
             <file>file:/C:/xampp/htdocs/familias/mod_1/1-04_inf.php</file>
+            <file>file:/C:/xampp/htdocs/familias/.gitignore</file>
             <file>file:/C:/xampp/htdocs/familias/mod_1/1-03_act/1-03_act_01.php</file>
             <file>file:/C:/xampp/htdocs/familias/footer.php</file>
             <file>file:/C:/xampp/htdocs/familias/header.php</file>
             <file>file:/C:/xampp/htdocs/familias/mod_1/1-02_inf.php</file>
+            <file>file:/C:/xampp/htdocs/familias/js/map/init.js</file>
             <file>file:/C:/xampp/htdocs/familias/db/user/login_user.php</file>
             <file>file:/C:/xampp/htdocs/familias/index.php</file>
             <file>file:/C:/xampp/htdocs/familias/0-03_menu.php</file>
@@ -20,6 +21,7 @@
             <file>file:/C:/xampp/htdocs/familias/css/style.css</file>
             <file>file:/C:/xampp/htdocs/familias/0-05_registro_05.php</file>
             <file>file:/C:/xampp/htdocs/familias/mod_1/1-03_act.php</file>
+            <file>file:/C:/xampp/htdocs/familias/mod_1/1-03_act/1-03_act_04.php</file>
             <file>file:/C:/xampp/htdocs/familias/db/user/insert_user.php</file>
             <file>file:/C:/xampp/htdocs/familias/db/user/update_module.php</file>
             <file>file:/C:/xampp/htdocs/familias/db/evaluation/update_evaluation.php</file>
@@ -27,6 +29,7 @@
             <file>file:/C:/xampp/htdocs/familias/0-05_registro_02.php</file>
             <file>file:/C:/xampp/htdocs/familias/0-04_intro.php</file>
             <file>file:/C:/xampp/htdocs/familias/0-05_registro_04.php</file>
+            <file>file:/C:/xampp/htdocs/familias/js/bootstrap.js</file>
             <file>file:/C:/xampp/htdocs/familias/css/bootstrap.css</file>
             <file>file:/C:/xampp/htdocs/familias/mod_1/1-09_eva.php</file>
             <file>file:/C:/xampp/htdocs/familias/mod_1/1-07_act.php</file>
@@ -39,45 +42,6 @@
             <file>file:/C:/xampp/htdocs/familias/css/mod1.css</file>
             <file>file:/C:/xampp/htdocs/familias/mod_1/1-05_sld.php</file>
             <file>file:/C:/xampp/htdocs/familias/0-05_registro_03.php</file>
-=======
-<<<<<<< HEAD
-            <file>file:/C:/xampp/htdocs/familias/db/user/login_user.php</file>
-            <file>file:/C:/xampp/htdocs/familias/mod_1/1-09_eva.php</file>
-            <file>file:/C:/xampp/htdocs/familias/db/module/get_module_incompleted.php</file>
-            <file>file:/C:/xampp/htdocs/familias/css/index.css</file>
-            <file>file:/C:/xampp/htdocs/familias/img/botones/boton-finalizar.png</file>
-            <file>file:/C:/xampp/htdocs/familias/0-05_registro_01.php</file>
-            <file>file:/C:/xampp/htdocs/familias/db/evaluation/update_evaluation.php</file>
-            <file>file:/C:/xampp/htdocs/familias/css/mod1.css</file>
-=======
-            <file>file:/C:/xampp/htdocs/mod_1/1-03_act/1-03_act_01.php</file>
-            <file>file:/C:/xampp/htdocs/header.php</file>
-            <file>file:/C:/xampp/htdocs/db/user/login_user.php</file>
-            <file>file:/C:/xampp/htdocs/index.php</file>
-            <file>file:/C:/xampp/htdocs/mod_1/1-01_vid.php</file>
-            <file>file:/C:/xampp/htdocs/0-05_registro_01.php</file>
-            <file>file:/C:/xampp/htdocs/css/style.css</file>
-            <file>file:/C:/xampp/htdocs/0-05_registro_05.php</file>
-            <file>file:/C:/xampp/htdocs/mod_1/1-03_act.php</file>
-            <file>file:/C:/xampp/htdocs/db/user/insert_user.php</file>
-            <file>file:/C:/xampp/htdocs/db/user/update_module.php</file>
-            <file>file:/C:/xampp/htdocs/db/evaluation/update_evaluation.php</file>
-            <file>file:/C:/xampp/htdocs/0-05_registro_02.php</file>
-            <file>file:/C:/xampp/htdocs/0-04_intro.php</file>
-            <file>file:/C:/xampp/htdocs/0-05_registro_04.php</file>
-            <file>file:/C:/xampp/htdocs/css/bootstrap.css</file>
-            <file>file:/C:/xampp/htdocs/mod_1/1-09_eva.php</file>
-            <file>file:/C:/xampp/htdocs/mod_1/1-07_act.php</file>
-            <file>file:/C:/xampp/htdocs/0-02_login.php</file>
-            <file>file:/C:/xampp/htdocs/css/index.css</file>
-            <file>file:/C:/xampp/htdocs/mod_1/1-06_vid.php</file>
-            <file>file:/C:/xampp/htdocs/db/user/logout_user.php</file>
-            <file>file:/C:/xampp/htdocs/db/connection/conexion.php</file>
-            <file>file:/C:/xampp/htdocs/db/user/update_user.php</file>
-            <file>file:/C:/xampp/htdocs/mod_1/1-05_sld.php</file>
-            <file>file:/C:/xampp/htdocs/0-05_registro_03.php</file>
->>>>>>> c06a3bcdffe6167f06598482608ea8aea883c154
->>>>>>> 955baea449ea228a19a5df93c896638c669e2dec
         </group>
     </open-files>
 </project-private>
