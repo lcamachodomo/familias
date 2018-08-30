@@ -14,6 +14,10 @@ h4{
     color: grey;
 }
 
+.back-stars{
+    background-image: url(../img/internas/fondo-header1.png);
+}
+
 .btn-start {
     background-image: url(../img/botones/btn_iniciar.png);
     background-color: transparent;
@@ -308,10 +312,13 @@ img[usemap]{
     display: block;
 
 }
+
+.list-unstyled-md li{ margin: 10px auto; padding-left: 15px; }
 .img-md{
     max-width: 420px;
     margin: auto;
     display: block;
+    width: 100%;
 }
 .modal-header {
     border:none;
@@ -319,6 +326,10 @@ img[usemap]{
 .modal-content {
 
     background-color: rgba(255, 255, 255, 0.89);
+    background-color: rgba(255, 255, 255, 0.89);
+    border: none;
+    border-radius: 0px;
+    padding: 15px;
 
 }
 .bg-light{
@@ -373,7 +384,6 @@ img[usemap]{
 }
 p{
     font-family: 'Nunito', sans-serif;
-    font-size: 1.1em;
     color: #5D5D5D;
 
 }
@@ -385,7 +395,12 @@ p{
 }
 .bx-wrapper {
 
+
+    box-shadow: none;
+    /* border: 5px solid #fff; */
+    border: transparent;
     background: transparent;
+
 }
 .page-7-act button.btn{
     opacity: 1;

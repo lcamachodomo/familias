@@ -44,15 +44,15 @@
                                 <div id="map_container">
                                     <img usemap="#1-04-inf"  src="../img/mod1/1-04_inf.png" class="img-fluid">
                                     <map name="1-04-inf">
-                                        <area shape='rect' coords='126, 932, 302, 1097' href='#' />
-<area shape='rect' coords='137, 610, 310, 795' href='#' />
-<area shape='rect' coords='339, 739, 527, 927' href='#' />
-<area shape='rect' coords='445, 515, 621, 697' href='#' />
-<area shape='rect' coords='693, 592, 876, 783' href='#' />
-<area shape='rect' coords='1013, 550, 1200, 731' href='#' />
-<area shape='rect' coords='1312, 651, 1485, 834' href='#' />
-<area shape='rect' coords='1054, 796, 1234, 970' href='#' />
-<area shape='rect' coords='1303, 996, 1485, 1178' href='#' />
+                                        <area data-nbr="1" shape='rect' coords='126, 932, 302, 1097' href='#' />
+                                        <area data-nbr="2" shape='rect' coords='137, 610, 310, 795' href='#' />
+                                        <area data-nbr="3" shape='rect' coords='339, 739, 527, 927' href='#' />
+                                        <area data-nbr="4" shape='rect' coords='445, 515, 621, 697' href='#' />
+                                        <area data-nbr="5" shape='rect' coords='693, 592, 876, 783' href='#' />
+                                        <area data-nbr="6" shape='rect' coords='1013, 550, 1200, 731' href='#' />
+                                        <area data-nbr="7" shape='rect' coords='1312, 651, 1485, 834' href='#' />
+                                        <area data-nbr="8" shape='rect' coords='1054, 796, 1234, 970' href='#' />
+                                        <area data-nbr="9" shape='rect' coords='1303, 996, 1485, 1178' href='#' />
                                     </map>
                                 </div>
                             </div>
